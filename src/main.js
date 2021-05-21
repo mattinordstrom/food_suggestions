@@ -4,19 +4,30 @@ function render(filter) {
   $( ".contentcontainer" ).html('');
 
   recipes.forEach(function( recipe ) {
-      if(filter && filter !== 'Alla') {
+      if(filter && filter === 'Okategoriserat') {
+        if(recipe.categories){
+          return;
+        }
+      }
+
+      if(filter && filter !== 'Alla' && filter !== 'Okategoriserat') {
         if(!recipe.categories || !recipe.categories.includes(filter)){
           return;
         }
       }
 
       var cats = recipe.categories;
+      var catsOnRowEl = '';
       if(!cats) {
           cats = '';
+      } else {
+        recipe.categories.forEach(function( category ) {
+          catsOnRowEl += '<div class="row_cat '+catMap[category]+'_cat"></div>';
+        });
       }
-      
-      $( ".contentcontainer" ).append('<div class="row"><div class="cats">' + 
-      cats + '</div>' + recipe.name + 
+
+      $( ".contentcontainer" ).append('<div class="row"><div class="row_cats">' + 
+      catsOnRowEl + '</div>' + recipe.name + 
       '</div><br/>');
     });
 }
@@ -189,3 +200,15 @@ function getRecipes() {
 }
 var recipes = getRecipes();
 
+var catMap = {
+  'Kött': 'meat',
+  'Fisk': 'fish',
+  'Kyckling': 'chicken',
+  'Vegetariskt': 'veg',
+  'Potatis': 'potato',
+  'Pasta': 'pasta',
+  'Ris': 'rice',
+  'Nudlar': 'noodles',
+  'Matvete': 'wheat',
+  'Paj': 'pie',
+};
