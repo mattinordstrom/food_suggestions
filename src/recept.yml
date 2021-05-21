@@ -1,0 +1,283 @@
+- name: Baconlåda
+  source: Från den tunna boken
+  categories: [Matvete, Kött]
+  ingredients: |
+    2 pkt bacon
+    2 burkar champinjoner (skivade)
+    Skivad ost
+    2 dl grädde
+    Chilisås
+  directions: |
+    Bryn bacon och svampen.
+    Lägg i en form med osten över.
+    Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.
+
+    175-200° i ugnen.
+
+    Servera med ris eller matvete.
+
+- name: Bananpannkakor
+  ingredients: |
+    2 1/2 dl mjöl
+    2 1/2 dl mjölk
+    2 tsk bakpulver
+    1 tsk vaniljsocker
+    Lite smält smör
+    1 ägg
+    Lite salt
+    2 mosade bananer
+
+  directions: |
+
+
+- name: Broccolipaj med purjo och bacon
+  source: https://www.arla.se/recept/broccolipaj-med-purjolok/
+  source_url: https://www.arla.se/recept/broccolipaj-med-purjolok/
+  categories: [Paj]
+  ingredients: |
+    Lägg till 1 pkt stekt bacon för extra smak!
+  directions: |
+
+
+- name: Falafel
+  source: Linas matkasse recept
+  categories: [Vegetariskt]
+  ingredients: |
+    1 pkt kikärtor
+    1/2 silverlök
+    1 vitlöksklyfta
+    3 msk mjöl
+    1/2 tsk salt
+    1 1/2 tsk spiskummin
+    1 tsk koriander
+
+  directions: |
+    Skopa smeten på en tesked och rulla till en boll.
+    Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.
+
+    Tips! Det är lättare att rulla om man har lite blöta händer. 
+
+- name: Falukorvsgratäng med bacon
+  source: Från boken med fåglar på omslaget
+  categories: [Pasta, Kött]
+  ingredients: |
+    400g falukorv
+    2 paket bacon
+    1 gul lök
+    1 röd paprika
+    200g champinjoner
+    1 msk rapsolja
+    3 dl vispgrädde
+    2 msk hackad färsk oregano
+    150g västerbottenost
+    salt och peppar
+  directions: |
+    Stek korv och bacon.
+    Stek lök, paprika och svamp.
+    Blanda allti en ugnsform.
+    Häll över grädden och krydda.
+    Strö över oregano och riven ost.
+    Ugnen på 200°, ca 15 min. Servera med spagetti.
+
+- name: Fläskpannkaka
+  source: Från den tunna boken
+  categories: [Kött]
+  ingredients: |
+    2 1/2 dl vetemjöl
+    1/2 tsk salt
+    6 dl mjölk
+    3 ägg
+    3 msk margarin
+
+    200-300g bacon
+    1 gul lök
+  directions: |
+    225° i 20 minuter.
+
+- name: Kålpudding
+  source: Från den gröna lilla pärmen
+  categories: [Potatis, Kött]
+  ingredients: |
+    1 kg vitkål
+    Olja
+    2 msk sirap
+    1 tsk salt
+    2 krm svartpeppar
+
+    1 gul lök
+    500g kötttfärs
+    1 ägg 
+    2 msk japansk soja
+    1 dl vispgrädde
+    1 msk konc. kalvfond
+    1 msk sirap
+    1/2 tsk salt
+    2 krm svartpeppar
+  directions: |
+    Bryn kålet på hög värme i olja ca 5 minuter.
+
+    Lägg hälften av kålen i botten av en form.
+    Lägg i köttet och forma till en limpa.
+    Lägg på resten av kålen.
+
+    Ugnen på 200° i 40 minuter.
+    Servera med potatis och lingon.
+
+- name: Lasagne
+  categories: [Pasta, Kött]
+  ingredients: |
+    500g Köttfärs
+    1 gul lök
+    1 burk krossade tomater
+    2 msk tomatpure
+    Ketchup
+    Basilika
+    1 st Köttbuljongtärning
+    Salt och peppar
+    
+    50g smält margarin
+    3 msk mjöl
+    6 dl mjölk
+    100g riven ost
+  directions: |
+    Häll 2/5 av såsen i botten av en ugnsform.
+    Lägg på lasagneplattor (3 st).
+    Lägg på hälften av köttfärssåsen.
+    Lägg på lasagneplattor.
+    Lägg på resten av köttfärssåsen.
+    Lägg på lasagneplattor.
+    Häll på resten av såsen.
+    Avsluta med ett lager riven ost.
+    Ugnen på 200°, 30 min.
+
+- name: Laxbiffar med nudelsallad
+  source: https://www.coop.se/recept/laxbiffar-med-nudelsallad
+  source_url: https://www.coop.se/recept/laxbiffar-med-nudelsallad
+  categories: [Nudlar, Fisk]
+  ingredients: |
+    
+  directions: |
+    
+
+- name: Matgeeks hamburgare
+  source: Youtube
+  categories: [Kött]
+  ingredients: |
+    Högrevsburgare
+    Bacon
+    Syltad gul lök
+    Vitlöksmajonäs
+    
+  directions: |
+    Stek löken på svag värme i mycket smör.
+
+- name: Oreganokyckling
+  source: ICA buffe
+  categories: [Potatis, Kyckling]
+  ingredients: |
+    500g kycklingfile
+    2 vitlöksklyftor
+    1 msk smör
+    1/2 tsk salt
+    1 krm svartpeppar
+    2 1/2 dl matlagningsgrädde
+    1 hönsbuljongtärning
+    2 tsk oregano (färsk eller torkad)
+    1 1/2 msk balsamvinäger
+  directions: |
+    Stek kycklingbitar i smör, salta och peppra.
+    Blanda grädde, buljong, oregano och vinäger i en gryta.
+    Lägg i kycklingen och vitlöken.
+    Låt att koka under lock i 5 minuter.
+
+    Servera med klyftpotatis
+
+- name: Pastagratäng
+  source: https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/
+  source_url: https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/
+  categories: [Pasta, Kyckling]
+  ingredients: |
+    
+  directions: |
+
+- name: Pizza
+  source: Från tjocka kokboken
+  ingredients: |
+    Degen:
+    1/2 paket jäst
+    2 dl fingervarmt vatten
+    1 msk olja
+    5-6 dl mjöl
+    1/2 tsk salt
+
+    Fyllning:
+    1 pkt krossade tomater
+    Basilika
+    Oregano
+    Ketchup
+    Lökringar
+    Salami
+    Riven ost
+    Mozzarella
+    Paprika
+  directions: |
+
+- name: Tacopaj
+  source: https://www.hemtrevligt.se/icakuriren/recept/tacopaj/
+  source_url: https://www.hemtrevligt.se/icakuriren/recept/tacopaj/
+  categories: [Paj, Kött]
+  ingredients: |
+    
+  directions: |
+    Servera med tacosås
+
+- name: Varm pastasallad
+  source: Från den tunna boken
+  categories: [Pasta, Kyckling, Kött]
+  ingredients: |
+    500g pasta
+    2 stora kycklingfileer
+    150g marinerade vitlöksklyftor
+    1 röd paprika
+    1 rödlök
+    2 vitlöksklyftor
+    1 paket bacon
+    150g soltorkade tomater
+    2 tsk senap
+    1 äggula
+    3 msk vinäger
+    2 dl olivolja
+    1 tsk salt
+    2 tsk svartpeppar
+    1 tsk chilipeppar
+    20-30g permesanost
+  directions: |
+    
+
+- name: Vårrullar med ris
+  source: https://www.coop.se/recept/kal-och-farsfyllda-varrullar
+  source_url: https://www.coop.se/recept/kal-och-farsfyllda-varrullar
+  categories: [Ris, Kött]
+  ingredients: |
+    
+  directions: |
+    Koka 6 portioner ris.
+    Servera med sweet chili sås.
+
+    Ta lite mindre Sambal oelek än vad som står i receptet. 
+    Det blir rätt starkt annars!
+
+
+- name: Örtbakad lax
+  source: Från boken med fåglar på omslaget
+  categories: [Potatis, Fisk]
+  ingredients: |
+    4 st laxfileer
+    2 dl creme fraiche
+    200g philadelphiaost
+    1 msk finhackad dill
+    1 msk gräslök
+    salt och citronpeppar
+  directions: |
+    Ugnen på 200° 25-30 min. Servera med potatismos.
+    
