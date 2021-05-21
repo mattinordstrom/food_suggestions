@@ -1,16 +1,24 @@
-function init() {
-    var recipes = getRecipes();
-    
-    recipes.forEach(function( recipe ) {
-        var cats = recipe.categories;
-        if(!cats) {
-            cats = '';
+function render(filter) {
+  $( ".cat_menu").removeClass('cat_active');
+  $( "#"+filter).addClass('cat_active');
+  $( ".contentcontainer" ).html('');
+
+  recipes.forEach(function( recipe ) {
+      if(filter && filter !== 'Alla') {
+        if(!recipe.categories || !recipe.categories.includes(filter)){
+          return;
         }
-        
-        $( ".contentcontainer" ).append('<div class="row"><div class="cat">' + 
-        cats + '</div>' + recipe.name + 
-        '</div><br/>');
-      });
+      }
+
+      var cats = recipe.categories;
+      if(!cats) {
+          cats = '';
+      }
+      
+      $( ".contentcontainer" ).append('<div class="row"><div class="cats">' + 
+      cats + '</div>' + recipe.name + 
+      '</div><br/>');
+    });
 }
 
 function getRecipes() {
@@ -179,5 +187,5 @@ function getRecipes() {
         }
       ];
 }
-
+var recipes = getRecipes();
 
