@@ -1,35 +1,37 @@
 function render(filter) {
   $( ".cat_menu").removeClass('cat_active');
   $( "#"+filter).addClass('cat_active');
-  $( ".contentcontainer" ).html('');
 
+  var newContent = '';
   recipes.forEach(function( recipe ) {
-      if(filter && filter === 'Okategoriserat') {
-        if(recipe.categories){
-          return;
-        }
+    if(filter && filter === 'Okategoriserat') {
+      if(recipe.categories){
+        return;
       }
+    }
 
-      if(filter && filter !== 'Alla' && filter !== 'Okategoriserat') {
-        if(!recipe.categories || !recipe.categories.includes(filter)){
-          return;
-        }
+    if(filter && filter !== 'Alla' && filter !== 'Okategoriserat') {
+      if(!recipe.categories || !recipe.categories.includes(filter)){
+        return;
       }
+    }
 
-      var cats = recipe.categories;
-      var catsOnRowEl = '';
-      if(!cats) {
-          cats = '';
-      } else {
-        recipe.categories.forEach(function( category ) {
-          catsOnRowEl += '<div class="row_cat '+catMap[category]+'_cat"></div>';
-        });
-      }
+    var cats = recipe.categories;
+    var catsOnRowEl = '';
+    if(!cats) {
+        cats = '';
+    } else {
+      recipe.categories.forEach(function( category ) {
+        catsOnRowEl += '<div class="row_cat '+catMap[category]+'_cat"></div>';
+      });
+    }
 
-      $( ".contentcontainer" ).append('<div class="row"><div class="row_cats">' + 
-      catsOnRowEl + '</div>' + recipe.name + 
-      '</div><br/>');
-    });
+    newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
+    catsOnRowEl + '</div></div>' + recipe.name + 
+    '</div><br/>';
+  });
+
+  $( ".contentcontainer" ).html(newContent);
 }
 
 function getRecipes() {
@@ -142,7 +144,7 @@ function getRecipes() {
           "source_url": "https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/",
           "categories": [
             "Pasta",
-            "Kyckling"
+            "Kött"
           ],
           "ingredients": "",
           "directions": ""
