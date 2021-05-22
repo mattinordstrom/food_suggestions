@@ -1,4 +1,11 @@
 function render(filter) {
+  $.ajax({
+    url: "https://mattinordstrom.github.io/food_suggestions/recipes.json",
+    dataType: "json"
+  }).done(function(result){
+      console.log(result);
+  });
+
   $( ".cat_menu").removeClass('cat_active');
   $( "#"+filter).addClass('cat_active');
 
