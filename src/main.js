@@ -3,35 +3,36 @@ function render(filter) {
   $( "#"+filter).addClass('cat_active');
 
   var newContent = '';
-  recipes.forEach(function( recipe ) {
+  for(var i=0; i<recipes.length; i++) {
     if(filter && filter === 'Okategoriserat') {
-      if(recipe.categories){
-        return;
+      if(recipes[i].categories){
+        continue;
       }
     }
 
     if(filter && filter !== 'Alla' && filter !== 'Okategoriserat') {
-      if(!recipe.categories || !recipe.categories.includes(filter)){
-        return;
+      if(!recipes[i].categories || !recipes[i].categories.includes(filter)){
+        continue;
       }
     }
 
-    var cats = recipe.categories;
+    var cats = recipes[i].categories;
     var catsOnRowEl = '';
     if(!cats) {
         cats = '';
     } else {
-      recipe.categories.forEach(function( category ) {
-        catsOnRowEl += '<div class="row_cat '+catMap[category]+'_cat"></div>';
-      });
+      for(var j=0; j<recipes[i].categories.length; j++){
+        catsOnRowEl += '<div class="row_cat '+catMap[recipes[i].categories[j]]+'_cat"></div>';
+      };
     }
 
     newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
-    catsOnRowEl + '</div></div>' + recipe.name + 
+    catsOnRowEl + '</div></div>' + recipes[i].name + 
     '</div><br/>';
-  });
+  };
 
   $( ".contentcontainer" ).html(newContent);
+
 }
 
 function getRecipes() {

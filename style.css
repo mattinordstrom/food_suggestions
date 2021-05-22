@@ -20,7 +20,7 @@ hr {
 
 .row {
     display: flex;
-
+    font-weight: bold;
 }
 
 .row_cats {
