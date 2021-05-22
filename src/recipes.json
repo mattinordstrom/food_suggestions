@@ -82,6 +82,17 @@
       "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/><br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/><br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
     },
     {
+      "id": "kycklingnudlar",
+      "name": "Kycklingnudlar (med teriyakisås)",
+      "source": "https://www.coop.se/recept/kycklingnudlar",
+      "categories": [
+        "Nudlar",
+        "Kyckling"
+      ],
+      "ingredients": "",
+      "directions": ""
+    },
+    {
       "id": "lasagne",
       "name": "Lasagne",
       "categories": [
@@ -184,6 +195,15 @@
       ],
       "ingredients": "",
       "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
+    },
+    {
+      "id": "veg_lasagne",
+      "name": "Vegetarisk lasagne",
+      "categories": [
+        "Vegetariskt"
+      ],
+      "ingredients": "Lasagneplattor<br/>Spenat<br/>Soltorkade tomater<br/>Pesto<br/>Ostsås<br/>Riven ost?",
+      "directions": ""
     },
     {
       "id": "ortbakad_lax",
