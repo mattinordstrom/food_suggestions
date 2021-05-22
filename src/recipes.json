@@ -1,7 +1,6 @@
 [
     {
       "name": "Baconlåda",
-      "source": "Från den tunna boken",
       "categories": [
         "Matvete",
         "Kött"
@@ -34,7 +33,6 @@
     },
     {
       "name": "Falukorvsgratäng med bacon",
-      "source": "Från boken med fåglar på omslaget",
       "categories": [
         "Pasta",
         "Kött"
@@ -44,7 +42,6 @@
     },
     {
       "name": "Fläskpannkaka",
-      "source": "Från den tunna boken",
       "categories": [
         "Kött"
       ],
@@ -53,7 +50,6 @@
     },
     {
       "name": "Kålpudding",
-      "source": "Från den gröna lilla pärmen",
       "categories": [
         "Potatis",
         "Kött"
@@ -110,9 +106,19 @@
       "directions": ""
     },
     {
-      "name": "Pizza",
-      "source": "Från tjocka kokboken",
+      "name": "Pizza (Torbens)",
+      "categories": [
+        "Pizza"
+      ],
       "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/><br/>Fyllning:<br/>1 pkt krossade tomater<br/>Basilika<br/>Oregano<br/>Ketchup<br/>Lökringar<br/>Salami<br/>Riven ost<br/>Mozzarella<br/>Paprika<br/>",
+      "directions": ""
+    },
+    {
+      "name": "Pizza (köttfärs)",
+      "categories": [
+        "Pizza"
+      ],
+      "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/><br/>Fyllning:<br/>Köttfärssås<br/>Riven ost<br/>Tomater<br/>",
       "directions": ""
     },
     {
@@ -127,7 +133,6 @@
     },
     {
       "name": "Varm pastasallad",
-      "source": "Från den tunna boken",
       "categories": [
         "Pasta",
         "Kyckling",
@@ -148,7 +153,6 @@
     },
     {
       "name": "Örtbakad lax",
-      "source": "Från boken med fåglar på omslaget",
       "categories": [
         "Potatis",
         "Fisk"

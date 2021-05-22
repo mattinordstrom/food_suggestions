@@ -42,12 +42,12 @@ function showRecipe(recipeName) {
   const recipeObj = recipes.find(recipe => recipe.name === recipeName);
 
   let recipeSource = recipeObj.source;
-  if(recipeObj.source.substring(0,4) === 'http') {
-    recipeSource = '<a target="_blank" href="' + recipeObj.source+'">' + recipeObj.source+'</a>';
+  if(recipeObj.source && recipeObj.source.substring(0,4) === 'http') {
+    recipeSource = '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a>';
   }
 
   $( ".contentcontainer" ).html('<h2>' + recipeObj.name +
-    '</h2><i>Källa: ' + recipeSource + 
+    '</h2><i>Källa: ' + (recipeSource || '') + 
     '</i><br/><h3>Ingredienser</h3>' + recipeObj.ingredients + 
     '<br/><h3>Gör så här</h3>' + recipeObj.directions);
 }
@@ -75,4 +75,5 @@ const catMap = {
   'Nudlar': 'noodles',
   'Matvete': 'wheat',
   'Paj': 'pie',
+  'Pizza': 'pizza',
 };
