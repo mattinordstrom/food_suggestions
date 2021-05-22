@@ -54,6 +54,10 @@ function render(filter) {
 }
 
 function showRecipe(recipeId) {
+  if (history.pushState) {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=rec_'+recipeId;
+    window.history.pushState({path:newurl},'',newurl);
+  }
   $( ".cat_menu").removeClass('cat_active');
 
   const recipeObj = recipes.find(recipe => recipe.id === recipeId);
