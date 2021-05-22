@@ -1,6 +1,6 @@
 function render(filter) {
   $.ajax({
-    url: "https://mattinordstrom.github.io/food_suggestions/recipes.json",
+    url: "https://mattinordstrom.github.io/food_suggestions/src/recipes.json",
     dataType: "json"
   }).done(function(result){
       console.log(result);
