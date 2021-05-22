@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=500, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Förslag på maträtter</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 		<link href="style.css" rel="stylesheet" type="text/css"/>
@@ -11,23 +11,29 @@
 
 	<body onload="render('Alla')">
 		<h2>Förslag på maträtter</h2>
-		<div style="display:flex">
-			<div id="Alla" class="cat_menu cat_active all_cat" onclick="render('Alla')">Alla</div>
-			<div id="Okategoriserat" class="cat_menu uncategorized_cat" onclick="render('Okategoriserat')">Okategoriserat</div>
-		</div>
-		<div style="display:flex">
-			<div id="Kött" class="cat_menu meat_cat" onclick="render('Kött')">Kött</div>
-			<div id="Fisk" class="cat_menu fish_cat" onclick="render('Fisk')">Fisk</div>
-			<div id="Kyckling" class="cat_menu chicken_cat" onclick="render('Kyckling')">Kyckling</div>
-			<div id="Vegetariskt" class="cat_menu veg_cat" onclick="render('Vegetariskt')">Vegetariskt</div>
-		</div>
-		<div style="display:flex">
-			<div id="Potatis" class="cat_menu potato_cat" onclick="render('Potatis')">Potatis</div>
-			<div id="Pasta" class="cat_menu pasta_cat" onclick="render('Pasta')">Pasta</div>
-			<div id="Ris" class="cat_menu rice_cat" onclick="render('Ris')">Ris</div>
-			<div id="Nudlar" class="cat_menu noodles_cat" onclick="render('Nudlar')">Nudlar</div>
-			<div id="Matvete" class="cat_menu wheat_cat" onclick="render('Matvete')">Matvete</div>
-			<div id="Paj" class="cat_menu pie_cat" onclick="render('Paj')">Paj</div>
+		<div class="filter_menu">
+			<div style="display:flex">
+				<div id="Alla" class="cat_menu cat_active all_cat" onclick="render('Alla')">Alla</div>
+				<div id="Okategoriserat" class="cat_menu uncategorized_cat" onclick="render('Okategoriserat')">Okategoriserat</div>
+			</div>
+			<hr />
+			<div style="display:flex">
+				<div id="Kött" class="cat_menu meat_cat" onclick="render('Kött')">Kött</div>
+				<div id="Fisk" class="cat_menu fish_cat" onclick="render('Fisk')">Fisk</div>
+				<div id="Kyckling" class="cat_menu chicken_cat" onclick="render('Kyckling')">Kyckling</div>
+				<div id="Vegetariskt" class="cat_menu veg_cat" onclick="render('Vegetariskt')">Vegetariskt</div>
+			</div>
+			<hr />
+			<div style="display:flex">
+				<div id="Potatis" class="cat_menu potato_cat" onclick="render('Potatis')">Potatis</div>
+				<div id="Pasta" class="cat_menu pasta_cat" onclick="render('Pasta')">Pasta</div>
+				<div id="Ris" class="cat_menu rice_cat" onclick="render('Ris')">Ris</div>
+				<div id="Nudlar" class="cat_menu noodles_cat" onclick="render('Nudlar')">Nudlar</div>
+			</div>
+			<div style="display:flex">
+				<div id="Matvete" class="cat_menu wheat_cat" onclick="render('Matvete')">Matvete</div>
+				<div id="Paj" class="cat_menu pie_cat" onclick="render('Paj')">Paj</div>
+			</div>
 		</div>
 		<hr /> <br />
 		<div class="contentcontainer"></div>

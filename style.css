@@ -6,7 +6,6 @@ body {
 	color: #333333;
 	margin-left: 20px;
 	margin-top: 10px;
-    width: 490px;
 }
 
 hr {
@@ -16,6 +15,11 @@ hr {
 .contentcontainer {
     display: flex;
     flex-direction: column;
+}
+
+.filter_menu {
+    width: 330px;
+
 }
 
 .row {
