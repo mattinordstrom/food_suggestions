@@ -1,5 +1,6 @@
 [
     {
+      "id": "baconlada",
       "name": "Baconlåda",
       "categories": [
         "Matvete",
@@ -9,11 +10,13 @@
       "directions": "Bryn bacon och svampen.<br/>Lägg i en form med osten över.<br/>Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.<br/><br/>175-200° i ugnen.<br/><br/>Servera med ris eller matvete.<br/>"
     },
     {
+      "id": "bananpannkakor",
       "name": "Bananpannkakor",
       "ingredients": "2 1/2 dl mjöl<br/>2 1/2 dl mjölk<br/>2 tsk bakpulver<br/>1 tsk vaniljsocker<br/>Lite smält smör<br/>1 ägg<br/>Lite salt<br/>2 mosade bananer<br/>",
       "directions": ""
     },
     {
+      "id": "broccolipaj",
       "name": "Broccolipaj med purjo och bacon",
       "source": "https://www.arla.se/recept/broccolipaj-med-purjolok/",
       "categories": [
@@ -23,6 +26,7 @@
       "directions": ""
     },
     {
+      "id": "falafel",
       "name": "Falafel",
       "source": "Linas matkasse recept",
       "categories": [
@@ -32,15 +36,17 @@
       "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/><br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
     },
     {
+      "id": "falukorvsgratang",
       "name": "Falukorvsgratäng med bacon",
       "categories": [
         "Pasta",
         "Kött"
       ],
       "ingredients": "400g falukorv<br/>2 paket bacon<br/>1 gul lök<br/>1 röd paprika<br/>200g champinjoner<br/>1 msk rapsolja<br/>3 dl vispgrädde<br/>2 msk hackad färsk oregano<br/>150g västerbottenost<br/>salt och peppar<br/>",
-      "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allti en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
+      "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
     },
     {
+      "id": "flaskpannkaka",
       "name": "Fläskpannkaka",
       "categories": [
         "Kött"
@@ -49,21 +55,24 @@
       "directions": "225° i 20 minuter.<br/>"
     },
     {
+      "id": "korma",
       "name": "Indisk korma med paneer",
       "categories": [
         "Ris",
         "Vegetariskt"
       ],
-      "ingredients": "Ett block paneer<br/>2 burkar 350g indisk sås (korma)<br/>Ris",
+      "ingredients": "2st block 225g paneer-ost<br/>2 burkar 350g indisk sås (korma)<br/>Ris",
       "directions": ""
     },
     {
+      "id": "ingefarashot",
       "name": "Ingefärashot",
       "source": "https://mittkok.expressen.se/recept/ingefarsshot-recept/",
       "ingredients": "200g ingefära<br/>1l vatten<br/>2 citroner<br/>0,5dl honung<br/>(1 spansk peppar)",
       "directions": "Värm upp och sänk till ettan på plattan."
     },
     {
+      "id": "kalpudding",
       "name": "Kålpudding",
       "categories": [
         "Potatis",
@@ -73,6 +82,7 @@
       "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/><br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/><br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
     },
     {
+      "id": "lasagne",
       "name": "Lasagne",
       "categories": [
         "Pasta",
@@ -82,6 +92,7 @@
       "directions": "Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
     },
     {
+      "id": "laxbiffar",
       "name": "Laxbiffar med nudelsallad",
       "source": "https://www.coop.se/recept/laxbiffar-med-nudelsallad",
       "categories": [
@@ -92,6 +103,7 @@
       "directions": ""
     },
     {
+      "id": "matgeek_burgare",
       "name": "Matgeeks hamburgare",
       "source": "Youtube",
       "categories": [
@@ -101,6 +113,7 @@
       "directions": "Stek löken på svag värme i mycket smör.<br/>"
     },
     {
+      "id": "oreganokyckling",
       "name": "Oreganokyckling",
       "source": "ICA buffe",
       "categories": [
@@ -111,6 +124,7 @@
       "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/><br/>Servera med klyftpotatis<br/>"
     },
     {
+      "id": "pastagratang",
       "name": "Pastagratäng",
       "source": "https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/",
       "categories": [
@@ -121,6 +135,7 @@
       "directions": ""
     },
     {
+      "id": "pizza_torben",
       "name": "Pizza (Torbens)",
       "categories": [
         "Pizza"
@@ -129,6 +144,7 @@
       "directions": ""
     },
     {
+      "id": "pizza_kottfars",
       "name": "Pizza (köttfärs)",
       "categories": [
         "Pizza"
@@ -137,6 +153,7 @@
       "directions": ""
     },
     {
+      "id": "tacopaj",
       "name": "Tacopaj",
       "source": "https://www.hemtrevligt.se/icakuriren/recept/tacopaj/",
       "categories": [
@@ -147,6 +164,7 @@
       "directions": "Servera med tacosås<br/>"
     },
     {
+      "id": "varm_pastasallad",
       "name": "Varm pastasallad",
       "categories": [
         "Pasta",
@@ -157,6 +175,7 @@
       "directions": ""
     },
     {
+      "id": "varrullar",
       "name": "Vårrullar med ris",
       "source": "https://www.coop.se/recept/kal-och-farsfyllda-varrullar",
       "categories": [
@@ -167,6 +186,7 @@
       "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
     },
     {
+      "id": "ortbakad_lax",
       "name": "Örtbakad lax",
       "categories": [
         "Potatis",
