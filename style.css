@@ -62,6 +62,10 @@ hr {
     padding: 2px;
 }
 
+.recipe_link:hover {
+    cursor: pointer;
+}
+
 .cat_menu:hover {
     cursor: pointer;
 }
