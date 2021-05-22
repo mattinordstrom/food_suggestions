@@ -49,6 +49,21 @@
       "directions": "225° i 20 minuter.<br/>"
     },
     {
+      "name": "Indisk korma med paneer",
+      "categories": [
+        "Ris",
+        "Vegetariskt"
+      ],
+      "ingredients": "Ett block paneer<br/>2 burkar 350g indisk sås (korma)<br/>Ris",
+      "directions": ""
+    },
+    {
+      "name": "Ingefärashot",
+      "source": "https://mittkok.expressen.se/recept/ingefarsshot-recept/",
+      "ingredients": "200g ingefära<br/>1l vatten<br/>2 citroner<br/>0,5dl honung<br/>(1 spansk peppar)",
+      "directions": "Värm upp och sänk till ettan på plattan."
+    },
+    {
       "name": "Kålpudding",
       "categories": [
         "Potatis",
