@@ -46,6 +46,26 @@
       "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
     },
     {
+      "id": "fiskpinnar_korvbrod",
+      "name": "Fiskpinnar i korvbrös",
+      "source": "https://www.coop.se/recept/fiskpinnar-i-brod-med-asiatisk-topping/",
+      "categories": [
+        "Fisk"
+      ],
+      "ingredients": "",
+      "directions": ""
+    },
+    {
+      "id": "flaskfile_potatis",
+      "name": "Fläskfile med potatis",
+      "categories": [
+        "Potatis",
+        "Kött"
+      ],
+      "ingredients": "Marinerad fläskfile (grillad eller stekt)<br/>Potatis i ugn<br/>Bea-sås<br/>",
+      "directions": ""
+    },
+    {
       "id": "flaskpannkaka",
       "name": "Fläskpannkaka",
       "categories": [
@@ -53,6 +73,26 @@
       ],
       "ingredients": "2 1/2 dl vetemjöl<br/>1/2 tsk salt<br/>6 dl mjölk<br/>3 ägg<br/>3 msk margarin<br/><br/>200-300g bacon<br/>1 gul lök<br/>",
       "directions": "225° i 20 minuter.<br/>"
+    },
+    {
+      "id": "matgeek_burgare",
+      "name": "Hamburgare (Matgeek)",
+      "source": "Youtube",
+      "categories": [
+        "Kött"
+      ],
+      "ingredients": "Högrevsburgare<br/>Bacon<br/>Syltad gul lök<br/>Vitlöksmajonäs<br/>",
+      "directions": "Stek löken på svag värme i mycket smör.<br/>"
+    },
+    {
+      "id": "halloumi_burgare",
+      "name": "Hamburgare (halloumi)",
+      "source": "",
+      "categories": [
+        "Vegetariskt"
+      ],
+      "ingredients": "Halloumi<br/>Hamburgerbröd<br/>Potatis i ugn<br/>",
+      "directions": ""
     },
     {
       "id": "korma",
@@ -93,6 +133,17 @@
       "directions": ""
     },
     {
+      "id": "kyckling_balsamico",
+      "name": "Kyckling i balsamicosås",
+      "source": "https://www.viktvaktarna.se/se/recept/kyckling-i-balsamicosas-med-sotpotatis/592ec5d8546a255c2ec231dd",
+      "categories": [
+        "Potatis",
+        "Kyckling"
+      ],
+      "ingredients": "",
+      "directions": ""
+    },
+    {
       "id": "lasagne",
       "name": "Lasagne",
       "categories": [
@@ -114,14 +165,11 @@
       "directions": ""
     },
     {
-      "id": "matgeek_burgare",
-      "name": "Matgeeks hamburgare",
-      "source": "Youtube",
-      "categories": [
-        "Kött"
-      ],
-      "ingredients": "Högrevsburgare<br/>Bacon<br/>Syltad gul lök<br/>Vitlöksmajonäs<br/>",
-      "directions": "Stek löken på svag värme i mycket smör.<br/>"
+      "id": "matti_special",
+      "name": "Matti special",
+      "source": "",
+      "ingredients": "Toastbröd<br/>Tacosås<br/>Ost<br/>Skinka<br/>Johnnys sötstark senap",
+      "directions": ""
     },
     {
       "id": "oreganokyckling",
@@ -161,6 +209,16 @@
         "Pizza"
       ],
       "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/><br/>Fyllning:<br/>Köttfärssås<br/>Riven ost<br/>Tomater<br/>",
+      "directions": ""
+    },
+    {
+      "id": "tacogratang",
+      "name": "Tacogratäng",
+      "source": "https://www.ica.se/recept/tacogratang-722731/",
+      "categories": [
+        "Kött"
+      ],
+      "ingredients": "",
       "directions": ""
     },
     {
