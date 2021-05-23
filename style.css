@@ -4,22 +4,29 @@ body {
     line-height: 18px;
     background-color: #f7f5f0;
 	color: #333333;
-	margin-left: 20px;
-	margin-top: 10px;
 }
 
 hr {
-    border: 1px solid #f0ebde;
+    border: 1px solid #ccc;
 }
 
 .contentcontainer {
     display: flex;
     flex-direction: column;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.header {
+    background-color: #f1ece0;
+    margin-left: 0px;
+	margin-top: 0px;
+    padding: 4px;
 }
 
 .filter_menu {
     width: 330px;
-
+    margin-left: 10px;
 }
 
 .row {
@@ -29,7 +36,7 @@ hr {
 
 .row_cats {
     display: flex;
-    border: 1px solid #f0ebde;
+    border: 1px solid #e2e1dd;
     border-radius: 4px;
     font-size: 10px;
     margin-right: 4px;
@@ -50,7 +57,7 @@ hr {
 }
 
 .cat_menu {
-    border: 3px solid #f0ebde;
+    border: 3px solid #f5d68d;
     border-radius: 4px;
     font-size: 10px;
     color: white;
