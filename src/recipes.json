@@ -47,7 +47,7 @@
     },
     {
       "id": "fiskpinnar_korvbrod",
-      "name": "Fiskpinnar i korvbrös",
+      "name": "Fiskpinnar i korvbröd",
       "source": "https://www.coop.se/recept/fiskpinnar-i-brod-med-asiatisk-topping/",
       "categories": [
         "Fisk"
@@ -63,7 +63,7 @@
         "Kött"
       ],
       "ingredients": "Marinerad fläskfile (grillad eller stekt)<br/>Potatis i ugn<br/>Bea-sås<br/>",
-      "directions": ""
+      "directions": "Skär filen i ca 2cm tjocka puckar och marinera."
     },
     {
       "id": "flaskpannkaka",
