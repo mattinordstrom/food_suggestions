@@ -26,7 +26,6 @@ hr {
 
 .filter_menu {
     width: 330px;
-    margin-left: 10px;
 }
 
 .row {
@@ -48,25 +47,26 @@ hr {
 }
 
 .row_cat {
-    border: 1px solid #928c7c;
-    border-radius: 10px;
     width: 10px;
-    height: 10px;
-    margin-right: 2px;
+    height: 12px;
+    margin-right: 3px;
     margin-top: 2px;
 }
 
 .cat_menu {
-    border: 3px solid #afa180;
-    border-radius: 4px;
+    border: 2px solid #f1ece0;
+    outline: 1px solid #333;
+    outline-offset: -1px;
     font-size: 10px;
-    color: white;
+    color: #333;
     font-weight: bolder;
-    min-width: 60px;
+    min-width: 72px;
     max-width: 100px;
+    min-height: 20px;
     text-align: center;
     margin: 4px;
     padding: 2px;
+    display: flex;
 }
 
 .recipe_link:hover {
@@ -78,21 +78,19 @@ hr {
 }
 
 .cat_active {
-    border: 3px solid #333;
-    outline: 1px solid #000;
-    outline-offset: -4px;
+    border: 2px solid #333;
+    outline: 1px solid #333;
+    outline-offset: -3px;
 }
 
-.all_cat { color: #333333; }
-.uncategorized_cat { color: #333333; }
 .meat_cat { background-color: #ff0000; }
 .fish_cat { background-color: #468cbb; }
 .chicken_cat { background-color: #ffae00; }
 .veg_cat { background-color: #3eac47; }
 .potato_cat { background-color: #995f1c; }
 .pasta_cat { background-color: #dbb564; }
-.rice_cat { background-color: white; color: #666666 }
-.wheat_cat { background-color: #868686; }
+.rice_cat { background-color: #ccc; }
+.wheat_cat { background-color: #666; }
 .pie_cat { background-color: #aaac3e; }
 .pizza_cat { background-color: #893eac; }
-.noodles_cat { background-color: #ffe2a2; color: #666666 }
+.noodles_cat { background-color: #ffe2a2; }

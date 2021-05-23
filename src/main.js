@@ -67,10 +67,10 @@ function showRecipe(recipeId) {
     recipeSource = '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a>';
   }
 
-  $( ".contentcontainer" ).html('<h2>' + recipeObj.name +
-    '</h2><i>Källa: ' + (recipeSource || '') + 
-    '</i><br/><h3>Ingredienser</h3>' + recipeObj.ingredients + 
-    '<br/><h3>Gör så här</h3>' + recipeObj.directions + '<br /><br />');
+  $( ".contentcontainer" ).html('<h3>' + recipeObj.name +
+    '</h3><i>Källa: ' + (recipeSource || '') + 
+    '</i><br/><h4>Ingredienser</h4>' + recipeObj.ingredients + 
+    '<br/><h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
 }
 
 function getRecipes() {
