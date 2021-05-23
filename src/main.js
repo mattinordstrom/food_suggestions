@@ -70,7 +70,7 @@ function showRecipe(recipeId) {
   $( ".contentcontainer" ).html('<h2>' + recipeObj.name +
     '</h2><i>Källa: ' + (recipeSource || '') + 
     '</i><br/><h3>Ingredienser</h3>' + recipeObj.ingredients + 
-    '<br/><h3>Gör så här</h3>' + recipeObj.directions);
+    '<br/><h3>Gör så här</h3>' + recipeObj.directions + '<br /><br />');
 }
 
 function getRecipes() {
