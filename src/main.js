@@ -46,7 +46,7 @@ function render(filter) {
     newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
       catsOnRowEl + '</div></div><div class="recipe_link" onclick="showRecipe(\'' + 
       recipes[i].id + '\')">' + recipes[i].name + 
-      '</div></div><br/>';
+      '</div></div>';
   };
 
   $( ".contentcontainer" ).html(newContent);

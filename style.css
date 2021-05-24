@@ -1,7 +1,7 @@
 body {
 	font-family: 'Arial', sans-serif;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 22px;
     background-color: #f7f5f0;
 	color: #333333;
 }
@@ -31,6 +31,11 @@ hr {
 .row {
     display: flex;
     font-weight: bold;
+    line-height: 32px;
+}
+
+.row_cats_cont {
+    height:100%;
 }
 
 .row_cats {
@@ -39,6 +44,7 @@ hr {
     border-radius: 4px;
     font-size: 10px;
     margin-right: 4px;
+    margin-top: 14%;
     justify-content: flex-end;
     width: 44px;
     overflow: hidden;
