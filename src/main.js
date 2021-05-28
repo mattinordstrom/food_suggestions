@@ -97,6 +97,7 @@ const catMap = {
   'Matvete': 'wheat',
   'Paj': 'pie',
   'Pizza': 'pizza',
+  'Burgare': 'burger',
 };
 
 const catMapReverse = {
@@ -111,4 +112,5 @@ const catMapReverse = {
   'wheat': 'Matvete',
   'pie': 'Paj',
   'pizza': 'Pizza',
+  'burgare': 'Burger',
 };

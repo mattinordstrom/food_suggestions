@@ -79,7 +79,8 @@
       "name": "Hamburgare (Matgeek)",
       "source": "Youtube",
       "categories": [
-        "Kött"
+        "Kött",
+        "Burgare"
       ],
       "ingredients": "Högrevsburgare<br/>Bacon<br/>Syltad gul lök<br/>Vitlöksmajonäs<br/>",
       "directions": "Stek löken på svag värme i mycket smör.<br/>"
@@ -89,7 +90,8 @@
       "name": "Hamburgare (halloumi)",
       "source": "",
       "categories": [
-        "Vegetariskt"
+        "Vegetariskt",
+        "Burgare"
       ],
       "ingredients": "Halloumi<br/>Hamburgerbröd<br/>Potatis i ugn<br/>",
       "directions": ""
@@ -253,6 +255,17 @@
       ],
       "ingredients": "",
       "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
+    },
+    {
+      "id": "veg_burgare",
+      "name": "Vegetarisk hamburgare",
+      "source": "",
+      "categories": [
+        "Vegetariskt",
+        "Burgare"
+      ],
+      "ingredients": "1dl quinoa<br/>1tsk olivolja<br/>En halv rödlök<br/>3 vitlöksklyftor<br/>1/2tsk salt<br/>1 burk svarta bönor<br/>2msk tomatpure<br/>1 ägg<br/>1 burk majs<br/>100g soltorkade tomater<br/>1dl havregryn<br/>0,5dl mjöl",
+      "directions": ""
     },
     {
       "id": "veg_lasagne",
