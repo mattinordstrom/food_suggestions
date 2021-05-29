@@ -204,7 +204,7 @@
     "name": "Matti special",
     "source": "",
     "ingredients": "Toastbröd<br/>Tacosås<br/>Ost<br/>Skinka<br/>Johnnys sötstark senap",
-    "directions": ""
+    "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
     "id": "oreganokyckling",
@@ -244,6 +244,17 @@
       "Pizza"
     ],
     "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/><br/>Fyllning:<br/>Köttfärssås<br/>Riven ost<br/>Tomater<br/>",
+    "directions": ""
+  },
+  {
+    "id": "kottfarssas",
+    "name": "Spagetti o köttfärssås",
+    "source": "",
+    "categories": [
+      "Pasta",
+      "Kött"
+    ],
+    "ingredients": "500g köttfärs<br/>1 gul lök<br/>2msk tomatpure<br/>Ketchup<br/>Lite vatten för att lättare blanda runt<br/>Torkad basilika<br/>Salt o peppar",
     "directions": ""
   },
   {
