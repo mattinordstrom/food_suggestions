@@ -16,6 +16,10 @@ function render(filter) {
     window.history.pushState({path:newurl},'',newurl);
   }
 
+  stopDummyVideoLoop();
+
+  $( "#keep_alive_container").hide();
+
   $( ".cat_menu").removeClass('cat_active');
   $( "#"+filter).addClass('cat_active');
 
@@ -58,6 +62,9 @@ function showRecipe(recipeId) {
     var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=rec_'+recipeId;
     window.history.pushState({path:newurl},'',newurl);
   }
+
+  stopDummyVideoLoop();
+  $( "#keep_alive_container").show();
   $( ".cat_menu").removeClass('cat_active');
 
   const recipeObj = recipes.find(recipe => recipe.id === recipeId);
@@ -72,6 +79,43 @@ function showRecipe(recipeId) {
     '</i><br/><h4>Ingredienser</h4>' + recipeObj.ingredients + 
     '<br/><h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
 }
+
+function keepScreenAlive() {
+  var checkBox = $("#keep_alive_checkbox")[0];
+  var dummyVideo = $("#dummy_video")[0];
+
+  if (checkBox.checked == true){
+    //loop
+    dummyVideo.loop = true;
+    dummyVideo.play();
+
+    //TODO play() ?
+  } else {
+    //stop loop
+    stopDummyVideoLoop();
+  }
+}
+
+function stopDummyVideoLoop() {
+  var checkBox = $("#keep_alive_checkbox")[0];
+  var dummyVideo = $("#dummy_video")[0];
+  
+  checkBox.checked = false;
+
+  dummyVideo.loop = false;
+  //dummyVideo.load();
+
+  dummyVideo.stop();
+  //TODO stop() ?
+}
+
+/*
+function playDummyAudio() { dummyAudio.play(); }    
+$(function() {
+   var dummyAudio = document.querySelector('#dummyAudio');
+   window.setInterval(playDummyAudio, 60 * 1000);
+}
+*/
 
 function getRecipes() {
   $.ajax({
