@@ -37,6 +37,16 @@
     "directions": ""
   },
   {
+    "id": "carbonara",
+    "name": "Carbonara",
+    "categories": [
+      "Pasta",
+      "Kött"
+    ],
+    "ingredients": "Spagetti<br/>Bacon<br/>Ägg<br/>Grädde<br/>Parmesan<br/>",
+    "directions": ""
+  },
+  {
     "id": "falafel",
     "name": "Falafel",
     "source": "Linas matkasse recept",
@@ -95,6 +105,16 @@
     ],
     "ingredients": "2 1/2 dl vetemjöl<br/>1/2 tsk salt<br/>6 dl mjölk<br/>3 ägg<br/>3 msk margarin<br/><br/>200-300g bacon<br/>1 gul lök<br/>",
     "directions": "225° i 20 minuter.<br/>"
+  },
+  {
+    "id": "korvstroganoff",
+    "name": "Korv stroganoff",
+    "categories": [
+      "Ris",
+      "Kött"
+    ],
+    "ingredients": "1 falukorv<br/>1 gul lök<br/>3dl matgrädde<br/>2msk tomatpure<br/>ketchup<br/>svartpeppar",
+    "directions": "Servera med ris"
   },
   {
     "id": "matgeek_burgare",
@@ -216,6 +236,17 @@
     ],
     "ingredients": "500g kycklingfile<br/>2 vitlöksklyftor<br/>1 msk smör<br/>1/2 tsk salt<br/>1 krm svartpeppar<br/>2 1/2 dl matlagningsgrädde<br/>1 hönsbuljongtärning<br/>2 tsk oregano (färsk eller torkad)<br/>1 1/2 msk balsamvinäger<br/>",
     "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/><br/>Servera med klyftpotatis<br/>"
+  },
+  {
+    "id": "paneradfisk",
+    "name": "Panerad fisk",
+    "source": "https://www.koket.se/panerad-fisk-med-kall-dillsas",
+    "categories": [
+      "Potatis",
+      "Fisk"
+    ],
+    "ingredients": "",
+    "directions": ""
   },
   {
     "id": "pastagratang",
