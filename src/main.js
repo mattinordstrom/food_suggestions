@@ -75,7 +75,7 @@ function showRecipe(recipeId) {
 
 function getRecipes() {
   $.ajax({
-    url: "https://mattinordstrom.github.io/food_suggestions/src/recipes.json",
+    url: "./src/recipes.json",
     dataType: "json"
   }).done(function(result){
     recipes = result;
