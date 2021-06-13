@@ -22,7 +22,7 @@ function render(filter) {
   let newContent = '';
   for(let i=0; i<recipes.length; i++) {
     if(filter && filter === 'uncategorized') {
-      if(recipes[i].categories){
+      if(recipes[i].categories && recipes[i].categories.length > 0){
         continue;
       }
     }

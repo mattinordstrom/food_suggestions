@@ -47,6 +47,16 @@
     "directions": ""
   },
   {
+    "id": "chiliconcarne",
+    "name": "Chili con carne",
+    "categories": [
+      "Ris",
+      "Kött"
+    ],
+    "ingredients": "Köttfärs<br/>Vita bönor i tomatsås<br/>Paprika<br/>Chilipulver<br/>Salt o peppar",
+    "directions": ""
+  },
+  {
     "id": "falafel",
     "name": "Falafel",
     "source": "Linas matkasse recept",
@@ -139,6 +149,13 @@
     "directions": ""
   },
   {
+    "id": "ingefarashot",
+    "name": "Ingefärashot",
+    "source": "https://mittkok.expressen.se/recept/ingefarsshot-recept/",
+    "ingredients": "200g ingefära<br/>1l vatten<br/>2 citroner<br/>0,5dl honung<br/>(1 spansk peppar)",
+    "directions": "Värm upp och sänk till ettan på plattan."
+  },
+  {
     "id": "korma",
     "name": "Indisk korma med paneer",
     "categories": [
@@ -147,13 +164,6 @@
     ],
     "ingredients": "2st block 225g paneer-ost<br/>2 burkar 350g indisk sås (korma)<br/>Ris",
     "directions": ""
-  },
-  {
-    "id": "ingefarashot",
-    "name": "Ingefärashot",
-    "source": "https://mittkok.expressen.se/recept/ingefarsshot-recept/",
-    "ingredients": "200g ingefära<br/>1l vatten<br/>2 citroner<br/>0,5dl honung<br/>(1 spansk peppar)",
-    "directions": "Värm upp och sänk till ettan på plattan."
   },
   {
     "id": "kalpudding",
@@ -220,6 +230,15 @@
     "directions": ""
   },
   {
+    "id": "laxtacos",
+    "name": "Laxtacos",
+    "categories": [
+      "Fisk"
+    ],
+    "ingredients": "Laxfile<br/>Ägg<br/>Ströbröd<br/>Sesamfrön<br/>Olja",
+    "directions": ""
+  },
+  {
     "id": "matti_special",
     "name": "Matti special",
     "source": "",
@@ -256,6 +275,14 @@
       "Pasta",
       "Kött"
     ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
+    "id": "pickladrodlok",
+    "name": "Picklad rödlök",
+    "source": "https://www.ica.se/recept/picklad-rodlok-721101/ ",
+    "categories": [],
     "ingredients": "",
     "directions": ""
   },
