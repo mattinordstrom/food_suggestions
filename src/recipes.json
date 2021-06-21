@@ -39,12 +39,13 @@
   {
     "id": "carbonara",
     "name": "Carbonara",
+    "source": "https://www.jennysmatblogg.nu/2014/03/24/pasta-carbonara-2/",
     "categories": [
       "Pasta",
       "Kött"
     ],
-    "ingredients": "Spagetti<br/>Bacon<br/>Ägg<br/>Grädde<br/>Parmesan<br/>",
-    "directions": ""
+    "ingredients": "",
+    "directions": "Följ receptet i länken men häll i mer grädde (2-3msk är lite snålt)"
   },
   {
     "id": "chiliconcarne",
