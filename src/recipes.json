@@ -27,6 +27,12 @@
     "directions": ""
   },
   {
+    "id": "bondkringlor",
+    "name": "Kringlor (bondkringlor)",
+    "ingredients": "250 g margarin<br/>1 ägg<br/>1 1/2 dl strösocker<br/>4 1/2 dl mjölk<br/>8 tsk hjorthornssalt<br/>ca 1 1/2 l rågsikt",
+    "directions": "Ca 60 stycken<br/><br/>Smält margarinet och låt det svalna. Vispa ägg och socker och tillsätt margarinet, mjölk samt mjölet blandat med hjorthornssalt.<br/>Forma degen till kringlor och lägg på en smord plåt. Grädda i mitten av ugnen i 200°, ca 12 minuter."
+  },
+  {
     "id": "broccolipaj",
     "name": "Broccolipaj med purjo och bacon",
     "source": "https://www.arla.se/recept/broccolipaj-med-purjolok/",
