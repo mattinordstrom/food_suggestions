@@ -118,14 +118,14 @@
     "directions": "225° i 20 minuter.<br/>"
   },
   {
-    "id": "korvstroganoff",
-    "name": "Korv stroganoff",
+    "id": "gordons_pasta",
+    "name": "Gordons pasta",
     "categories": [
-      "Ris",
-      "Kött"
+      "Pasta",
+      "Kyckling"
     ],
-    "ingredients": "1 falukorv<br/>1 gul lök<br/>3dl matgrädde<br/>2msk tomatpure<br/>ketchup<br/>svartpeppar",
-    "directions": "Servera med ris"
+    "ingredients": "2 msk olivolja<br/>2 vitlöksklyftor<br/>4 kycklingfileer<br/>Salt, rosmarin och peppar<br/>75g smör<br/>300g pasta<br/>1-2 chilis<br/>250g gröna ärtskidor<br/>150g fetaost<br/>50g pistagenötter<br/>",
+    "directions": "Stek vitlök och kycklingbitar i en panna med salt och peppar.<br/>Koka pastan.<br/>Smält 75g smör och tillsätt chili och rosmarin.<br/>Värm på låg värme i 2 minuter.<br/>Vrid upp värmen och tillsätt ärtskidorna och fräs i 3-4 minuter<br/>Blanda ihop allt och toppa med fetaost och nötter.<br/>"
   },
   {
     "id": "matgeek_burgare",
@@ -167,20 +167,20 @@
     "directions": ""
   },
   {
+    "id": "korvstroganoff",
+    "name": "Korv stroganoff",
+    "categories": [
+      "Ris",
+      "Kött"
+    ],
+    "ingredients": "1 falukorv<br/>1 gul lök<br/>3dl matgrädde<br/>2msk tomatpure<br/>ketchup<br/>svartpeppar",
+    "directions": "Servera med ris"
+  },
+  {
     "id": "kringlor",
     "name": "Kringlor (bondkringlor)",
     "ingredients": "Ca 60 stycken<br/><br/>250 g margarin<br/>1 ägg<br/>1 1/2 dl strösocker<br/>4 1/2 dl mjölk<br/>8 tsk hjorthornssalt<br/>ca 1 1/2 l rågsikt",
     "directions": "Smält margarinet och låt det svalna. Vispa ägg och socker och tillsätt margarinet, mjölk samt mjölet blandat med hjorthornssalt.<br/>Forma degen till kringlor och lägg på en smord plåt. Grädda i mitten av ugnen i 200°, ca 12 minuter."
-  },
-  {
-    "id": "kalpudding",
-    "name": "Kålpudding",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
-    "ingredients": "1 kg vitkål<br/>Olja<br/>2 msk sirap<br/>1 tsk salt<br/>2 krm svartpeppar<br/><br/>1 gul lök<br/>500g kötttfärs<br/>1 ägg <br/>2 msk japansk soja<br/>1 dl vispgrädde<br/>1 msk konc. kalvfond<br/>1 msk sirap<br/>1/2 tsk salt<br/>2 krm svartpeppar<br/>",
-    "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/><br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/><br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
   },
   {
     "id": "kycklingnudlar",
@@ -203,6 +203,16 @@
     ],
     "ingredients": "",
     "directions": ""
+  },
+  {
+    "id": "kalpudding",
+    "name": "Kålpudding",
+    "categories": [
+      "Potatis",
+      "Kött"
+    ],
+    "ingredients": "1 kg vitkål<br/>Olja<br/>2 msk sirap<br/>1 tsk salt<br/>2 krm svartpeppar<br/><br/>1 gul lök<br/>500g kötttfärs<br/>1 ägg <br/>2 msk japansk soja<br/>1 dl vispgrädde<br/>1 msk konc. kalvfond<br/>1 msk sirap<br/>1/2 tsk salt<br/>2 krm svartpeppar<br/>",
+    "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/><br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/><br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
   },
   {
     "id": "kottbullar",
@@ -355,17 +365,6 @@
     "directions": ""
   },
   {
-    "id": "varrullar",
-    "name": "Vårrullar med ris",
-    "source": "https://www.coop.se/recept/kal-och-farsfyllda-varrullar",
-    "categories": [
-      "Ris",
-      "Kött"
-    ],
-    "ingredients": "",
-    "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
-  },
-  {
     "id": "veg_burgare",
     "name": "Vegetarisk hamburgare",
     "source": "",
@@ -384,6 +383,17 @@
     ],
     "ingredients": "Lasagneplattor<br/>Spenat<br/>Soltorkade tomater<br/>Pesto<br/>Ostsås<br/>Riven ost?",
     "directions": ""
+  },
+  {
+    "id": "varrullar",
+    "name": "Vårrullar med ris",
+    "source": "https://www.coop.se/recept/kal-och-farsfyllda-varrullar",
+    "categories": [
+      "Ris",
+      "Kött"
+    ],
+    "ingredients": "",
+    "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
   },
   {
     "id": "ortbakad_lax",
