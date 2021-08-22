@@ -11,6 +11,17 @@
     "directions": "Servera med sötpotatis och morötter"
   },
   {
+    "id": "ajvarkyckling",
+    "name": "Ajvarkyckling",
+    "source": "https://www.jennysmatblogg.nu/2013/09/30/ajvarkyckling-som-ni-bara-maste-testa/",
+    "categories": [
+      "Ris",
+      "Kyckling"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "baconlada",
     "name": "Baconlåda",
     "categories": [
