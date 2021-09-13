@@ -333,6 +333,17 @@
     "directions": ""
   },
   {
+    "id": "risotto",
+    "name": "Risotto (med svamp)",
+    "source": "https://www.ica.se/recept/risotto-med-skogschampinjoner-716952/",
+    "categories": [
+      "Ris",
+      "Vegetariskt"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "kottfarssas",
     "name": "Spagetti o köttfärssås",
     "source": "",
