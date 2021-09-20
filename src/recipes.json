@@ -274,6 +274,13 @@
     "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
+    "id": "moussakagratang",
+    "name": "Moussakagratäng",
+    "source": "https://www.coop.se/recept/moussakagratang/",
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "oreganokyckling",
     "name": "Oreganokyckling",
     "source": "ICA buffe",
@@ -405,6 +412,13 @@
     ],
     "ingredients": "Lasagneplattor<br/>Spenat<br/>Soltorkade tomater<br/>Pesto<br/>Ostsås<br/>Riven ost?",
     "directions": ""
+  },
+  {
+    "id": "vegonuggets",
+    "name": "Vegonuggets med teriyakinudlar",
+    "source": "https://www.ica.se/recept/vegonuggets-med-teriyakinudlar-och-wokade-gronsaker-727732/",
+    "ingredients": "",
+    "directions": "Följ receptet med använd Hälsans köks nuggets (har redan sesamfrön på sig)"
   },
   {
     "id": "varrullar",
