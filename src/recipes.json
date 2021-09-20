@@ -277,6 +277,10 @@
     "id": "moussakagratang",
     "name": "Moussakagratäng",
     "source": "https://www.coop.se/recept/moussakagratang/",
+    "categories": [
+      "Potatis",
+      "Kött"
+    ],
     "ingredients": "",
     "directions": ""
   },
@@ -417,6 +421,10 @@
     "id": "vegonuggets",
     "name": "Vegonuggets med teriyakinudlar",
     "source": "https://www.ica.se/recept/vegonuggets-med-teriyakinudlar-och-wokade-gronsaker-727732/",
+    "categories": [
+      "Nudlar",
+      "Vegetariskt"
+    ],
     "ingredients": "",
     "directions": "Följ receptet med använd Hälsans köks nuggets (har redan sesamfrön på sig)"
   },
