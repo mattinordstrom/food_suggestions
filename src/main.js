@@ -62,14 +62,23 @@ function showRecipe(recipeId) {
 
   const recipeObj = recipes.find(recipe => recipe.id === recipeId);
 
-  let recipeSource = recipeObj.source;
-  if(recipeObj.source && recipeObj.source.substring(0,4) === 'http') {
-    recipeSource = '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a>';
+  let recipeSource = '';
+  if(recipeObj.source) {
+    if(recipeObj.source.substring(0,4) === 'http'){
+      recipeSource = 'Källa: ' + '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a>' + '<br/>';
+    } else {
+      recipeSource = 'Källa: ' + recipeObj.source + '<br/>';
+    }
   }
 
-  $( ".contentcontainer" ).html('<h3>' + recipeObj.name +
-    '</h3><i>Källa: ' + (recipeSource || '') + 
-    '</i><br/><h4>Ingredienser</h4>' + recipeObj.ingredients + 
+  let portionsInfo = '';
+  if(recipeObj.portions) {
+    portionsInfo = 'Antal portioner: ' + recipeObj.portions;
+  }
+  $( ".contentcontainer" ).html('<h3>' + recipeObj.name + '</h3>' +
+    '<i>' + recipeSource +
+    portionsInfo +
+    '</i><h4>Ingredienser</h4>' + recipeObj.ingredients + 
     '<br/><br/><h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
 }
 

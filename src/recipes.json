@@ -3,6 +3,7 @@
     "id": "ajvarbiffar",
     "name": "Ajvarbiffar med sötpotatis/morötter",
     "source": "",
+    "portions": "2",
     "categories": [
       "Potatis",
       "Vegetariskt"
@@ -24,6 +25,7 @@
   {
     "id": "baconlada",
     "name": "Baconlåda",
+    "portions": "4",
     "categories": [
       "Matvete",
       "Kött"
@@ -40,6 +42,7 @@
   {
     "id": "broccolipaj",
     "name": "Broccolipaj med purjo och bacon",
+    "portions": "4",
     "source": "https://www.arla.se/recept/broccolipaj-med-purjolok/",
     "categories": [
       "Paj"
@@ -50,6 +53,7 @@
   {
     "id": "carbonara",
     "name": "Carbonara",
+    "portions": "4",
     "source": "https://www.jennysmatblogg.nu/2014/03/24/pasta-carbonara-2/",
     "categories": [
       "Pasta",
@@ -122,6 +126,7 @@
   {
     "id": "flaskpannkaka",
     "name": "Fläskpannkaka",
+    "portions": "4",
     "categories": [
       "Kött"
     ],
@@ -131,6 +136,7 @@
   {
     "id": "gordons_pasta",
     "name": "Gordons pasta",
+    "portions": "4",
     "categories": [
       "Pasta",
       "Kyckling"
@@ -180,6 +186,7 @@
   {
     "id": "korvstroganoff",
     "name": "Korv stroganoff",
+    "portions": "4-6",
     "categories": [
       "Ris",
       "Kött"
@@ -239,6 +246,7 @@
   {
     "id": "lasagne",
     "name": "Lasagne",
+    "portions": "4-6",
     "categories": [
       "Pasta",
       "Kött"
@@ -249,6 +257,7 @@
   {
     "id": "laxbiffar",
     "name": "Laxbiffar med nudelsallad",
+    "portions": "4",
     "source": "https://www.coop.se/recept/laxbiffar-med-nudelsallad",
     "categories": [
       "Nudlar",
@@ -309,6 +318,7 @@
   {
     "id": "pastagratang",
     "name": "Pastagratäng",
+    "portions": "4-6",
     "source": "https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/",
     "categories": [
       "Pasta",
@@ -378,6 +388,7 @@
   {
     "id": "tacopaj",
     "name": "Tacopaj",
+    "portions": "4",
     "source": "https://www.hemtrevligt.se/icakuriren/recept/tacopaj/",
     "categories": [
       "Paj",
