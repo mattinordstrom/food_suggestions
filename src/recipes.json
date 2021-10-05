@@ -252,7 +252,7 @@
       "Kött"
     ],
     "ingredients": "500g Köttfärs<br/>1 gul lök<br/>1 burk krossade tomater<br/>2 msk tomatpure<br/>Ketchup<br/>Basilika<br/>1 st Köttbuljongtärning<br/>Salt och peppar<br/><br/>50g smält margarin<br/>3 msk mjöl<br/>6 dl mjölk<br/>100g riven ost<br/>",
-    "directions": "Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
+    "directions": "Gå till \"Vegetarisk lasagne\" för att se hur man gör ostsås.<br/><br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
     "id": "laxbiffar",
@@ -425,8 +425,8 @@
     "categories": [
       "Vegetariskt"
     ],
-    "ingredients": "Lasagneplattor<br/>Spenat<br/>Soltorkade tomater<br/>Pesto<br/>Ostsås<br/>Riven ost?",
-    "directions": ""
+    "ingredients": "Lasagneplattor<br/>Ca 700g fryst spenat<br/>1 lök <br/>1 burk Soltorkade tomater<br/>1 liten burk Pesto<br/>Ostsås<br/>Riven ost att toppa med",
+    "directions": "Ostsås: <br/><br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
     "id": "vegonuggets",
