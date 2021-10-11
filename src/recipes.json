@@ -398,6 +398,17 @@
     "directions": "Servera med tacosås<br/>"
   },
   {
+    "id": "lax_dillsas",
+    "name": "Ugnsbakad lax med dillsås",
+    "source": "https://www.ica.se/recept/ugnsbakad-lax-med-dillsas-722491/",
+    "categories": [
+      "Potatis",
+      "Fisk"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "varm_pastasallad",
     "name": "Varm pastasallad",
     "categories": [
