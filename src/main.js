@@ -62,6 +62,12 @@ function showRecipe(recipeId) {
 
   const recipeObj = recipes.find(recipe => recipe.id === recipeId);
 
+  let catsEl = '<div class="row_cats">';
+  for(let i = 0; i < recipeObj.categories.length; i++){
+    catsEl += '<div class="row_cat ' + catMap[recipeObj.categories[i]] + '_cat"></div>';
+  };
+  catsEl += '</div>';
+
   let recipeSource = '';
   if(recipeObj.source) {
     if(recipeObj.source.substring(0,4) === 'http'){
@@ -75,7 +81,7 @@ function showRecipe(recipeId) {
   if(recipeObj.portions) {
     portionsInfo = 'Antal portioner: ' + recipeObj.portions;
   }
-  $( ".contentcontainer" ).html('<h3>' + recipeObj.name + '</h3>' +
+  $( ".contentcontainer" ).html(catsEl + '<h3>' + recipeObj.name + '</h3>' +
     '<i>' + recipeSource +
     portionsInfo +
     '</i><h4>Ingredienser</h4>' + recipeObj.ingredients + 
