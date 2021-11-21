@@ -10,6 +10,10 @@ hr {
     border: 1px solid #f7f5f0;
 }
 
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
 .contentcontainer {
     display: flex;
     flex-direction: column;
