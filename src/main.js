@@ -33,11 +33,8 @@ function render(filter) {
       }
     }
 
-    let cats = recipes[i].categories;
     let catsOnRowEl = '';
-    if(!cats) {
-        cats = '';
-    } else {
+    if(recipes[i].categories) {
       for(let j=0; j<recipes[i].categories.length; j++){
         catsOnRowEl += '<div class="row_cat ' + catMap[recipes[i].categories[j]] + '_cat"></div>';
       };
@@ -63,9 +60,11 @@ function showRecipe(recipeId) {
   const recipeObj = recipes.find(recipe => recipe.id === recipeId);
 
   let catsEl = '<div class="row_cats">';
-  for(let i = 0; i < recipeObj.categories.length; i++){
-    catsEl += '<div class="row_cat ' + catMap[recipeObj.categories[i]] + '_cat"></div>';
-  };
+  if(recipeObj.categories) {
+    for(let i = 0; i < recipeObj.categories.length; i++){
+      catsEl += '<div class="row_cat ' + catMap[recipeObj.categories[i]] + '_cat"></div>';
+    };
+  }
   catsEl += '</div>';
 
   let recipeSource = '';
