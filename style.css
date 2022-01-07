@@ -97,6 +97,7 @@ h1 {
 .recipe_head {
     display: flex;
     flex-direction: row;
+    margin-bottom: 16px;
 }
 
 .recipe_title {
