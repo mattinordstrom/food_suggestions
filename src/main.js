@@ -70,21 +70,23 @@ function showRecipe(recipeId) {
   let recipeSource = '';
   if(recipeObj.source) {
     if(recipeObj.source.substring(0,4) === 'http'){
-      recipeSource = 'Källa: ' + '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a>' + '<br/>';
+      recipeSource = '<div><strong>Källa:</strong> ' + '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a></div>';
     } else {
-      recipeSource = 'Källa: ' + recipeObj.source + '<br/>';
+      recipeSource = '<div><strong>Källa:</strong> ' + recipeObj.source + '</div>';
     }
   }
 
   let portionsInfo = '';
   if(recipeObj.portions) {
-    portionsInfo = 'Antal portioner: ' + recipeObj.portions;
+    portionsInfo = '<div><strong>Antal portioner:</strong> ' + recipeObj.portions + '</div>';
   }
-  $( ".contentcontainer" ).html(catsEl + '<h3>' + recipeObj.name + '</h3>' +
-    '<i>' + recipeSource +
-    portionsInfo +
-    '</i><h4>Ingredienser</h4>' + recipeObj.ingredients + 
-    '<br/><br/><h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
+  $( ".contentcontainer" ).html('<div class="recipe_head">' + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
+    '<br/>' + recipeSource +
+    portionsInfo + 
+    '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
+    '<h4>Ingredienser</h4>' + recipeObj.ingredients + '<br/><br />' +
+    '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
+    '<h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
 }
 
 function getRecipes() {

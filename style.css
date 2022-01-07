@@ -7,7 +7,7 @@ body {
 }
 
 hr {
-    border: 1px solid #f7f5f0;
+    border: 1px dotted #ddd2b8;
 }
 
 h1 {
@@ -26,6 +26,7 @@ h1 {
     margin-left: 0px;
 	margin-top: 0px;
     padding: 4px;
+    border-radius: 6px;
 }
 
 .filter_menu {
@@ -91,6 +92,18 @@ h1 {
     border: 2px solid #333;
     outline: 1px solid #333;
     outline-offset: -3px;
+}
+
+.recipe_head {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe_title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 3px;
 }
 
 .meat_cat { background-color: #ff0000; }
