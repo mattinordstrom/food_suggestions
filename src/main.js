@@ -70,15 +70,15 @@ function showRecipe(recipeId) {
   let recipeSource = '';
   if(recipeObj.source) {
     if(recipeObj.source.substring(0,4) === 'http'){
-      recipeSource = '<div><strong>Källa:</strong> ' + '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a></div>';
+      recipeSource = '<div style="font-size:12px"><strong>Källa:</strong> ' + '<a target="_blank" href="' + recipeObj.source + '">' + recipeObj.source+'</a></div>';
     } else {
-      recipeSource = '<div><strong>Källa:</strong> ' + recipeObj.source + '</div>';
+      recipeSource = '<div style="font-size:12px"><strong>Källa:</strong> ' + recipeObj.source + '</div>';
     }
   }
 
   let portionsInfo = '';
   if(recipeObj.portions) {
-    portionsInfo = '<div><strong>Antal portioner:</strong> ' + recipeObj.portions + '</div>';
+    portionsInfo = '<div style="font-size:12px"><strong>Antal portioner:</strong> ' + recipeObj.portions + '</div>';
   }
   $( ".contentcontainer" ).html('<div class="recipe_head">' + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
     '<br/>' + recipeSource +
