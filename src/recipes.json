@@ -354,6 +354,15 @@
     "directions": ""
   },
   {
+    "id": "pulled_pork",
+    "name": "Pulled pork",
+    "categories": [
+      "Kött"
+    ],
+    "ingredients": "1 pkt Pulled pork<br/>Pitabröd<br/>Creme fraiche<br/>Grönsaker<br/>",
+    "directions": ""
+  },
+  {
     "id": "risotto",
     "name": "Risotto (med svamp)",
     "source": "https://www.ica.se/recept/risotto-med-skogschampinjoner-716952/",
