@@ -1,4 +1,9 @@
 function init() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if(isMobile){
+    $('head').append('<link rel="stylesheet" type="text/css" href="mobile.css" />');
+  }
+
   var page = window.location.search.split("?page=")[1];
   
   if(!page) {
