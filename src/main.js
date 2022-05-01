@@ -25,31 +25,39 @@ function render(filter) {
   $( "#"+filter).addClass('cat_active');
 
   let newContent = '';
-  for(let i=0; i<recipes.length; i++) {
-    if(filter && filter === 'uncategorized') {
-      if(recipes[i].categories && recipes[i].categories.length > 0){
-        continue;
+  if(filter === 'candidates') {
+    for(let i=0; i<candidates.length; i++) {
+      newContent += '<div class="row">' + candidates[i].name + '&nbsp;<a target="_blank" href="' + 
+      candidates[i].source + '">'+candidates[i].source+'</a></div>' +
+      '<br/>';
+    }
+  } else {
+    for(let i=0; i<recipes.length; i++) {
+      if(filter && filter === 'uncategorized') {
+        if(recipes[i].categories && recipes[i].categories.length > 0){
+          continue;
+        }
       }
-    }
 
-    if(filter && filter !== 'all' && filter !== 'uncategorized') {
-      if(!recipes[i].categories || !recipes[i].categories.includes(catMapReverse[filter])){
-        continue;
+      if(filter && filter !== 'all' && filter !== 'uncategorized') {
+        if(!recipes[i].categories || !recipes[i].categories.includes(catMapReverse[filter])){
+          continue;
+        }
       }
-    }
 
-    let catsOnRowEl = '';
-    if(recipes[i].categories) {
-      for(let j=0; j<recipes[i].categories.length; j++){
-        catsOnRowEl += '<div class="row_cat ' + catMap[recipes[i].categories[j]] + '_cat"></div>';
-      };
-    }
+      let catsOnRowEl = '';
+      if(recipes[i].categories) {
+        for(let j=0; j<recipes[i].categories.length; j++){
+          catsOnRowEl += '<div class="row_cat ' + catMap[recipes[i].categories[j]] + '_cat"></div>';
+        };
+      }
 
-    newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
-      catsOnRowEl + '</div></div><div class="recipe_link" onclick="showRecipe(\'' + 
-      recipes[i].id + '\')">' + recipes[i].name + 
-      '</div></div>';
-  };
+      newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
+        catsOnRowEl + '</div></div><div class="recipe_link" onclick="showRecipe(\'' + 
+        recipes[i].id + '\')">' + recipes[i].name + 
+        '</div></div>';
+    };
+  }
 
   $( ".contentcontainer" ).html(newContent);
 
@@ -100,10 +108,17 @@ function getRecipes() {
     dataType: "json"
   }).done(function(result){
     recipes = result;
+  });
+  $.ajax({
+    url: "./src/candidates.json",
+    dataType: "json"
+  }).done(function(result){
+    candidates = result;
     init();
   });
 }
 let recipes = [];
+let candidates = [];
 getRecipes();
 
 const catMap = {

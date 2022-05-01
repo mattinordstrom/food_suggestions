@@ -93,17 +93,6 @@
     "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
-    "id": "fiskburgare",
-    "name": "Fiskburgare",
-    "source": "",
-    "categories": [
-      "Fisk",
-      "Burgare"
-    ],
-    "ingredients": "400g torskfile<br/>1 ägg<br/>3msk fryst gräslök<br/>2msk ströbröd<br/>2msk smör<br/>salt o peppar<br/><br/>Romsås:<br/>1dl turkisk yoghurt<br/>50g stenbitsrom<br/>3msk fryst dill",
-    "directions": "Servera med hamburgerbröd, sallad, tomat"
-  },
-  {
     "id": "fiskpinnar_korvbrod",
     "name": "Fiskpinnar i korvbröd",
     "source": "https://www.coop.se/recept/fiskpinnar-i-brod-med-asiatisk-topping/",
@@ -281,17 +270,6 @@
     "source": "",
     "ingredients": "Toastbröd<br/>Tacosås<br/>Ost<br/>Skinka<br/>Johnnys sötstark senap",
     "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
-  },
-  {
-    "id": "moussakagratang",
-    "name": "Moussakagratäng",
-    "source": "https://www.coop.se/recept/moussakagratang/",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
-    "ingredients": "",
-    "directions": ""
   },
   {
     "id": "oreganokyckling",
