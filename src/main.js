@@ -27,9 +27,10 @@ function render(filter) {
   let newContent = '';
   if(filter === 'candidates') {
     for(let i=0; i<candidates.length; i++) {
-      newContent += '<div class="row">' + candidates[i].name + '&nbsp;<a target="_blank" href="' + 
-      candidates[i].source + '">'+candidates[i].source+'</a></div>' +
-      '<br/>';
+      newContent += '<div>&nbsp;<a target="_blank" href="' + 
+      candidates[i].source + '">'+candidates[i].source+'</a>&nbsp;'+
+      (candidates[i].name ? ('('+candidates[i].name+')') : '') +
+      '</div><br/>&nbsp;<br/>';
     }
   } else {
     for(let i=0; i<recipes.length; i++) {
