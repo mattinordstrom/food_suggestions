@@ -93,6 +93,17 @@
     "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
+    "id": "fisk_i_ugn",
+    "name": "Fisk i ugn",
+    "source": "",
+    "categories": [
+      "Potatis",
+      "Fisk"
+    ],
+    "ingredients": "1st purjolök<br/>400g torsk/sejfilé<br/>2,5dl matlagningsgrädde<br/>1dl chilisås<br/>salt och peppar",
+    "directions": "Sätt ugnen på 225grader.<br/>Skölj och hacka purjolöken. Lägg fisken i en smord ugnsform, salta och peppra.<br/>Fördela purjolöken på och runt fisken. Vispa ihop grädde och cilisås och häll på såsen.<br/>Gratinera i ca 20-30min.<br/>&nbsp;<br/>Servera potatismos och gröna ärtor till.<br/>"
+  },
+  {
     "id": "fiskpinnar_korvbrod",
     "name": "Fiskpinnar i korvbröd",
     "source": "https://www.coop.se/recept/fiskpinnar-i-brod-med-asiatisk-topping/",
