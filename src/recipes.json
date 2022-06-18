@@ -363,6 +363,17 @@
     "directions": ""
   },
   {
+    "id": "rotfruktspytt",
+    "name": "Rotfruktspytt",
+    "source": "https://www.ica.se/recept/?recipeid=723724",
+    "categories": [
+      "Potatis",
+      "Kött"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "scones",
     "name": "Scones",
     "source": "https://fredriksfika.allas.se/scones-recept-pa-enkla-scones/",
