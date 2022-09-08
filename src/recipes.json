@@ -365,6 +365,17 @@
     "directions": ""
   },
   {
+    "id": "potatis_soppa",
+    "name": "Potatis o purjosoppa (veg.)",
+    "source": "https://www.arla.se/recept/potatis--och-purjolokssoppa/",
+    "categories": [
+      "Potatis",
+      "Vegetariskt"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "pulled_pork",
     "name": "Pulled pork",
     "categories": [
