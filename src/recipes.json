@@ -295,6 +295,20 @@
     "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
+    "id": "macka_kottbullar",
+    "name": "Macka: köttbullar o rödbetssallad",
+    "source": "",
+    "ingredients": "",
+    "directions": ""
+  },
+  {
+    "id": "macka_rakor",
+    "name": "Macka: majo o räckor",
+    "source": "",
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "oreganokyckling",
     "name": "Oreganokyckling",
     "source": "ICA buffe",
