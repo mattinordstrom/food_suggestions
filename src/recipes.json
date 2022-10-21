@@ -93,6 +93,16 @@
     "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
+    "id": "falukorv_ugn",
+    "name": "Falukorv i ugn",
+    "categories": [
+      "Potatis",
+      "Kött"
+    ],
+    "ingredients": "1st falukorv<br/>1 gul lök<br/>Olivolja<br/>Ost<br/>Senap<br/>Ketchup<br/>",
+    "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/><br/>Ugnen på 200°<br/>Serveras med potatismos"
+  },
+  {
     "id": "fisk_i_ugn",
     "name": "Fisk i ugn",
     "source": "",
