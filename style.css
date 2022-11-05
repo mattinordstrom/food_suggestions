@@ -81,10 +81,6 @@ h1 {
     display: flex;
 }
 
-#candidates {
-    margin-left: 50px;
-}
-
 .recipe_link:hover {
     cursor: pointer;
 }
