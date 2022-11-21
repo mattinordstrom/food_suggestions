@@ -6,12 +6,12 @@ function init() {
 
   var page = window.location.search.split("?page=")[1];
   
-  if(!page) {
-    render('all');
-  } else if(page.substring(0,3) === 'cat') {
+  if(page.substring(0,3) === 'cat') {
     render(page.substring(4));
   } else if(page.substring(0,3) === 'rec') {
     showRecipe(page.substring(4));
+  } else {
+    render('all');
   }
 }
 

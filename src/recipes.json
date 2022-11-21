@@ -471,6 +471,16 @@
     "directions": "Servera med tacosås<br/>"
   },
   {
+    "id": "tunnbrod_korv",
+    "name": "Tunnbrödsrulle med korv o mos",
+    "categories": [
+      "Potatis",
+      "Vegetariskt"
+    ],
+    "ingredients": "Tunnbröd<br/>Potatismos<br/>Korv (kött eller vegetarisk)<br/>",
+    "directions": "Servera med rostad lök / räksallad / bostongurka / senap o ketchup m.m."
+  },
+  {
     "id": "lax_dillsas",
     "name": "Ugnsbakad lax med dillsås",
     "source": "https://www.ica.se/recept/ugnsbakad-lax-med-dillsas-722491/",
