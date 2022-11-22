@@ -6,7 +6,9 @@ function init() {
 
   var page = window.location.search.split("?page=")[1];
   
-  if(page.substring(0,3) === 'cat') {
+  if(!page) {
+    render('all');
+  } else if(page.substring(0,3) === 'cat') {
     render(page.substring(4));
   } else if(page.substring(0,3) === 'rec') {
     showRecipe(page.substring(4));
@@ -103,7 +105,7 @@ function showRecipe(recipeId) {
     '<h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
 }
 
-function getRecipes() {
+function getRecipesAndInit() {
   $.ajax({
     url: "./src/recipes.json",
     dataType: "json"
@@ -115,12 +117,12 @@ function getRecipes() {
     dataType: "json"
   }).done(function(result){
     candidates = result;
-    init();
+
+    $(document).ready(function(){
+      init();
+    })
   });
 }
-let recipes = [];
-let candidates = [];
-getRecipes();
 
 const catMap = {
   'Kött': 'meat',
@@ -151,3 +153,9 @@ const catMapReverse = {
   'pizza': 'Pizza',
   'burger': 'Burgare',
 };
+
+let recipes = [];
+let candidates = [];
+
+//INIT
+getRecipesAndInit();
