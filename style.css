@@ -15,7 +15,14 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-.contentcontainer {
+.singleview {
+    display: flex;
+    flex-direction: column;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.listview {
     display: flex;
     flex-direction: column;
 	margin-left: 20px;
