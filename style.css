@@ -75,6 +75,13 @@ h1 {
     display: flex;
 }
 
+.recipe_link {
+    max-width: 260px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .recipe_link:hover {
     cursor: pointer;
 }

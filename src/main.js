@@ -1,8 +1,8 @@
 function init() {
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  if(isMobile){
-    $('head').append('<link rel="stylesheet" type="text/css" href="mobile.css" />');
-  }
+  //var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  //if(isMobile){
+    //$('head').append('<link rel="stylesheet" type="text/css" href="mobile.css" />');
+  //}
 
   var page = window.location.search.split("?page=")[1];
   
@@ -17,6 +17,7 @@ function init() {
   }
 }
 
+//TODO render selected checkboxes correctly!
 function render(filter) {
   if (history.pushState) {
     var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=cat_'+filter;
@@ -33,6 +34,14 @@ function render(filter) {
       candidates[i].source + '">'+candidates[i].source+'</a>&nbsp;'+
       (candidates[i].name ? ('('+candidates[i].name+')') : '') +
       '</div><br/>&nbsp;<br/>';
+    }
+  } else if(filter === 'selected') {
+    if(selectedRecipes.length === 0) {
+      newContent += '<div><br/>Inga maträtter valda.</div>';
+    } else {
+      for(let i=0; i<selectedRecipes.length; i++) {
+        newContent += '<div>&nbsp;'+selectedRecipes[i]+'</div><br/>&nbsp;<br/>';
+      }
     }
   } else {
     for(let i=0; i<recipes.length; i++) {
@@ -55,7 +64,7 @@ function render(filter) {
         };
       }
 
-      newContent += '<div class="row"><div class="row_cats_cont"><div class="row_cats">' + 
+      newContent += '<div class="row"><input type="checkbox" onclick="selectRecipe(\''+recipes[i].id+'\')" /><div class="row_cats_cont"><div class="row_cats">' + 
         catsOnRowEl + '</div></div><div class="recipe_link" onclick="showRecipe(\'' + 
         recipes[i].id + '\')">' + recipes[i].name + 
         '</div></div>';
@@ -96,13 +105,24 @@ function showRecipe(recipeId) {
   if(recipeObj.portions) {
     portionsInfo = '<div style="font-size:12px"><strong>Antal portioner:</strong> ' + recipeObj.portions + '</div>';
   }
-  $( ".contentcontainer" ).html('<div class="recipe_head">' + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
+  $( ".contentcontainer" ).html('<div class="recipe_head"><input type="checkbox" onclick="selectRecipe(\''+recipeId+'\')" style="margin-top:6px"/>' + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
     '<br/>' + recipeSource +
     portionsInfo + 
     '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
     '<h4>Ingredienser</h4>' + recipeObj.ingredients + '<br/><br />' +
     '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
     '<h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />');
+}
+
+function selectRecipe(recipeId) {
+  //const recipeObj = recipes.find(recipe => recipe.id === recipeId);
+
+  if(selectedRecipes.includes(recipeId)) {
+    selectedRecipes.splice(selectedRecipes.indexOf(recipeId), 1)
+  } else {
+    //TODO push recipeObj
+    selectedRecipes.push(recipeId);
+  }
 }
 
 function getRecipesAndInit() {
@@ -156,6 +176,7 @@ const catMapReverse = {
 
 let recipes = [];
 let candidates = [];
+let selectedRecipes = [];
 
 //INIT
 getRecipesAndInit();
