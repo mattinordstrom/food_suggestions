@@ -15,7 +15,14 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-.contentcontainer {
+.singleview {
+    display: flex;
+    flex-direction: column;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.listview {
     display: flex;
     flex-direction: column;
 	margin-left: 20px;
@@ -73,6 +80,13 @@ h1 {
     margin: 4px;
     padding: 2px;
     display: flex;
+}
+
+.recipe_link {
+    max-width: 260px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .recipe_link:hover {
