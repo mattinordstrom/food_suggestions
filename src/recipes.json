@@ -47,8 +47,8 @@
     "categories": [
       "Paj"
     ],
-    "ingredients": "Lägg till 1 pkt stekt bacon för extra smak!",
-    "directions": ""
+    "ingredients": "",
+    "directions": "Lägg till 1 pkt stekt bacon för extra smak!"
   },
   {
     "id": "carbonara",
@@ -415,17 +415,6 @@
     "categories": [
       "Ris",
       "Vegetariskt"
-    ],
-    "ingredients": "",
-    "directions": ""
-  },
-  {
-    "id": "rotfruktspytt",
-    "name": "Rotfruktspytt",
-    "source": "https://www.ica.se/recept/?recipeid=723724",
-    "categories": [
-      "Potatis",
-      "Kött"
     ],
     "ingredients": "",
     "directions": ""
