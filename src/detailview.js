@@ -36,20 +36,18 @@ function showRecipe(recipeId) {
   $( ".listview" ).hide();
   $( ".singleview" ).html('<div class="recipe_head">'+checkbox + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
     '<br/>' + recipeSource +
-    portionsInfo + 
-    '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
-    '<h4>Ingredienser</h4>' + recipeObj.ingredients + '<br/><br />' +
-    '<span style="color:#ccc">-----------------------------------------------------------------</span>' +
+    portionsInfo + getHrLongHtml() +
+    '<h4>Ingredienser</h4>' + recipeObj.ingredients + '<br/><br />' + getHrLongHtml() +
     '<h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />').show();
 }
 
 function showCandidatesContent() {
-  let content = '';
+  let content = '&nbsp;<br/>';
   for(let i=0; i<candidates.length; i++) {
     content += '<div>&nbsp;<a target="_blank" href="' + 
     candidates[i].source + '">'+candidates[i].source+'</a>&nbsp;'+
     (candidates[i].name ? ('('+candidates[i].name+')') : '') +
-    '</div><br/>&nbsp;<br/>';
+    '</div><br/>'+getHrLongHtml()+'<br/>';
   }
 
   $( ".listview" ).hide();
@@ -61,8 +59,7 @@ function showSelectedContent() {
   if(selectedRecipes.length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px"><i><a href="">Ladda om sidan</a> för att återställa alla val.</i></div><br/>'+
-    '<span style="color:#ccc">-----------------------------------------------------------------</span>';
+    content += '<div style="font-size:12px"><i><a href="">Ladda om sidan</a> för att återställa alla val.</i></div><br/>'+getHrLongHtml();
     for(let i=0; i<selectedRecipes.length; i++) {
       const recipeObj = recipes.find(recipe => recipe.id === selectedRecipes[i]);
       let catsOnRowEl = '';
@@ -79,12 +76,12 @@ function showSelectedContent() {
         recipeObj.id + '\')">' + recipeObj.name + 
         '</div></div>';
     }
-    content += '<span style="color:#ccc">-----------------------------------------------------------------</span>';
+    content += getHrLongHtml();
     for(let i=0; i<selectedRecipes.length; i++) {
       const recipeObj = recipes.find(recipe => recipe.id === selectedRecipes[i]);
       content += '<div style="font-size:12px"><b>'+recipeObj.name + "</b></div><br />" + recipeObj.ingredients
       
-      content += '<span style="color:#ccc">----------</span>';
+      content += getHrShortHtml();
     }
   }
 
