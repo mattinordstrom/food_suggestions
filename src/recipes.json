@@ -8,7 +8,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "300g köttfärs<br/>1,5msk ajvar relish<br/>1 äggula<br/>1/2tsk salt<br/>1krm svartpeppar<br/>1msk finhackad basilika<br/>2msk smör<br/><br/>Ajvarsås:<br/>1,5dl creme fraiche<br/>3msk ajvar",
+    "ingredients": "300g köttfärs<br/>1,5msk ajvar relish<br/>1 äggula<br/>1/2tsk salt<br/>1krm svartpeppar<br/>1msk finhackad basilika<br/>2msk smör<br/>&nbsp;<br/>Ajvarsås:<br/>1,5dl creme fraiche<br/>3msk ajvar",
     "directions": "Servera med sötpotatis och morötter"
   },
   {
@@ -31,7 +31,7 @@
       "Kött"
     ],
     "ingredients": "2 pkt bacon<br/>2 burkar champinjoner (skivade)<br/>Skivad ost<br/>2 dl grädde<br/>Chilisås",
-    "directions": "Bryn bacon och svampen.<br/>Lägg i en form med osten över.<br/>Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.<br/><br/>175-200° i ugnen (10-15 min)<br/><br/>Servera med ris eller matvete.<br/>"
+    "directions": "Bryn bacon och svampen.<br/>Lägg i en form med osten över.<br/>Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.<br/>&nbsp;<br/>175-200° i ugnen (10-15 min)<br/>&nbsp;<br/>Servera med ris eller matvete.<br/>"
   },
   {
     "id": "bananpannkakor",
@@ -47,8 +47,8 @@
     "categories": [
       "Paj"
     ],
-    "ingredients": "",
-    "directions": "Lägg till 1 pkt stekt bacon för extra smak!"
+    "ingredients": "Smör 125 g<br/>Vetemjöl 3 dl<br/>Linfrön 1 msk<br/>Kallt vatten 2 msk<br/>&nbsp;<br/>Fyllning:<br/>Bacon 1 pkt (valfritt)<br/>Broccoli 250 g<br/>Purjolök 1st<br/>Vitlöksklyfta 1st<br/>Smör 1 msk<br/>Ost 150 g<br/>&nbsp;<br/>Äggstanning:<br/>Ägg 3st<br/>Matlagningsgrädde 3 dl<br/>Salt 1 tsk<br/>Svartpeppar 1 krm<br/>",
+    "directions": "Lägg till 1 pkt stekt bacon för extra smak!<br/>&nbsp;<br/>Sätt ugnen på 200°.<br/>Hacka samman smör, mjöl och linfrön för hand eller i matberedare till en grynig massa. Tillsätt vatten och arbeta snabbt ihop till en smidig deg.<br/>Tryck ut degen i en pajform, ca 24 cm i diameter, gärna med löstagbar kant. Nagga botten med en gaffel och låt stå i frys 10 min. Förgrädda pajskalet i mitten av ugnen ca 10 min.<br/>Skär broccolin i bitar och koka den i lättsaltat vatten ca 5 min, låt rinna av. Ansa och strimla purjolöken, skala och hacka vitlöken.<br/>Fräs löken i smör i en stekpanna tills purjolöken är mjuk men inte tagit färg.<br/>Riv osten. Vispa ihop ägg, grädde, salt och peppar. Fördela lök, broccoli och riven ost i pajskalet och häll på äggstanningen.<br/>Grädda pajen i mitten av ugnen ca 35 min."
   },
   {
     "id": "carbonara",
@@ -80,7 +80,7 @@
       "Vegetariskt"
     ],
     "ingredients": "1 pkt kikärtor<br/>1/2 silverlök<br/>1 vitlöksklyfta<br/>3 msk mjöl<br/>1/2 tsk salt<br/>1 1/2 tsk spiskummin<br/>1 tsk koriander",
-    "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/><br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
+    "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/>&nbsp;<br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
   },
   {
     "id": "falukorvsgratang",
@@ -100,7 +100,7 @@
       "Kött"
     ],
     "ingredients": "1st falukorv<br/>1 gul lök<br/>Olivolja<br/>Ost<br/>Senap<br/>Ketchup<br/>",
-    "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/><br/>Ugnen på 200°<br/>Serveras med potatismos"
+    "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/>&nbsp;<br/>Ugnen på 200°<br/>Serveras med potatismos"
   },
   {
     "id": "fisk_i_ugn",
@@ -202,7 +202,7 @@
       "Ris",
       "Vegetariskt"
     ],
-    "ingredients": "2st block 225g paneer-ost<br/>2 burkar 350g indisk sås (korma)<br/>Ris",
+    "ingredients": [["2 x 225 g", "Paneer-ost"], ["2 x 350 g", "Indisk sås (korma)"],"Ris"],
     "directions": ""
   },
   {
@@ -219,7 +219,7 @@
   {
     "id": "kringlor",
     "name": "Kringlor (bondkringlor)",
-    "ingredients": "Ca 60 stycken<br/><br/>250 g margarin<br/>1 ägg<br/>1 1/2 dl strösocker<br/>4 1/2 dl mjölk<br/>8 tsk hjorthornssalt<br/>ca 1 1/2 l rågsikt",
+    "ingredients": "Ca 60 stycken<br/>&nbsp;<br/>250 g margarin<br/>1 ägg<br/>1 1/2 dl strösocker<br/>4 1/2 dl mjölk<br/>8 tsk hjorthornssalt<br/>ca 1 1/2 l rågsikt",
     "directions": "Smält margarinet och låt det svalna. Vispa ägg och socker och tillsätt margarinet, mjölk samt mjölet blandat med hjorthornssalt.<br/>Forma degen till kringlor och lägg på en smord plåt. Grädda i mitten av ugnen i 200°, ca 12 minuter."
   },
   {
@@ -251,8 +251,8 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "1 kg vitkål<br/>Olja<br/>2 msk sirap<br/>1 tsk salt<br/>2 krm svartpeppar<br/><br/>1 gul lök<br/>500g kötttfärs<br/>1 ägg <br/>2 msk japansk soja<br/>1 dl vispgrädde<br/>1 msk konc. kalvfond<br/>1 msk sirap<br/>1/2 tsk salt<br/>2 krm svartpeppar",
-    "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/><br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/><br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
+    "ingredients": "1 kg vitkål<br/>Olja<br/>2 msk sirap<br/>1 tsk salt<br/>2 krm svartpeppar<br/>&nbsp;<br/>1 gul lök<br/>500g kötttfärs<br/>1 ägg <br/>2 msk japansk soja<br/>1 dl vispgrädde<br/>1 msk konc. kalvfond<br/>1 msk sirap<br/>1/2 tsk salt<br/>2 krm svartpeppar",
+    "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/>&nbsp;<br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/>&nbsp;<br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
   },
   {
     "id": "kottbullar",
@@ -273,8 +273,8 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "500g Köttfärs<br/>1 gul lök<br/>1 burk krossade tomater<br/>2 msk tomatpure<br/>Ketchup<br/>Basilika<br/>1 st Köttbuljongtärning<br/>Salt och peppar<br/><br/>50g smält margarin<br/>3 msk mjöl<br/>6 dl mjölk<br/>100g riven ost",
-    "directions": "Gå till \"Vegetarisk lasagne\" för att se hur man gör ostsås.<br/><br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
+    "ingredients": "500g Köttfärs<br/>1 gul lök<br/>1 burk krossade tomater<br/>2 msk tomatpure<br/>Ketchup<br/>Basilika<br/>1 st Köttbuljongtärning<br/>Salt och peppar<br/>&nbsp;<br/>50g smält margarin<br/>3 msk mjöl<br/>6 dl mjölk<br/>100g riven ost",
+    "directions": "Gå till \"Vegetarisk lasagne\" för att se hur man gör ostsås.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
     "id": "laxbiffar",
@@ -327,7 +327,7 @@
       "Kyckling"
     ],
     "ingredients": "500g kycklingfile<br/>2 vitlöksklyftor<br/>1 msk smör<br/>1/2 tsk salt<br/>1 krm svartpeppar<br/>2 1/2 dl matlagningsgrädde<br/>1 hönsbuljongtärning<br/>2 tsk oregano (färsk eller torkad)<br/>1 1/2 msk balsamvinäger",
-    "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/><br/>Servera med klyftpotatis<br/>"
+    "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/>&nbsp;<br/>Servera med klyftpotatis<br/>"
   },
   {
     "id": "paneradfisk",
@@ -509,7 +509,7 @@
       "Vegetariskt"
     ],
     "ingredients": "Lasagneplattor<br/>Ca 700g fryst spenat<br/>1 lök <br/>1 burk Soltorkade tomater<br/>1 liten burk Pesto<br/>Ostsås<br/>Riven ost att toppa med",
-    "directions": "Ostsås: <br/><br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
+    "directions": "Ostsås: <br/>&nbsp;<br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
     "id": "vegonuggets",
@@ -531,7 +531,7 @@
       "Kött"
     ],
     "ingredients": "",
-    "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/><br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
+    "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
   },
   {
     "id": "ortbakad_lax",

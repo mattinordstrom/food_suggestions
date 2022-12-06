@@ -45,6 +45,7 @@ function selectRecipe(recipeId, inSelectedView) {
   } else {
     selectedRecipes.push(recipeId);
   }
+  $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
 }
 
 //INIT

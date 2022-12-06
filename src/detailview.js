@@ -33,12 +33,29 @@ function showRecipe(recipeId) {
       (selectedRecipes.includes(recipeId) ? " checked" : "")+
       ' onclick="selectRecipe(\''+recipeId+'\')" style="margin-top:6px" />';
 
+  let ingredients = '';
+  if(Array.isArray(recipeObj.ingredients)){
+    ingredients += "<table>";
+    for(let i=0; i<recipeObj.ingredients.length; i++) {
+      ingredients += "<tr>";
+      if(Array.isArray(recipeObj.ingredients[i])){
+        ingredients += '<td>'+recipeObj.ingredients[i][1]+"</td>"+"<td>"+recipeObj.ingredients[i][0]+"</td>";
+      } else {
+        ingredients += "<td>"+recipeObj.ingredients[i]+"</td><td></td>";
+      }
+      ingredients += "</tr>";
+    }
+    ingredients += "</table>";
+  } else {
+    ingredients = recipeObj.ingredients;
+  }
+
   $( ".listview" ).hide();
   $( ".singleview" ).html('<div class="recipe_head">'+checkbox + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
     '<br/>' + recipeSource +
     portionsInfo + getHrLongHtml() +
-    '<h4>Ingredienser</h4>' + recipeObj.ingredients + '<br/><br />' + getHrLongHtml() +
-    '<h4>Gör så här</h4>' + recipeObj.directions + '<br /><br />').show();
+    '<div style="margin-left: 100px;"><h4>Ingredienser</h4></div>' + ingredients + '<br/><br />' + getHrLongHtml() +
+    '<div style="margin-left: 100px;"><h4>Gör så här</h4></div>' + recipeObj.directions + '<br /><br />').show();
 }
 
 function showCandidatesContent() {
@@ -76,11 +93,25 @@ function showSelectedContent() {
         recipeObj.id + '\')">' + recipeObj.name + 
         '</div></div>';
     }
+    
     content += getHrLongHtml();
     for(let i=0; i<selectedRecipes.length; i++) {
       const recipeObj = recipes.find(recipe => recipe.id === selectedRecipes[i]);
-      content += '<div style="font-size:12px"><b>'+recipeObj.name + "</b></div><br />" + recipeObj.ingredients
       
+      let ingredients = '';
+      if(Array.isArray(recipeObj.ingredients)){
+        for(let i=0; i<recipeObj.ingredients.length; i++) {
+          if(Array.isArray(recipeObj.ingredients[i])){
+            ingredients += recipeObj.ingredients[i][1]+" &nbsp;&nbsp;"+recipeObj.ingredients[i][0]+"<br/>";
+          } else {
+            ingredients += recipeObj.ingredients[i]+"<br/>";
+          }
+        }
+      } else {
+        ingredients = recipeObj.ingredients;
+      }
+
+      content += '<div style="font-size:12px"><b>'+recipeObj.name + "</b></div><br />" + ingredients
       content += getHrShortHtml();
     }
   }
