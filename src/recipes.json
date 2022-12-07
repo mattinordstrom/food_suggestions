@@ -357,7 +357,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "",
+    "ingredients": "4 torskfiléer (alt rödspätta)<br/>1 ägg<br/>ca 0,75 dl vetemjöl<br/>ca 2 dl pankoströbröd<br/>1 msk citronsaft<br/>1 tsk örtsalt<br/>1 tsk svartpeppar<br/>matolja, till stekning<br/><br/>&nbsp;<br/><br/>3 dl gräddfil<br/>1 dl filmjölk<br/>0,5 dl majonnäs<br/>1 dl bostongurka<br/>1 kruka färsk dill, finskuren<br/>1 msk citronsaft<br/>1 tsk salt<br/>1 tsk strösocker<br/>0,5 krm svartpeppar<br/>",
     "directions": ""
   },
   {
@@ -369,7 +369,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "",
+    "ingredients": "Färdigkokad pasta<br/>5-8 dl färdig köttfärsås<br/>Söta körsbärstomater<br/>Vårlök<br/>mozzarella<br/><br/>&nbsp;<br/><br/>4 dl vispgrädde<br/>100 gram mjukost med baconsmak (en sådan på tub / ask )<br/>1- 2 dl riven (lättsmält ) ost<br/>salt och peppar <br/>",
     "directions": ""
   },
   {
@@ -377,7 +377,7 @@
     "name": "Picklad rödlök",
     "source": "https://www.ica.se/recept/picklad-rodlok-721101/ ",
     "categories": [],
-    "ingredients": "",
+    "ingredients": "1 normalstora rödlökar<br/>1/2 dl socker<br/>1/4 dl ättika (12%)<br/>1/2 dl vatten <br/>",
     "directions": ""
   },
   {
@@ -416,7 +416,7 @@
       "Potatis",
       "Vegetariskt"
     ],
-    "ingredients": "",
+    "ingredients": "Mjölig potatis 500 g<br/>Purjolök 1<br/>Smör-&rapsolja 1 msk<br/>Grönsaksbuljong 6 dl<br/>Syrad grädde 30% 2 dl<br/>Salt och peppar<br/>Hackad färsk persilja 1 dl <br/>",
     "directions": ""
   },
   {
@@ -436,14 +436,14 @@
       "Ris",
       "Vegetariskt"
     ],
-    "ingredients": "",
+    "ingredients": "3 schalottenlökar<br/>1 vitlöksklyfta<br/>9 dl svampbuljong (vatten och buljongtärning eller fond)<br/>2 msk olivolja<br/>3 dl carnaroli- eller arborioris<br/>2 dl vitt vin eller matlagningsvin<br/>250 g kastanjechampinjoner<br/>3 msk smör<br/>2 dl riven parmesan<br/>salt och nymalen svartpeppar<br/>rucola till servering<br/>",
     "directions": ""
   },
   {
     "id": "scones",
     "name": "Scones",
     "source": "https://fredriksfika.allas.se/scones-recept-pa-enkla-scones/",
-    "ingredients": "",
+    "ingredients": "4 dl vetemjöl<br/>2 tsk bakpulver<br/>0,5 tsk salt<br/>50 g smör<br/>2 dl mjölk<br/>",
     "directions": ""
   },
   {
@@ -464,7 +464,7 @@
     "categories": [
       "Kött"
     ],
-    "ingredients": "",
+    "ingredients": "500 g köttfärs<br/>1 msk smör<br/>1 påse taco kryddmix (à ca 30 g)<br/>1 burk salsasås à 230 g (gärna medelstark)<br/>2 dl crème fraiche<br/>3 dl riven cheddarost<br/>250 g cocktailtomater<br/>1/2 dl skivad, inlagd jalapeño<br/>1 dl nachochips<br/>",
     "directions": ""
   },
   {
@@ -476,7 +476,7 @@
       "Paj",
       "Kött"
     ],
-    "ingredients": "",
+    "ingredients": "2 dl grahamsmjöl (eller vetemjöl)<br/>2 dl vetemjöl<br/>0.5 tsk salt<br/>50 g margarin<br/>1.5 dl mjölk<br/><br/>&nbsp;<br/><br/>400 g köttfärs<br/>1 pkt vatten taco kryddmix + enligt anvisning på förpackningen<br/>2.5 st tomater<br/>1.5 st röda paprikor<br/>2 dl crème fraîche<br/>4 msk majonnäs<br/>2 dl riven ost<br/>1 st gul lök<br/>",
     "directions": "Servera med tacosås<br/>"
   },
   {
@@ -497,7 +497,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "",
+    "ingredients": "900 g potatis<br/>4 port laxfiléer (à 125 g)<br/>salt<br/>peppar<br/><br/>&nbsp;<br/><br/>3 dl matlagningsgrädde<br/>1 fiskbuljongtärning<br/>2 ask färsk dill (à 20 g)<br/>1 citron<br/>",
     "directions": ""
   },
   {
@@ -539,7 +539,7 @@
       "Nudlar",
       "Vegetariskt"
     ],
-    "ingredients": "",
+    "ingredients": "2 paprikor (gärna röd och orange)<br/>1 röd peppar (chili)<br/>1 rödlök<br/>200 g sallads- eller sockerärtor<br/>3 msk rapsolja<br/>300 g nudlar (gärna breda risnudlar)<br/>200 ml teriyakisås<br/>2 förp vegonuggets (à 380 g)<br/>",
     "directions": "Följ receptet med använd Hälsans köks nuggets (har redan sesamfrön på sig)"
   },
   {
@@ -550,7 +550,7 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": "",
+    "ingredients": "2.5 dl jasminris<br/>10 st filodegsark<br/><br/>&nbsp;<br/><br/>1 msk olja<br/>250 g nötfärs<br/>250 g vitkål<br/>1 gul lök, finhackad<br/>1 msk smör<br/>1 msk ljus sirap<br/>1 vitlöksklyfta, riven<br/>2 tsk sambal oelek<br/>0.5 tsk svartpeppar<br/>neutral olja till stekning<br/>1 tsk salt<br/><br/>&nbsp;<br/><br/>sweet chilisås<br/>",
     "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
   },
   {
