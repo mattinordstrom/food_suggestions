@@ -43,15 +43,24 @@ function getRecipesAndInit() {
 function selectRecipe(recipeId, inSelectedView) {
   if(selectedRecipes.includes(recipeId)) {
     selectedRecipes.splice(selectedRecipes.indexOf(recipeId), 1);
-    document.cookie = "recipes="+selectedRecipes.toString();
+    setRecipesCookie(selectedRecipes.toString());
     if(inSelectedView) {
       render('selected');
     }
   } else {
     selectedRecipes.push(recipeId);
-    document.cookie = "recipes="+selectedRecipes.toString();
+
+    setRecipesCookie(selectedRecipes.toString());
   }
   $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
+}
+
+function setRecipesCookie(cvalue) {
+  const exdays = 14;
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = "recipes=" + cvalue + ";" + expires + ";path=/";
 }
 
 //INIT
