@@ -71,12 +71,17 @@ function showCandidatesContent() {
   $( ".singleview" ).html(content).show();
 }
 
+function resetCookie() {
+  document.cookie = "recipes=";
+  window.location.reload();
+}
+
 function showSelectedContent() {
   let content = '';
   if(selectedRecipes.length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px"><i><a href="">Ladda om sidan</a> för att återställa alla val.</i></div><br/>'+getHrLongHtml();
+    content += '<div style="font-size:12px"><i><a href="javascript:resetCookie();">Klicka här</a> för att återställa alla val.</i></div><br/>'+getHrLongHtml();
     for(let i=0; i<selectedRecipes.length; i++) {
       const recipeObj = recipes.find(recipe => recipe.id === selectedRecipes[i]);
       let catsOnRowEl = '';

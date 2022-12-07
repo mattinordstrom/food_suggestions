@@ -3,6 +3,10 @@ let candidates = [];
 let selectedRecipes = [];
 
 function init() {
+  const recipesCookie = document.cookie.split('; ').find((row) => row.startsWith('recipes='))?.split('=')[1]; 
+  selectedRecipes = recipesCookie ? recipesCookie.split(",") : [];
+  $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
+
   var page = window.location.search.split("?page=")[1];
   
   if(!page) {
@@ -39,11 +43,13 @@ function getRecipesAndInit() {
 function selectRecipe(recipeId, inSelectedView) {
   if(selectedRecipes.includes(recipeId)) {
     selectedRecipes.splice(selectedRecipes.indexOf(recipeId), 1);
+    document.cookie = "recipes="+selectedRecipes.toString();
     if(inSelectedView) {
       render('selected');
     }
   } else {
     selectedRecipes.push(recipeId);
+    document.cookie = "recipes="+selectedRecipes.toString();
   }
   $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
 }
