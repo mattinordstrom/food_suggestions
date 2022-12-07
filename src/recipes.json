@@ -59,8 +59,8 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "",
-    "directions": "Följ receptet i länken men häll i mer grädde (2-3msk är lite snålt)"
+    "ingredients": "500 gram pasta<br/>2 pkt bacon<br/>2 vitlöksklyftor<br/>2 äggulor<br/>2-3 msk grädde ( mer om man önskar )<br/>1 dl finriven parmesan<br/>2 msk med fin olivolja<br/>salt och peppar<br/>",
+    "directions": "Koka pastan all dente enligt anvisningar på förpackning.<br/>Stek baconet knaperstekt, finhacka vitlöken och vänd ner i slutet- den ska bara bli mjuk och glansig.<br/>Vispa ihop äggulorna i en skål tillsammans med grädden. Häll av vattnet och vänd ner pastan, olivolja  i stekpannan tillsammans med äggsmeten. Vänd om och låt allt steka ihop Smaksätt med parmesan och salt & peppar. Servera genast med några droppar olivolja per portion.<br/>"
   },
   {
     "id": "chiliconcarne",
@@ -120,7 +120,7 @@
     "categories": [
       "Fisk"
     ],
-    "ingredients": "",
+    "ingredients": "200 g smörgåsgurka<br/>1 rödlök<br/>1 kruka färsk koriander<br/>400 g fiskpinnar (12 stycken)<br/>1 msk smör, till stekning<br/>0.5 gurka<br/>200 g korvbröd (8 stycken)<br/>1 dl srirachamajonnäs<br/>1 dl rostad lök <br/>",
     "directions": ""
   },
   {
@@ -152,7 +152,7 @@
       "Kött",
       "Kyckling"
     ],
-    "ingredients": "",
+    "ingredients": "4 kycklingfiléer<br/>140 gram tärnad bacon<br/>1 dl chilisås<br/>3 dl grädde 40%<br/>1 tsk italiensk salladskrydda<br/>1 tsk curry<br/>1 tsk chilikrydda<br/>nypa chiliflakes<br/>1/2 tsk salt<br/>1/2 tsk svartpeppar<br/>1 dl salta jordnötter<br/>olja till stekning<br/>Basmatris<br/>",
     "directions": ""
   },
   {
@@ -230,7 +230,7 @@
       "Nudlar",
       "Kyckling"
     ],
-    "ingredients": "",
+    "ingredients": "250 g broccoli<br/>200 g äggnudlar<br/>1 msk rapsolja<br/>450 g kycklinginnerfilé<br/>2 dl teriyakisås<br/>1 dl salta jordnötter<br/>salt och peppar<br/>",
     "directions": ""
   },
   {
@@ -241,7 +241,7 @@
       "Potatis",
       "Kyckling"
     ],
-    "ingredients": "",
+    "ingredients": "Sötpotatis okokt 500 g<br/>Morot 500 g<br/>Rapsolja 2 tsk<br/>Lök 1 st, gul/gula<br/>Vitlök 2 klyfta(or)<br/>Kycklingbröstfile 600 g<br/>Margarin flytande 80% 2 tsk<br/>Balsamvinäger 2 msk<br/>Kalvfond 2 msk<br/>Matlagningsbas 4% (typ Milda mat) 2,5 dl<br/>Basilika 1 tsk<br/>Cocktailtomater 250 g<br/>",
     "directions": ""
   },
   {
@@ -285,7 +285,7 @@
       "Nudlar",
       "Fisk"
     ],
-    "ingredients": "",
+    "ingredients": "500 g laxfilé<br/>0.5 kruka dill, hackad<br/>1 ägg<br/>1 citron<br/>1 msk olivolja<br/>1 tsk salt<br/><br/>&nbsp;<br/><br/>200 g risnudlar<br/>250 g zucchini, grovriven<br/>2 morötter, grovriven<br/>0.5 kruka dill, hackad<br/>2 msk sweet chilisås<br/>10 cm purjolök, finstrimlad<br/>1 citron<br/>",
     "directions": ""
   },
   {
