@@ -103,6 +103,16 @@
     "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/>&nbsp;<br/>Ugnen på 200°<br/>Serveras med potatismos"
   },
   {
+    "id": "falukorv_makaroner",
+    "name": "Falukorv och makaroner",
+    "categories": [
+      "Pasta",
+      "Kött"
+    ],
+    "ingredients": "Falukorv i skivor<br/>Ideal-makaroner<br/>Ketchup<br/>Sallad<br/>",
+    "directions": ""
+  },
+  {
     "id": "fisk_i_ugn",
     "name": "Fisk i ugn",
     "source": "",
@@ -121,6 +131,16 @@
       "Fisk"
     ],
     "ingredients": "200 g smörgåsgurka<br/>1 rödlök<br/>1 kruka färsk koriander<br/>400 g fiskpinnar (12 stycken)<br/>1 msk smör, till stekning<br/>0.5 gurka<br/>200 g korvbröd (8 stycken)<br/>1 dl srirachamajonnäs<br/>1 dl rostad lök <br/>",
+    "directions": ""
+  },
+  {
+    "id": "fiskpinnar_mos",
+    "name": "Fiskpinnar med potatismos",
+    "categories": [
+      "Potatis",
+      "Fisk"
+    ],
+    "ingredients": "Potatismos<br/>Fiskpinnar<br/>Ärtor<br/>Remoladsås<br/>",
     "directions": ""
   },
   {
@@ -308,14 +328,14 @@
     "id": "macka_kottbullar",
     "name": "Macka: köttbullar o rödbetssallad",
     "source": "",
-    "ingredients": "",
+    "ingredients": "Bröd<br/>Köttbullar<br/>Rödbetssallad<br/>Isbergssallad<br/>",
     "directions": ""
   },
   {
     "id": "macka_rakor",
     "name": "Macka: majo o räckor",
     "source": "",
-    "ingredients": "",
+    "ingredients": "Bröd<br/>Majonäs<br/>Ägg<br/>Räckor<br/>",
     "directions": ""
   },
   {
