@@ -2,7 +2,7 @@ body {
 	font-family: 'Arial', sans-serif;
     font-size: 14px;
     line-height: 22px;
-    background-color: #f1ece0;
+    background-color: #ebe9dc;
 	color: #333333;
     margin: 0px;
 }
@@ -20,7 +20,7 @@ table{
 }
 table td{
     white-space: nowrap;
-    border-right: 10px solid #f1ece0;
+    padding-right: 10px;
 }
 table td:last-child{
     width:100%;
@@ -47,7 +47,6 @@ input[type=checkbox] {
 }
 
 .header {
-    background-color: #f1ece0;
     margin-left: 0px;
 	margin-top: 0px;
     padding: 4px;
