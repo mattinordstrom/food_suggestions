@@ -39,9 +39,9 @@ function showRecipe(recipeId) {
     for(let i=0; i<recipeObj.ingredients.length; i++) {
       ingredients += "<tr>";
       if(Array.isArray(recipeObj.ingredients[i])){
-        ingredients += '<td>'+recipeObj.ingredients[i][1]+"</td>"+"<td>"+recipeObj.ingredients[i][0]+"</td>";
+        ingredients += '<td style="height:20px">'+recipeObj.ingredients[i][1]+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
       } else {
-        ingredients += "<td>"+recipeObj.ingredients[i]+"</td><td></td>";
+        ingredients += '<td style="height:20px">'+recipeObj.ingredients[i]+"</td><td></td>";
       }
       ingredients += "</tr>";
     }
@@ -107,7 +107,7 @@ function showSelectedContent() {
       if(Array.isArray(recipeObj.ingredients)){
         for(let i=0; i<recipeObj.ingredients.length; i++) {
           if(Array.isArray(recipeObj.ingredients[i])){
-            ingredients += recipeObj.ingredients[i][1]+" &nbsp;&nbsp;"+recipeObj.ingredients[i][0]+"<br/>";
+            ingredients += '<div>'+recipeObj.ingredients[i][1]+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div><br/>';
           } else {
             ingredients += recipeObj.ingredients[i]+"<br/>";
           }

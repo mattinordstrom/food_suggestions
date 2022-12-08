@@ -8,7 +8,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "300g köttfärs<br/>1,5msk ajvar relish<br/>1 äggula<br/>1/2tsk salt<br/>1krm svartpeppar<br/>1msk finhackad basilika<br/>2msk smör<br/>&nbsp;<br/>Ajvarsås:<br/>1,5dl creme fraiche<br/>3msk ajvar",
+    "ingredients":  [["300 g", "Köttfärs"], ["1,5 msk", "Ajvar relish"], ["1 st", "Äggula"], ["1/2 tsk", "salt"], ["1 krm", "svartpeppar"], ["1msk", "finhackad basilika"], ["2msk", "smör"], [" ", " "], "Ajvarsås:", ["1,5dl", "creme fraiche"], ["3msk", "ajvar"]],
     "directions": "Servera med sötpotatis och morötter"
   },
   {
