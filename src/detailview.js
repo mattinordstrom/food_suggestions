@@ -107,9 +107,9 @@ function showSelectedContent() {
       if(Array.isArray(recipeObj.ingredients)){
         for(let i=0; i<recipeObj.ingredients.length; i++) {
           if(Array.isArray(recipeObj.ingredients[i])){
-            ingredients += '<div>'+recipeObj.ingredients[i][1]+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div><br/>';
+            ingredients += '<div>'+recipeObj.ingredients[i][1]+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div>';
           } else {
-            ingredients += recipeObj.ingredients[i]+"<br/>";
+            ingredients += "<div>"+recipeObj.ingredients[i]+"</div>";
           }
         }
       } else {
