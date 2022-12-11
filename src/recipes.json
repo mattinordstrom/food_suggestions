@@ -19,7 +19,7 @@
       "Ris",
       "Kyckling"
     ],
-    "ingredients": "4 stora kycklingfileer<br/>smör<br/>4 dl creme fraiche<br/>1 1/2 dl ajvar ( mild )<br/>1 tsk flytande honung<br/>1 vitlöksklyfta<br/>salt och peppar<br/>2 dl riven god ost",
+    "ingredients": [["4 st", "Stora kycklingfileer"], "smör", ["4 dl", "creme fraiche"], ["1 1/2 dl", "ajvar ( mild )"], ["1 tsk", "flytande honung"], ["1 st", "vitlöksklyfta"], "salt och peppar", ["2 dl", "riven god ost"]],
     "directions": "Ställ ugnen på 200 grader.<br/>Fräs kycklingen i smör så att den får en vacker färg. Lägg sedan i en ugnssäkerform.<br/>Blanda ihop alla ingredienser till såsen, och fördela över fileerna.<br/>Ställ in i mitten på ugnen, och ta ut efter 30 minuter och strö över osten.<br/>Gratinera ytterligare i 15- 20 minuter- tills osten fått vacker färg och kycklingen är helt färdig."
   },
   {
@@ -30,13 +30,13 @@
       "Matvete",
       "Kött"
     ],
-    "ingredients": "2 pkt bacon<br/>2 burkar champinjoner (skivade)<br/>Skivad ost<br/>2 dl grädde<br/>Chilisås",
+    "ingredients": [["2 pkt", "bacon"], ["2 burkar", "champinjoner (skivade)"], "Skivad ost", ["2 dl", "grädde"], "Chilisås"],
     "directions": "Bryn bacon och svampen.<br/>Lägg i en form med osten över.<br/>Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.<br/>&nbsp;<br/>175-200° i ugnen (10-15 min)<br/>&nbsp;<br/>Servera med ris eller matvete.<br/>"
   },
   {
     "id": "bananpannkakor",
     "name": "Bananpannkakor",
-    "ingredients": "2 1/2 dl mjöl<br/>2 1/2 dl mjölk<br/>2 tsk bakpulver<br/>1 tsk vaniljsocker<br/>Lite smält smör<br/>1 ägg<br/>Lite salt<br/>2 mosade bananer",
+    "ingredients": [["2,5 dl", "mjöl"], ["2,5 dl", "mjölk"], ["2 tsk", "bakpulver"], ["1 tsk", "vaniljsocker"], "Lite smält smör", ["1 st", "ägg"], "Lite salt", ["2 st", "mosade bananer"]],
     "directions": ""
   },
   {
@@ -47,7 +47,7 @@
     "categories": [
       "Paj"
     ],
-    "ingredients": "Smör 125 g<br/>Vetemjöl 3 dl<br/>Linfrön 1 msk<br/>Kallt vatten 2 msk<br/>&nbsp;<br/>Fyllning:<br/>Bacon 1 pkt (valfritt)<br/>Broccoli 250 g<br/>Purjolök 1st<br/>Vitlöksklyfta 1st<br/>Smör 1 msk<br/>Ost 150 g<br/>&nbsp;<br/>Äggstanning:<br/>Ägg 3st<br/>Matlagningsgrädde 3 dl<br/>Salt 1 tsk<br/>Svartpeppar 1 krm<br/>",
+    "ingredients": [["125 g","Smör"],["3 dl","Vetemjöl"],["1 msk","Linfrön"],["2 msk","Kallt vatten"],[" "," "],"Fyllning:",["1 pkt","Bacon (valfritt)"],["250 g","Broccoli"],["1st","Purjolök"],["1st","Vitlöksklyfta"],["1 msk","Smör"],["150 g","Ost"],[" "," "],"Äggstanning:",["3st","Ägg"],["3 dl","Matlagningsgrädde"],["1 tsk","Salt"],["1 krm","Svartpeppar"]],
     "directions": "Lägg till 1 pkt stekt bacon för extra smak!<br/>&nbsp;<br/>Sätt ugnen på 200°.<br/>Hacka samman smör, mjöl och linfrön för hand eller i matberedare till en grynig massa. Tillsätt vatten och arbeta snabbt ihop till en smidig deg.<br/>Tryck ut degen i en pajform, ca 24 cm i diameter, gärna med löstagbar kant. Nagga botten med en gaffel och låt stå i frys 10 min. Förgrädda pajskalet i mitten av ugnen ca 10 min.<br/>Skär broccolin i bitar och koka den i lättsaltat vatten ca 5 min, låt rinna av. Ansa och strimla purjolöken, skala och hacka vitlöken.<br/>Fräs löken i smör i en stekpanna tills purjolöken är mjuk men inte tagit färg.<br/>Riv osten. Vispa ihop ägg, grädde, salt och peppar. Fördela lök, broccoli och riven ost i pajskalet och häll på äggstanningen.<br/>Grädda pajen i mitten av ugnen ca 35 min."
   },
   {

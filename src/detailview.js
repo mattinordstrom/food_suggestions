@@ -73,7 +73,9 @@ function showCandidatesContent() {
 
 function resetCookie() {
   document.cookie = "recipes=";
-  window.location.reload();
+  selectedRecipes = [];
+  $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
+  render('selected');
 }
 
 function showSelectedContent() {
