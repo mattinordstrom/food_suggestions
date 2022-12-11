@@ -55,7 +55,7 @@ function showCandidatesContent() {
 }
 
 function resetCookie() {
-  document.cookie = "recipes=";
+  document.cookie = "recipes=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
   selectedRecipes = [];
   $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
   render('selected');
