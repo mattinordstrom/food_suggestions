@@ -33,30 +33,11 @@ function showRecipe(recipeId) {
       (selectedRecipes.includes(recipeId) ? " checked" : "")+
       ' onclick="selectRecipe(\''+recipeId+'\')" style="margin-top:6px" />';
 
-  let ingredients = '';
-  if(Array.isArray(recipeObj.ingredients)){
-    ingredients += "<table>";
-    for(let i=0; i<recipeObj.ingredients.length; i++) {
-      ingredients += "<tr>";
-      if(Array.isArray(recipeObj.ingredients[i])){
-        const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
-        ingredients += '<td style="height:20px">'+formattedIngr+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
-      } else {
-        const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
-        ingredients += '<td style="height:20px">'+formattedIngr+"</td><td></td>";
-      }
-      ingredients += "</tr>";
-    }
-    ingredients += "</table>";
-  } else {
-    ingredients = recipeObj.ingredients;
-  }
-
   $( ".listview" ).hide();
   $( ".singleview" ).html('<div class="recipe_head">'+checkbox + catsEl + '<div class="recipe_title">' + recipeObj.name + '</div></div>' +
     '<br/>' + recipeSource +
     portionsInfo + getHrLongHtml() +
-    '<div style="margin-left: 100px;"><h4>Ingredienser</h4></div>' + ingredients + '<br/><br />' + getHrLongHtml() +
+    '<div style="margin-left: 100px;"><h4>Ingredienser</h4></div>' + getIngredientsHTML('', '20px', recipeObj) + '<br/><br />' + getHrLongHtml() +
     '<div style="margin-left: 100px;"><h4>Gör så här</h4></div>' + recipeObj.directions + '<br /><br />').show();
 }
 
@@ -106,27 +87,35 @@ function showSelectedContent() {
     content += getHrLongHtml();
     for(let i=0; i<selectedRecipes.length; i++) {
       const recipeObj = recipes.find(recipe => recipe.id === selectedRecipes[i]);
-      
-      let ingredients = '';
-      if(Array.isArray(recipeObj.ingredients)){
-        for(let i=0; i<recipeObj.ingredients.length; i++) {
-          if(Array.isArray(recipeObj.ingredients[i])){
-            const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
-            ingredients += '<div>'+formattedIngr+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div>';
-          } else {
-            const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
-            ingredients += "<div>"+formattedIngr+"</div>";
-          }
-        }
-      } else {
-        ingredients = recipeObj.ingredients;
-      }
 
-      content += '<div style="font-size:12px"><b>'+recipeObj.name + "</b></div><br />" + ingredients
+      content += '<div style="font-size:12px"><b>'+recipeObj.name + "</b></div><br />" + getIngredientsHTML('normal', '', recipeObj)
       content += getHrShortHtml();
     }
   }
 
   $( ".listview" ).hide();
   $( ".singleview" ).html(content).show();
+}
+
+function getIngredientsHTML(lineHeight, tdHeight, recipeObj) {
+  let ingredients = '';
+  if(Array.isArray(recipeObj.ingredients)){
+    ingredients += "<table>";
+    for(let i=0; i<recipeObj.ingredients.length; i++) {
+      ingredients += '<tr style="line-height:'+lineHeight+';">';
+      if(Array.isArray(recipeObj.ingredients[i])){
+        const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
+        ingredients += '<td style="height:'+tdHeight+'">'+formattedIngr+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
+      } else {
+        const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
+        ingredients += '<td style="height:'+tdHeight+'">'+formattedIngr+"</td><td></td>";
+      }
+      ingredients += "</tr>";
+    }
+    ingredients += "</table>";
+  } else {
+    ingredients = recipeObj.ingredients;
+  }
+
+  return ingredients;
 }
