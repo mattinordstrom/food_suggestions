@@ -39,9 +39,11 @@ function showRecipe(recipeId) {
     for(let i=0; i<recipeObj.ingredients.length; i++) {
       ingredients += "<tr>";
       if(Array.isArray(recipeObj.ingredients[i])){
-        ingredients += '<td style="height:20px">'+recipeObj.ingredients[i][1]+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
+        const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
+        ingredients += '<td style="height:20px">'+formattedIngr+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
       } else {
-        ingredients += '<td style="height:20px">'+recipeObj.ingredients[i]+"</td><td></td>";
+        const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
+        ingredients += '<td style="height:20px">'+formattedIngr+"</td><td></td>";
       }
       ingredients += "</tr>";
     }
@@ -109,9 +111,11 @@ function showSelectedContent() {
       if(Array.isArray(recipeObj.ingredients)){
         for(let i=0; i<recipeObj.ingredients.length; i++) {
           if(Array.isArray(recipeObj.ingredients[i])){
-            ingredients += '<div>'+recipeObj.ingredients[i][1]+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div>';
+            const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
+            ingredients += '<div>'+formattedIngr+' &nbsp;&nbsp;<i>'+recipeObj.ingredients[i][0]+'</i></div>';
           } else {
-            ingredients += "<div>"+recipeObj.ingredients[i]+"</div>";
+            const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
+            ingredients += "<div>"+formattedIngr+"</div>";
           }
         }
       } else {

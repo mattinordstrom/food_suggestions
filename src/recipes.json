@@ -59,7 +59,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "500 gram pasta<br/>2 pkt bacon<br/>2 vitlöksklyftor<br/>2 äggulor<br/>2-3 msk grädde ( mer om man önskar )<br/>1 dl finriven parmesan<br/>2 msk med fin olivolja<br/>salt och peppar<br/>",
+    "ingredients": [["500 gram", "pasta"], ["2 pkt", "bacon"], ["2 st", "vitlöksklyftor"], ["2 st", "äggulor"], ["2-3 msk ", "grädde"], ["1 dl ", "finriven parmesan"], ["2 msk ", "fin olivolja"], "salt och peppar"],
     "directions": "Koka pastan all dente enligt anvisningar på förpackning.<br/>Stek baconet knaperstekt, finhacka vitlöken och vänd ner i slutet- den ska bara bli mjuk och glansig.<br/>Vispa ihop äggulorna i en skål tillsammans med grädden. Häll av vattnet och vänd ner pastan, olivolja  i stekpannan tillsammans med äggsmeten. Vänd om och låt allt steka ihop Smaksätt med parmesan och salt & peppar. Servera genast med några droppar olivolja per portion.<br/>"
   },
   {
@@ -69,7 +69,7 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": "Köttfärs<br/>Vita bönor i tomatsås<br/>Paprika<br/>Chilipulver<br/>Salt o peppar",
+    "ingredients": ["Köttfärs", "Vita bönor i tomatsås", "Paprika", "Chilipulver", "Salt o peppar"],
     "directions": ""
   },
   {
@@ -79,7 +79,7 @@
     "categories": [
       "Vegetariskt"
     ],
-    "ingredients": "1 pkt kikärtor<br/>1/2 silverlök<br/>1 vitlöksklyfta<br/>3 msk mjöl<br/>1/2 tsk salt<br/>1 1/2 tsk spiskummin<br/>1 tsk koriander",
+    "ingredients": [["1 pkt", "kikärtor"], ["1/2 st", "silverlök"], ["1 st", "vitlöksklyfta"], ["3 msk ", "mjöl"], ["1/2 tsk ", "salt"], ["1 1/2 tsk ", "spiskummin"], ["1 tsk ", "koriander"]],
     "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/>&nbsp;<br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
   },
   {
@@ -89,7 +89,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "400g falukorv<br/>2 paket bacon<br/>1 gul lök<br/>1 röd paprika<br/>200g champinjoner<br/>1 msk rapsolja<br/>3 dl vispgrädde<br/>2 msk hackad färsk oregano<br/>150g västerbottenost<br/>salt och peppar",
+    "ingredients": [["400g ", "falukorv"], ["2 paket ", "bacon"], ["1 st", "gul lök"], ["1 st", "röd paprika"], ["200g ", "champinjoner"], ["1 msk ", "rapsolja"], ["3 dl ", "vispgrädde"], ["2 msk ", "hackad färsk oregano"], ["150g ", "västerbottenost"], "salt och peppar"],
     "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
@@ -99,7 +99,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "1st falukorv<br/>1 gul lök<br/>Olivolja<br/>Ost<br/>Senap<br/>Ketchup<br/>",
+    "ingredients": [["1st ","falukorv"],["1 st","gul lök"],"Olivolja","Ost","Senap","Ketchup"],
     "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/>&nbsp;<br/>Ugnen på 200°<br/>Serveras med potatismos"
   },
   {
@@ -109,7 +109,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "Falukorv i skivor<br/>Ideal-makaroner<br/>Ketchup<br/>Sallad<br/>",
+    "ingredients": ["Falukorv i skivor","Ideal-makaroner","Ketchup","Sallad"],
     "directions": ""
   },
   {
@@ -120,7 +120,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "1st purjolök<br/>400g torsk/sejfilé<br/>2,5dl matlagningsgrädde<br/>1dl chilisås<br/>salt och peppar",
+    "ingredients": [["1st ","purjolök"], ["400g ","torsk/sejfilé"], ["2,5dl ","matlagningsgrädde"], ["1dl ","chilisås"], "salt och peppar"],
     "directions": "Sätt ugnen på 225grader.<br/>Skölj och hacka purjolöken. Lägg fisken i en smord ugnsform, salta och peppra.<br/>Fördela purjolöken på och runt fisken. Vispa ihop grädde och cilisås och häll på såsen.<br/>Gratinera i ca 20-30min.<br/>&nbsp;<br/>Servera potatismos och gröna ärtor till.<br/>"
   },
   {
@@ -130,7 +130,7 @@
     "categories": [
       "Fisk"
     ],
-    "ingredients": "200 g smörgåsgurka<br/>1 rödlök<br/>1 kruka färsk koriander<br/>400 g fiskpinnar (12 stycken)<br/>1 msk smör, till stekning<br/>0.5 gurka<br/>200 g korvbröd (8 stycken)<br/>1 dl srirachamajonnäs<br/>1 dl rostad lök <br/>",
+    "ingredients": [["200 g ","smörgåsgurka"], ["1 st ","rödlök"], ["1 kruka ","färsk koriander"], ["400 g (12 stycken) ","fiskpinnar"], ["1 msk ","smör till stekning"], ["0,5 st ","gurka"], ["200 g (8 stycken) ","korvbröd"], ["1 dl ","srirachamajonnäs"], ["1 dl ","rostad lök "]],
     "directions": ""
   },
   {
@@ -140,7 +140,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "Potatismos<br/>Fiskpinnar<br/>Ärtor<br/>Remoladsås<br/>",
+    "ingredients": ["Potatismos","Fiskpinnar","Ärtor","Remoladsås"],
     "directions": ""
   },
   {
@@ -150,7 +150,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "Marinerad fläskfile (grillad eller stekt)<br/>Potatis i ugn<br/>Bea-sås",
+    "ingredients": ["Marinerad fläskfile (grillad eller stekt)","Potatis i ugn","Bea-sås"],
     "directions": "Skär filen i ca 2cm tjocka puckar och marinera."
   },
   {
@@ -160,7 +160,7 @@
     "categories": [
       "Kött"
     ],
-    "ingredients": "2 1/2 dl vetemjöl<br/>1/2 tsk salt<br/>6 dl mjölk<br/>3 msk margarin<br/>3 ägg<br/>&nbsp;<br/>200-300g bacon<br/>1 gul lök",
+    "ingredients": [["2 1/2 dl ","vetemjöl"], ["1/2 tsk ","salt"], ["6 dl ","mjölk"], ["3 msk ","margarin"], ["3 st ","ägg"], [" ", " "], ["200-300g ","bacon"], ["1 st","gul lök"]],
     "directions": "Blanda mjöl och salt. Häll i mjölken och det smälta margarinet och vispa till en smet. Vispa sist i äggen.<br/> Lägg stekt bacon och lök i en form och häll på smeten. <br/>225° i 20 minuter.<br/>"
   },
   {
