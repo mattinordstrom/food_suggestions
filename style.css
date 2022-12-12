@@ -19,8 +19,9 @@ table{
     width:100%;
 }
 table td{
-    white-space: nowrap;
     padding-right: 10px;
+    min-width: 200px;
+    max-width: 210px;
 }
 table td:last-child{
     width:100%;

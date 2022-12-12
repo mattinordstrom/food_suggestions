@@ -172,7 +172,7 @@
       "Kött",
       "Kyckling"
     ],
-    "ingredients": "4 kycklingfiléer<br/>140 gram tärnad bacon<br/>1 dl chilisås<br/>3 dl grädde 40%<br/>1 tsk italiensk salladskrydda<br/>1 tsk curry<br/>1 tsk chilikrydda<br/>nypa chiliflakes<br/>1/2 tsk salt<br/>1/2 tsk svartpeppar<br/>1 dl salta jordnötter<br/>olja till stekning<br/>Basmatris<br/>",
+    "ingredients": [["4 st ","kycklingfiléer"], ["140 gram ","tärnad bacon"], ["1 dl ","chilisås"], ["3 dl ","grädde 40%"], ["1 tsk ","italiensk salladskrydda"], ["1 tsk ","curry"], ["1 tsk ","chilikrydda"], ["En nypa ","chiliflakes"], ["1/2 tsk ","salt"], ["1/2 tsk ","svartpeppar"], ["1 dl ","salta jordnötter"], "olja till stekning", "Basmatris"],
     "directions": ""
   },
   {
@@ -183,7 +183,7 @@
       "Pasta",
       "Kyckling"
     ],
-    "ingredients": "2 msk olivolja<br/>2 vitlöksklyftor<br/>4 kycklingfileer<br/>Salt, rosmarin och peppar<br/>75g smör<br/>300g pasta<br/>1-2 chilis<br/>250g gröna ärtskidor<br/>150g fetaost<br/>50g pistagenötter",
+    "ingredients": [["2 msk ","olivolja"], ["2 st ","vitlöksklyftor"], ["4 st ","kycklingfileer"], "Salt, rosmarin och peppar", ["75g ","smör"], ["300g ","pasta"], ["1-2 st ","chilis"], ["250g ","gröna ärtskidor"], ["150g ","fetaost"], ["50g ","pistagenötter"]],
     "directions": "Stek vitlök och kycklingbitar i en panna med salt och peppar.<br/>Koka pastan.<br/>Smält 75g smör och tillsätt chili och rosmarin.<br/>Värm på låg värme i 2 minuter.<br/>Vrid upp värmen och tillsätt ärtskidorna och fräs i 3-4 minuter<br/>Blanda ihop allt och toppa med fetaost och nötter.<br/>"
   },
   {
@@ -194,7 +194,7 @@
       "Kött",
       "Burgare"
     ],
-    "ingredients": "Högrevsburgare<br/>Bacon<br/>Syltad gul lök<br/>Vitlöksmajonäs",
+    "ingredients": ["Högrevsburgare","Bacon","Syltad gul lök","Vitlöksmajonäs"],
     "directions": "Stek löken på svag värme i mycket smör.<br/>"
   },
   {
@@ -205,14 +205,14 @@
       "Vegetariskt",
       "Burgare"
     ],
-    "ingredients": "Halloumi<br/>Hamburgerbröd<br/>Potatis i ugn",
+    "ingredients": ["Halloumi","Hamburgerbröd","Potatis i ugn"],
     "directions": ""
   },
   {
     "id": "ingefarashot",
     "name": "Ingefärashot",
     "source": "",
-    "ingredients": "200g ingefära<br/>1l vatten<br/>2 citroner<br/>0,5dl honung<br/>(1 spansk peppar)",
+    "ingredients": [["200g ","ingefära"], ["1l ","vatten"], ["2 st ","citroner"], ["0,5dl ","honung"], ["1 st ","spansk peppar"]],
     "directions": "1. Riv ingefäran grovt med skalet på och lägg den i vattnet. Värm upp (men aldrig över 60 grader) i 20 minuter <br/>(Värm upp och sänk till ettan på plattan.) <br/>&nbsp;<br/>2. Sila av ingefäran och blanda i honungen medan det fortfarande är ljummet<br/>&nbsp;<br/>3. Låt svalna och pressa sedan i citronerna. Sila och häll i en flaska."
   },
   {
@@ -233,13 +233,13 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": "1 falukorv<br/>1 gul lök<br/>3dl matgrädde<br/>2msk tomatpure<br/>ketchup<br/>svartpeppar",
+    "ingredients": [["1 st ","falukorv"], ["1 st ","gul lök"], ["3dl ","matgrädde"], ["2msk ","tomatpure"], "ketchup", "svartpeppar"],
     "directions": "Servera med ris"
   },
   {
     "id": "kringlor",
     "name": "Kringlor (bondkringlor)",
-    "ingredients": "Ca 60 stycken<br/>&nbsp;<br/>250 g margarin<br/>1 ägg<br/>1 1/2 dl strösocker<br/>4 1/2 dl mjölk<br/>8 tsk hjorthornssalt<br/>ca 1 1/2 l rågsikt",
+    "ingredients": ["Ca 60 stycken", [" ", " "], ["250 g ","margarin"], ["1 st ","ägg"], ["1 1/2 dl ","strösocker"], ["4 1/2 dl ","mjölk"], ["8 tsk ","hjorthornssalt"], ["ca 1 1/2 l ","rågsikt"]],
     "directions": "Smält margarinet och låt det svalna. Vispa ägg och socker och tillsätt margarinet, mjölk samt mjölet blandat med hjorthornssalt.<br/>Forma degen till kringlor och lägg på en smord plåt. Grädda i mitten av ugnen i 200°, ca 12 minuter."
   },
   {
@@ -250,7 +250,7 @@
       "Nudlar",
       "Kyckling"
     ],
-    "ingredients": "250 g broccoli<br/>200 g äggnudlar<br/>1 msk rapsolja<br/>450 g kycklinginnerfilé<br/>2 dl teriyakisås<br/>1 dl salta jordnötter<br/>salt och peppar<br/>",
+    "ingredients": [["250 g ","broccoli"], ["200 g ","äggnudlar"], ["1 msk ","rapsolja"], ["450 g ","kycklinginnerfilé"], ["2 dl ","teriyakisås"], ["1 dl ","salta jordnötter"], "salt och peppar"],
     "directions": ""
   },
   {
@@ -261,7 +261,7 @@
       "Potatis",
       "Kyckling"
     ],
-    "ingredients": "Sötpotatis okokt 500 g<br/>Morot 500 g<br/>Rapsolja 2 tsk<br/>Lök 1 st, gul/gula<br/>Vitlök 2 klyfta(or)<br/>Kycklingbröstfile 600 g<br/>Margarin flytande 80% 2 tsk<br/>Balsamvinäger 2 msk<br/>Kalvfond 2 msk<br/>Matlagningsbas 4% (typ Milda mat) 2,5 dl<br/>Basilika 1 tsk<br/>Cocktailtomater 250 g<br/>",
+    "ingredients": [["500 g","Sötpotatis okokt "],["500 g","Morot "],["2 tsk","Rapsolja "],["1 st","Gul lök "],["2 klyftor","Vitlök "],["600 g","Kycklingbröstfile "],["2 tsk","Margarin flytande "],["2 msk","Balsamvinäger "],["2 msk","Kalvfond "],["2,5 dl","Matlagningsbas 4% "],["1 tsk","Basilika "],["250 g","Cocktailtomater"]],
     "directions": ""
   },
   {
@@ -271,7 +271,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "1 kg vitkål<br/>Olja<br/>2 msk sirap<br/>1 tsk salt<br/>2 krm svartpeppar<br/>&nbsp;<br/>1 gul lök<br/>500g kötttfärs<br/>1 ägg <br/>2 msk japansk soja<br/>1 dl vispgrädde<br/>1 msk konc. kalvfond<br/>1 msk sirap<br/>1/2 tsk salt<br/>2 krm svartpeppar",
+    "ingredients": [["1 kg ","vitkål"], "Olja", ["2 msk ","sirap"], ["1 tsk ","salt"], ["2 krm ","svartpeppar"], [" ", " "], ["1 st","gul lök"], ["500g ","kötttfärs"], ["1 st ","ägg "], ["2 msk ","japansk soja"], ["1 dl ","vispgrädde"], ["1 msk ","konc. kalvfond"], ["1 msk ","sirap"], ["1/2 tsk ","salt"], ["2 krm ","svartpeppar"]],
     "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/>&nbsp;<br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/>&nbsp;<br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
   },
   {
@@ -282,7 +282,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": "0,5dl ströbröd<br/>1dl vatten<br/>1/2tsk salt<br/>1krm peppar<br/>400g färs<br/>1 ägg<br/>1msk råriven gul lök",
+    "ingredients": [["0,5dl ","ströbröd"], ["1dl ","vatten"], ["1/2tsk ","salt"], ["1krm ","peppar"], ["400g ","färs"], ["1 st ","ägg"], ["1msk ","råriven gul lök"]],
     "directions": ""
   },
   {
@@ -293,7 +293,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "500g Köttfärs<br/>1 gul lök<br/>1 burk krossade tomater<br/>2 msk tomatpure<br/>Ketchup<br/>Basilika<br/>1 st Köttbuljongtärning<br/>Salt och peppar<br/>&nbsp;<br/>50g smält margarin<br/>3 msk mjöl<br/>6 dl mjölk<br/>100g riven ost",
+    "ingredients": [["500g ","Köttfärs"], ["1 st ","gul lök"], ["1 burk ","krossade tomater"], ["2 msk ","tomatpure"], "Ketchup", "Basilika", ["1 st ","Köttbuljongtärning"], "Salt och peppar", [" ", " "], ["50g ","smält margarin"], ["3 msk ","mjöl"], ["6 dl ","mjölk"], ["100g ","riven ost"]],
     "directions": "Gå till \"Vegetarisk lasagne\" för att se hur man gör ostsås.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
@@ -305,7 +305,7 @@
       "Nudlar",
       "Fisk"
     ],
-    "ingredients": "500 g laxfilé<br/>0.5 kruka dill, hackad<br/>1 ägg<br/>1 citron<br/>1 msk olivolja<br/>1 tsk salt<br/><br/>&nbsp;<br/><br/>200 g risnudlar<br/>250 g zucchini, grovriven<br/>2 morötter, grovriven<br/>0.5 kruka dill, hackad<br/>2 msk sweet chilisås<br/>10 cm purjolök, finstrimlad<br/>1 citron<br/>",
+    "ingredients": [["500 g ","laxfilé"], ["0.5 kruka ","Hackad dill"], ["1 st ","ägg"], ["1 st ","citron"], ["1 msk ","olivolja"], ["1 tsk ","salt"], [" ", " "], ["200 g ","risnudlar"], ["250 g ","zucchini, grovriven"], ["2 st ","morötter, grovriven"], ["0.5 kruka ","Hackad dill"], ["2 msk ","sweet chilisås"], ["10 cm ","purjolök, finstrimlad"], ["1 st ","citron"]],
     "directions": ""
   },
   {
@@ -314,28 +314,28 @@
     "categories": [
       "Fisk"
     ],
-    "ingredients": "Laxfile<br/>Ägg<br/>Ströbröd<br/>Sesamfrön<br/>Olja",
+    "ingredients": ["Laxfile", "Ägg", "Ströbröd", "Sesamfrön", "Olja"],
     "directions": ""
   },
   {
     "id": "matti_special",
     "name": "Matti special",
     "source": "",
-    "ingredients": "Toastbröd<br/>Tacosås<br/>Ost<br/>Skinka<br/>Johnnys sötstark senap",
+    "ingredients": ["Toastbröd", "Tacosås", "Ost", "Skinka", "Johnnys sötstark senap"],
     "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
     "id": "macka_kottbullar",
     "name": "Macka: köttbullar o rödbetssallad",
     "source": "",
-    "ingredients": "Bröd<br/>Köttbullar<br/>Rödbetssallad<br/>Isbergssallad<br/>",
+    "ingredients": ["Bröd", "Köttbullar", "Rödbetssallad", "Isbergssallad"],
     "directions": ""
   },
   {
     "id": "macka_rakor",
     "name": "Macka: majo o räckor",
     "source": "",
-    "ingredients": "Bröd<br/>Majonäs<br/>Ägg<br/>Räckor<br/>",
+    "ingredients": ["Bröd", "Majonäs", "Ägg", "Räckor"],
     "directions": ""
   },
   {
@@ -346,7 +346,7 @@
       "Potatis",
       "Kyckling"
     ],
-    "ingredients": "500g kycklingfile<br/>2 vitlöksklyftor<br/>1 msk smör<br/>1/2 tsk salt<br/>1 krm svartpeppar<br/>2 1/2 dl matlagningsgrädde<br/>1 hönsbuljongtärning<br/>2 tsk oregano (färsk eller torkad)<br/>1 1/2 msk balsamvinäger",
+    "ingredients": [["500g ","kycklingfile"], ["2 st ","vitlöksklyftor"], ["1 msk ","smör"], ["1/2 tsk ","salt"], ["1 krm ","svartpeppar"], ["2 1/2 dl ","matlagningsgrädde"], ["1 st ","hönsbuljongtärning"], ["2 tsk ","oregano (färsk eller torkad)"], ["1 1/2 msk ","balsamvinäger"]],
     "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/>&nbsp;<br/>Servera med klyftpotatis<br/>"
   },
   {
@@ -357,7 +357,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "4 torskfiléer (alt rödspätta)<br/>1 ägg<br/>ca 0,75 dl vetemjöl<br/>ca 2 dl pankoströbröd<br/>1 msk citronsaft<br/>1 tsk örtsalt<br/>1 tsk svartpeppar<br/>matolja, till stekning<br/><br/>&nbsp;<br/><br/>3 dl gräddfil<br/>1 dl filmjölk<br/>0,5 dl majonnäs<br/>1 dl bostongurka<br/>1 kruka färsk dill, finskuren<br/>1 msk citronsaft<br/>1 tsk salt<br/>1 tsk strösocker<br/>0,5 krm svartpeppar<br/>",
+    "ingredients": [["4 st ","torskfiléer (alt rödspätta)"], ["1 st ","ägg"], ["ca 0,75 dl ","vetemjöl"], ["ca 2 dl ","pankoströbröd"], ["1 msk ","citronsaft"], ["1 tsk ","örtsalt"], ["1 tsk ","svartpeppar"], "matolja, till stekning", [" ", " "], ["3 dl ","gräddfil"], ["1 dl ","filmjölk"], ["0,5 dl ","majonnäs"], ["1 dl ","bostongurka"], ["1 kruka ","färsk dill, finskuren"], ["1 msk ","citronsaft"], ["1 tsk ","salt"], ["1 tsk ","strösocker"], ["0,5 krm ","svartpeppar"]],
     "directions": ""
   },
   {
@@ -369,7 +369,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "Färdigkokad pasta<br/>5-8 dl färdig köttfärsås<br/>Söta körsbärstomater<br/>Vårlök<br/>mozzarella<br/><br/>&nbsp;<br/><br/>4 dl vispgrädde<br/>100 gram mjukost med baconsmak (en sådan på tub / ask )<br/>1- 2 dl riven (lättsmält ) ost<br/>salt och peppar <br/>",
+    "ingredients": ["Färdigkokad pasta", ["5-8 dl ","färdig köttfärsås"], "Söta körsbärstomater", "Vårlök", "mozzarella", [" ", " "], ["4 dl ","vispgrädde"], ["100 gram ","mjukost med baconsmak"], ["1-2 dl ","riven (lättsmält) ost"], "salt och peppar "],
     "directions": ""
   },
   {
