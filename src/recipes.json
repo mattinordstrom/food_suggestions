@@ -377,7 +377,7 @@
     "name": "Picklad rödlök",
     "source": "https://www.ica.se/recept/picklad-rodlok-721101/ ",
     "categories": [],
-    "ingredients": "1 normalstora rödlökar<br/>1/2 dl socker<br/>1/4 dl ättika (12%)<br/>1/2 dl vatten <br/>",
+    "ingredients": [["1 st ","rödlök"], ["1/2 dl ","socker"], ["1/4 dl ","ättika (12%)"], ["1/2 dl ","vatten "]],
     "directions": ""
   },
   {
@@ -386,7 +386,7 @@
     "categories": [
       "Pizza"
     ],
-    "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/>&nbsp;<br/>Fyllning:<br/>1 pkt krossade tomater<br/>Basilika<br/>Oregano<br/>Ketchup<br/>Lökringar<br/>Salami<br/>Riven ost<br/>Mozzarella<br/>Paprika",
+    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", ["1 pkt ","krossade tomater"], "Basilika", "Oregano", "Ketchup", "Lökringar", "Salami", "Riven ost", "Mozzarella", "Paprika"],
     "directions": ""
   },
   {
@@ -395,7 +395,7 @@
     "categories": [
       "Pizza"
     ],
-    "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/>&nbsp;<br/>Fyllning:<br/>Köttfärssås<br/>Riven ost<br/>Tomater",
+    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", "Köttfärssås", "Riven ost", "Tomater"],
     "directions": ""
   },
   {
@@ -405,7 +405,7 @@
       "Pizza",
       "Vegetariskt"
     ],
-    "ingredients": "Degen:<br/>1/2 paket jäst<br/>2 dl fingervarmt vatten<br/>1 msk olja<br/>5-6 dl mjöl<br/>1/2 tsk salt<br/>&nbsp;<br/>Fyllning:<br/>Tomatsås<br/>Riven ost<br/>Rödlök<br/>Färska tomater<br/>Soltorkade tomater<br/>paprika<br/>Mozzarella",
+    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", "Tomatsås", "Riven ost", "Rödlök", "Färska tomater", "Soltorkade tomater", "paprika", "Mozzarella"],
     "directions": ""
   },
   {
@@ -416,7 +416,7 @@
       "Potatis",
       "Vegetariskt"
     ],
-    "ingredients": "Mjölig potatis 500 g<br/>Purjolök 1<br/>Smör-&rapsolja 1 msk<br/>Grönsaksbuljong 6 dl<br/>Syrad grädde 30% 2 dl<br/>Salt och peppar<br/>Hackad färsk persilja 1 dl <br/>",
+    "ingredients": [["500 g","Mjölig potatis "],["1 st","Purjolök "],["1 msk","Smör-&rapsolja "],["6 dl","Grönsaksbuljong "],["2 dl","Syrad grädde 30% "],"Salt och peppar",["1 dl ","Hackad färsk persilja "]],
     "directions": ""
   },
   {
@@ -425,7 +425,7 @@
     "categories": [
       "Kött"
     ],
-    "ingredients": "1 pkt Pulled pork<br/>Pitabröd<br/>Creme fraiche<br/>Grönsaker<br/>Picklad rödlök<br/>",
+    "ingredients": [["1 pkt ","Pulled pork"], "Pitabröd", "Creme fraiche", "Grönsaker", "Picklad rödlök"],,
     "directions": ""
   },
   {
@@ -436,14 +436,14 @@
       "Ris",
       "Vegetariskt"
     ],
-    "ingredients": "3 schalottenlökar<br/>1 vitlöksklyfta<br/>9 dl svampbuljong (vatten och buljongtärning eller fond)<br/>2 msk olivolja<br/>3 dl carnaroli- eller arborioris<br/>2 dl vitt vin eller matlagningsvin<br/>250 g kastanjechampinjoner<br/>3 msk smör<br/>2 dl riven parmesan<br/>salt och nymalen svartpeppar<br/>rucola till servering<br/>",
+    "ingredients": [["3 st","schalottenlökar"], ["1 st","vitlöksklyfta"], ["9 dl ","svampbuljong (vatten och buljongtärning eller fond)"], ["2 msk ","olivolja"], ["3 dl ","carnaroli- eller arborioris"], ["2 dl ","vitt vin eller matlagningsvin"], ["250 g ","kastanjechampinjoner"], ["3 msk ","smör"], ["2 dl ","riven parmesan"], "salt och nymalen svartpeppar", "rucola till servering"],
     "directions": ""
   },
   {
     "id": "scones",
     "name": "Scones",
     "source": "https://fredriksfika.allas.se/scones-recept-pa-enkla-scones/",
-    "ingredients": "4 dl vetemjöl<br/>2 tsk bakpulver<br/>0,5 tsk salt<br/>50 g smör<br/>2 dl mjölk<br/>",
+    "ingredients": [["4 dl ","vetemjöl"], ["2 tsk ","bakpulver"], ["0,5 tsk ","salt"], ["50 g ","smör"], ["2 dl ","mjölk"]],
     "directions": ""
   },
   {
@@ -454,7 +454,7 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": "500g köttfärs<br/>1 gul lök<br/>2msk tomatpure<br/>Ketchup<br/>Lite vatten för att lättare blanda runt<br/>Torkad basilika<br/>Salt o peppar",
+    "ingredients": [["500g ","köttfärs"], ["1 st","gul lök"], ["2msk ","tomatpure"], "Ketchup", "Lite vatten för att lättare blanda runt", "Torkad basilika", "Salt o peppar"],
     "directions": ""
   },
   {
@@ -464,7 +464,7 @@
     "categories": [
       "Kött"
     ],
-    "ingredients": "500 g köttfärs<br/>1 msk smör<br/>1 påse taco kryddmix (à ca 30 g)<br/>1 burk salsasås à 230 g (gärna medelstark)<br/>2 dl crème fraiche<br/>3 dl riven cheddarost<br/>250 g cocktailtomater<br/>1/2 dl skivad, inlagd jalapeño<br/>1 dl nachochips<br/>",
+    "ingredients": [["500 g ","köttfärs"], ["1 msk ","smör"], ["1 påse ","taco kryddmix"], ["1 burk ","salsasås (gärna medelstark)"], ["2 dl ","crème fraiche"], ["3 dl ","riven cheddarost"], ["250 g ","cocktailtomater"], ["1/2 dl ","inlagd jalapeño"], ["1 dl ","nachochips"]],
     "directions": ""
   },
   {
@@ -476,7 +476,7 @@
       "Paj",
       "Kött"
     ],
-    "ingredients": "2 dl grahamsmjöl (eller vetemjöl)<br/>2 dl vetemjöl<br/>0.5 tsk salt<br/>50 g margarin<br/>1.5 dl mjölk<br/><br/>&nbsp;<br/><br/>400 g köttfärs<br/>1 pkt vatten taco kryddmix + enligt anvisning på förpackningen<br/>2.5 st tomater<br/>1.5 st röda paprikor<br/>2 dl crème fraîche<br/>4 msk majonnäs<br/>2 dl riven ost<br/>1 st gul lök<br/>",
+    "ingredients": [["2 dl ","grahamsmjöl (eller vetemjöl)"], ["2 dl ","vetemjöl"], ["0.5 tsk ","salt"], ["50 g ","margarin"], ["1.5 dl ","mjölk"], [" ", " "], ["400 g ","köttfärs"], ["1 pkt ","taco kryddmix"], ["2.5 st ","tomater"], ["1.5 st ","röda paprikor"], ["2 dl ","crème fraîche"], ["4 msk ","majonnäs"], ["2 dl ","riven ost"], ["1 st ","gul lök"]],
     "directions": "Servera med tacosås<br/>"
   },
   {
@@ -486,7 +486,7 @@
       "Potatis",
       "Vegetariskt"
     ],
-    "ingredients": "Tunnbröd<br/>Potatismos<br/>Korv (kött eller vegetarisk)<br/>",
+    "ingredients": ["Tunnbröd", "Potatismos", "Korv (kött eller vegetarisk)"],
     "directions": "Servera med rostad lök / räksallad / bostongurka / senap o ketchup m.m."
   },
   {
@@ -497,7 +497,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "900 g potatis<br/>4 port laxfiléer (à 125 g)<br/>salt<br/>peppar<br/><br/>&nbsp;<br/><br/>3 dl matlagningsgrädde<br/>1 fiskbuljongtärning<br/>2 ask färsk dill (à 20 g)<br/>1 citron<br/>",
+    "ingredients": [["900 g ","potatis"], ["4 st ","laxfiléer "], "salt", "peppar", [" ", " "], ["3 dl ","matlagningsgrädde"], ["1 st ","fiskbuljongtärning"], "färsk dill", ["1 st","citron"]],
     "directions": ""
   },
   {
@@ -508,7 +508,7 @@
       "Kyckling",
       "Kött"
     ],
-    "ingredients": "500g pasta<br/>2 stora kycklingfileer<br/>150g marinerade vitlöksklyftor<br/>1 röd paprika<br/>1 rödlök<br/>2 vitlöksklyftor<br/>1 paket bacon<br/>150g soltorkade tomater<br/>2 tsk senap<br/>1 äggula<br/>3 msk vinäger<br/>2 dl olivolja<br/>1 tsk salt<br/>2 tsk svartpeppar<br/>1 tsk chilipeppar<br/>20-30g permesanost",
+    "ingredients": [["500g ","pasta"], ["2 st","stora kycklingfileer"], ["150g ","marinerade vitlöksklyftor"], ["1 st","röd paprika"], ["1 st","rödlök"], ["2 st","vitlöksklyftor"], ["1 paket ","bacon"], ["150g ","soltorkade tomater"], ["2 tsk ","senap"], ["1 st","äggula"], ["3 msk ","vinäger"], ["2 dl ","olivolja"], ["1 tsk ","salt"], ["2 tsk ","svartpeppar"], ["1 tsk ","chilipeppar"], ["20-30g ","permesanost"]],
     "directions": ""
   },
   {
@@ -519,7 +519,7 @@
       "Vegetariskt",
       "Burgare"
     ],
-    "ingredients": "1dl quinoa<br/>1tsk olivolja<br/>1/2 rödlök<br/>3 vitlöksklyftor<br/>1/2tsk salt<br/>1 burk svarta bönor<br/>2msk tomatpure<br/>1 ägg<br/>1 burk majs<br/>100g soltorkade tomater<br/>1dl havregryn<br/>0,5dl mjöl",
+    "ingredients": [["1dl ","quinoa"], ["1 tsk ","olivolja"], ["1/2 st","rödlök"], ["3 st","vitlöksklyftor"], ["1/2tsk ","salt"], ["1 burk ","svarta bönor"], ["2msk ","tomatpure"], ["1 st","ägg"], ["1 burk ","majs"], ["100g ","soltorkade tomater"], ["1dl ","havregryn"], ["0,5dl ","mjöl"]],
     "directions": ""
   },
   {
@@ -528,7 +528,7 @@
     "categories": [
       "Vegetariskt"
     ],
-    "ingredients": "Lasagneplattor<br/>Ca 700g fryst spenat<br/>1 lök <br/>1 burk Soltorkade tomater<br/>1 liten burk Pesto<br/>Ostsås<br/>Riven ost att toppa med",
+    "ingredients": ["Lasagneplattor", ["Ca 700g ","fryst spenat"], ["1 st","lök "], ["1 burk ","Soltorkade tomater"], ["1 liten burk ","Pesto"], "Ostsås", "Riven ost att toppa med"],
     "directions": "Ostsås: <br/>&nbsp;<br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
@@ -539,7 +539,7 @@
       "Nudlar",
       "Vegetariskt"
     ],
-    "ingredients": "2 paprikor (gärna röd och orange)<br/>1 röd peppar (chili)<br/>1 rödlök<br/>200 g sallads- eller sockerärtor<br/>3 msk rapsolja<br/>300 g nudlar (gärna breda risnudlar)<br/>200 ml teriyakisås<br/>2 förp vegonuggets (à 380 g)<br/>",
+    "ingredients": [["2 st","paprikor"], ["1 st","röd peppar (chili)"], ["1 st","rödlök"], ["200 g ","sallads- eller sockerärtor"], ["3 msk ","rapsolja"], ["300 g ","nudlar (gärna breda risnudlar)"], ["200 ml ","teriyakisås"], ["2 förp (à 380 g) ","vegonuggets"]],
     "directions": "Följ receptet med använd Hälsans köks nuggets (har redan sesamfrön på sig)"
   },
   {
@@ -550,7 +550,7 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": "2.5 dl jasminris<br/>10 st filodegsark<br/><br/>&nbsp;<br/><br/>1 msk olja<br/>250 g nötfärs<br/>250 g vitkål<br/>1 gul lök, finhackad<br/>1 msk smör<br/>1 msk ljus sirap<br/>1 vitlöksklyfta, riven<br/>2 tsk sambal oelek<br/>0.5 tsk svartpeppar<br/>neutral olja till stekning<br/>1 tsk salt<br/><br/>&nbsp;<br/><br/>sweet chilisås<br/>",
+    "ingredients": [["2.5 dl ","jasminris"], ["10 st ","filodegsark"], [" ", " "], ["1 msk ","olja"], ["250 g ","nötfärs"], ["250 g ","vitkål"], ["1 st","gul lök, finhackad"], ["1 msk ","smör"], ["1 msk ","ljus sirap"], ["1 st","vitlöksklyfta, riven"], ["2 tsk ","sambal oelek"], ["0.5 tsk ","svartpeppar"], "neutral olja till stekning", ["1 tsk ","salt"], [" ", " "], "sweet chilisås"],
     "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
   },
   {
@@ -560,7 +560,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": "4 st laxfileer<br/>2 dl creme fraiche<br/>200g philadelphiaost<br/>1 msk finhackad dill<br/>1 msk gräslök<br/>salt och citronpeppar",
+    "ingredients": [["4 st ","laxfileer"], ["2 dl ","creme fraiche"], ["200g ","philadelphiaost"], ["1 msk ","finhackad dill"], ["1 msk ","gräslök"], "salt och citronpeppar"],
     "directions": "Ugnen på 200° 25-30 min. Servera med potatismos.<br/>"
   }
 ]

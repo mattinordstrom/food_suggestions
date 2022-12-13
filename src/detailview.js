@@ -113,8 +113,6 @@ function getIngredientsHTML(lineHeight, tdHeight, recipeObj) {
       ingredients += "</tr>";
     }
     ingredients += "</table>";
-  } else {
-    ingredients = recipeObj.ingredients;
   }
 
   return ingredients;
