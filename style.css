@@ -16,12 +16,11 @@ h1 {
 }
 
 table{
-    width:100%;
+    width:315px;
+    background-color: #e8e5d9;
 }
 table td{
     padding-right: 10px;
-    min-width: 200px;
-    max-width: 210px;
 }
 table td:last-child{
     width:100%;
