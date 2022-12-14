@@ -22,9 +22,6 @@ table{
 table td{
     padding-right: 10px;
 }
-table td:last-child{
-    width:100%;
-}
 
 input[type=checkbox] {
     margin-right: 15px;

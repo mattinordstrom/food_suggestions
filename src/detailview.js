@@ -105,10 +105,10 @@ function getIngredientsHTML(lineHeight, tdHeight, recipeObj) {
       ingredients += '<tr style="line-height:'+lineHeight+';">';
       if(Array.isArray(recipeObj.ingredients[i])){
         const formattedIngr = recipeObj.ingredients[i][1].charAt(0).toUpperCase() + recipeObj.ingredients[i][1].slice(1);
-        ingredients += '<td style="min-width:205px; height:'+tdHeight+'">'+formattedIngr+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
+        ingredients += '<td style="max-width:185px; height:'+tdHeight+'">'+formattedIngr+"</td>"+"<td><i>"+recipeObj.ingredients[i][0]+"</i></td>";
       } else {
         const formattedIngr = recipeObj.ingredients[i].charAt(0).toUpperCase() + recipeObj.ingredients[i].slice(1);
-        ingredients += '<td style="min-width:205px; height:'+tdHeight+'">'+formattedIngr+"</td><td></td>";
+        ingredients += '<td style="max-width:185px; height:'+tdHeight+'">'+formattedIngr+"</td><td></td>";
       }
       ingredients += "</tr>";
     }
