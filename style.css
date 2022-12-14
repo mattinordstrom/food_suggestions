@@ -15,13 +15,19 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-table{
-    width:315px;
+table {
     background-color: #e8e5d9;
 }
-table td{
-    padding-right: 10px;
+
+td:first-child { 
+    padding-right: 15px;
+    min-width: 180px;
 }
+
+td:last-child { 
+   min-width: 40px;
+}
+
 
 input[type=checkbox] {
     margin-right: 15px;
@@ -29,8 +35,6 @@ input[type=checkbox] {
 
 .singleview {
     max-width: 90%;
-    display: flex;
-    flex-direction: column;
 	margin-left: 20px;
 	margin-top: 10px;
 }
