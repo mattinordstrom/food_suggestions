@@ -69,8 +69,8 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": ["Köttfärs", "Vita bönor i tomatsås", "Paprika", "Chilipulver", "Salt o peppar"],
-    "directions": ""
+    "ingredients": [["500 g", "Köttfärs"], ["1 burk", "Vita bönor i tomatsås"], ["1 burk", "Krossade tomater"], ["1 st", "Paprika"], "Chilipulver", "Salt o peppar"],
+    "directions": "Servera med ris"
   },
   {
     "id": "falafel",
