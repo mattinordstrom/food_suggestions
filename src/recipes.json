@@ -8,8 +8,8 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients":  [["300 g", "Köttfärs"], ["1,5 msk", "Ajvar relish"], ["1 st", "Äggula"], ["1/2 tsk", "salt"], ["1 krm", "svartpeppar"], ["1msk", "finhackad basilika"], ["2msk", "smör"], [" ", " "], "Ajvarsås:", ["1,5dl", "creme fraiche"], ["3msk", "ajvar"]],
-    "directions": "Servera med sötpotatis och morötter"
+    "ingredients":  ["Sötpotatis/morötter", [" ", " "],["300 g", "Köttfärs"], ["1,5 msk", "Ajvar relish"], ["1 st", "Äggula"], ["1/2 tsk", "salt"], ["1 krm", "svartpeppar"], ["1msk", "finhackad basilika"], ["2msk", "smör"], [" ", " "], "Ajvarsås:", ["1,5dl", "creme fraiche"], ["3msk", "ajvar"]],
+    "directions": ""
   },
   {
     "id": "ajvarkyckling",
@@ -69,8 +69,8 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": [["500 g", "Köttfärs"], ["1 burk", "Vita bönor i tomatsås"], ["1 burk", "Krossade tomater"], ["1 st", "Paprika"], "Chilipulver", "Salt o peppar"],
-    "directions": "Servera med ris"
+    "ingredients": ["Ris", ["500 g", "Köttfärs"], ["1 st", "Gul lök"], "Tomatpure", "Lite ketchup",["1 burk", "Vita bönor i tomatsås"], ["1 burk", "Krossade tomater"], ["1 st", "Paprika"], "Chilipulver", "Salt o peppar", "(Spansk peppar)"],
+    "directions": ""
   },
   {
     "id": "falafel",
@@ -243,8 +243,8 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": [["1 st ","falukorv"], ["1 st ","gul lök"], ["3dl ","matgrädde"], ["2msk ","tomatpure"], "ketchup", "svartpeppar"],
-    "directions": "Servera med ris"
+    "ingredients": ["Ris",["1 st ","falukorv"], ["1 st ","gul lök"], ["3dl ","matgrädde"], ["2msk ","tomatpure"], "ketchup", "svartpeppar"],
+    "directions": ""
   },
   {
     "id": "kringlor",
@@ -292,7 +292,7 @@
       "Potatis",
       "Kött"
     ],
-    "ingredients": [["0,5dl ","ströbröd"], ["1dl ","vatten"], ["1/2tsk ","salt"], ["1krm ","peppar"], ["400g ","färs"], ["1 st ","ägg"], ["1msk ","råriven gul lök"]],
+    "ingredients": ["Mjölig potatis (till mos)",["0,5dl ","ströbröd"], ["1dl ","vatten"], ["1/2tsk ","salt"], ["1krm ","peppar"], ["400g ","färs"], ["1 st ","ägg"], ["1msk ","råriven gul lök"]],
     "directions": ""
   },
   {
@@ -303,8 +303,8 @@
       "Pasta",
       "Kött"
     ],
-    "ingredients": [["500g ","Köttfärs"], ["1 st ","gul lök"], ["1 burk ","krossade tomater"], ["2 msk ","tomatpure"], "Ketchup", "Basilika", ["1 st ","Köttbuljongtärning"], "Salt och peppar", [" ", " "], ["50g ","smält margarin"], ["3 msk ","mjöl"], ["6 dl ","mjölk"], ["100g ","riven ost"]],
-    "directions": "Gå till \"Vegetarisk lasagne\" för att se hur man gör ostsås.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
+    "ingredients": ["Lasagneplattor", ["500g ","Köttfärs"], ["1 st ","gul lök"], ["1 burk ","krossade tomater"], ["2 msk ","tomatpure"], "Ketchup", "Basilika", ["1 st ","Köttbuljongtärning"], "Salt och peppar", [" ", " "], ["40-50g ","smält margarin"], ["2-3 msk ","mjöl"], ["6-7 dl ","mjölk"], ["100g ","riven ost"]],
+    "directions": "Ostsås: <br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
     "id": "laxbiffar",
@@ -496,8 +496,8 @@
       "Potatis",
       "Vegetariskt"
     ],
-    "ingredients": ["Tunnbröd", "Potatismos", "Korv (kött eller vegetarisk)"],
-    "directions": "Servera med rostad lök / räksallad / bostongurka / senap o ketchup m.m."
+    "ingredients": ["Tunnbröd", "Potatismos", "Korv (kött eller vegetarisk)", "Rostad lök", "Räksallad", "Bostongurka", "Senap / ketchup"],
+    "directions": ""
   },
   {
     "id": "lax_dillsas",
@@ -538,7 +538,7 @@
     "categories": [
       "Vegetariskt"
     ],
-    "ingredients": ["Lasagneplattor", ["Ca 700g ","fryst spenat"], ["1 st","lök "], ["1 burk ","Soltorkade tomater"], ["1 liten burk ","Pesto"], "Ostsås", "Riven ost att toppa med"],
+    "ingredients": ["Lasagneplattor", ["Ca 700g ","fryst spenat"], ["1 st","lök "], ["1 burk ","Soltorkade tomater"], ["1 liten burk ","Pesto"], [" ", " "], ["40-50g ","smält margarin"], ["2-3 msk ","mjöl"], ["6-7 dl ","mjölk"], ["100g ","riven ost"], [" ", " "],"Riven ost att toppa med"],
     "directions": "Ostsås: <br/>&nbsp;<br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
@@ -570,7 +570,7 @@
       "Potatis",
       "Fisk"
     ],
-    "ingredients": [["4 st ","laxfileer"], ["2 dl ","creme fraiche"], ["200g ","philadelphiaost"], ["1 msk ","finhackad dill"], ["1 msk ","gräslök"], "salt och citronpeppar"],
+    "ingredients": ["Mjölig potatis (till mos)",["4 st ","laxfileer"], ["2 dl ","creme fraiche"], ["200g ","philadelphiaost"], ["1 msk ","finhackad dill"], ["1 msk ","gräslök"], "salt och citronpeppar"],
     "directions": "Ugnen på 200° 25-30 min. Servera med potatismos.<br/>"
   }
 ]
