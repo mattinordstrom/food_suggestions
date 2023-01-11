@@ -3,13 +3,13 @@
     "id": "ajvarbiffar",
     "name": "Ajvarbiffar med sötpotatis/morötter",
     "source": "",
-    "portions": "2",
+    "portions": "4",
     "categories": [
       "Potatis",
       "Kött"
     ],
-    "ingredients":  ["Sötpotatis/morötter", [" ", " "],["300 g", "Köttfärs"], ["1,5 msk", "Ajvar relish"], ["1 st", "Äggula"], ["1/2 tsk", "salt"], ["1 krm", "svartpeppar"], ["1msk", "finhackad basilika"], ["2msk", "smör"], [" ", " "], "Ajvarsås:", ["1,5dl", "creme fraiche"], ["3msk", "ajvar"]],
-    "directions": ""
+    "ingredients":  [["2 st stora","Sötpotatis"],["2-3 st stora","Morötter"], [" ", " "],["600 g", "Köttfärs"], ["3 msk", "Ajvar relish"], ["2 st", "Äggula"], ["1 tsk", "salt"], ["2 krm", "svartpeppar"], ["2msk", "finhackad basilika"], ["2msk", "smör (till stekning)"], [" ", " "], "Ajvarsås:", ["3dl", "creme fraiche"], ["6msk", "ajvar"]],
+    "directions": "Sätt ugnen på 225 grader.<br/><br/>Dela sötpotatis och morötter och lägg på en plåt med bakplåtspapper. Strö på salt och olja. Rör runt och sätt in i ugnen ca 25 min.<br/><br/>Blanda färs, ajvar, äggula, salt o peppar och basilika. Forma 4-6 st biffar. Stek biffarna i smör (3-4 min per sida)."
   },
   {
     "id": "ajvarkyckling",
