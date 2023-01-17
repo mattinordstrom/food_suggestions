@@ -182,7 +182,7 @@
       "Kött",
       "Kyckling"
     ],
-    "ingredients": [["4 st ","kycklingfiléer"], ["140 gram ","tärnad bacon"], ["1 dl ","chilisås"], ["3 dl ","grädde 40%"], ["1 tsk ","italiensk salladskrydda"], ["1 tsk ","curry"], ["1 tsk ","chilikrydda"], ["En nypa ","chiliflakes"], ["1/2 tsk ","salt"], ["1/2 tsk ","svartpeppar"], ["1 dl ","salta jordnötter"], "olja till stekning", "Basmatris"],
+    "ingredients": [["4 st ","kycklingfiléer"], ["140 gram ","tärnad bacon"], ["1 dl ","chilisås"], ["3 dl ","grädde 40%"], ["1 tsk ","italiensk salladskrydda"], ["1 tsk ","curry"], ["1 tsk ","chilikrydda"], ["En nypa ","chiliflakes"], ["1/2 tsk ","salt"], ["1/2 tsk ","svartpeppar"], ["1 dl ","salta jordnötter"], "olja till stekning", [" ", " "], ["4 port.","Basmatris"]],
     "directions": ""
   },
   {
