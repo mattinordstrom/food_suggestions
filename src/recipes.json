@@ -197,6 +197,18 @@
     "directions": "Stek vitlök och kycklingbitar i en panna med salt och peppar.<br/>Koka pastan.<br/>Smält 75g smör och tillsätt chili och rosmarin.<br/>Värm på låg värme i 2 minuter.<br/>Vrid upp värmen och tillsätt ärtskidorna och fräs i 3-4 minuter<br/>Blanda ihop allt och toppa med fetaost och nötter.<br/>"
   },
   {
+    "id": "gratinerad_kyckling",
+    "name": "Gratinerad kyckling med soltorkad tomat",
+    "portions": "4",
+    "source": "https://www.ica.se/recept/gratinerad-kyckling-med-soltorkad-tomat-724952/",
+    "categories": [
+      "Ris",
+      "Kyckling"
+    ],
+    "ingredients": [["200 g ","strimlad soltorkad tomat "],["4 st ","kycklingfileer"],["4 port ","ris "],"Salt och peppar",["1 msk ","smör eller margarin "],["2,5 dl ","matlagningsgrädde "],["1 dl ","riven ost "]],
+    "directions": "Tina kycklingen (om fryst används).<br/>Sätt på ugnen på 225°C.<br/> Låt tomaterna rinna av.<br/> Koka riset enligt anvisningen på förpackningen.<br/> Krydda kycklingen med salt och peppar och bryn den i matfettet i en stekpanna.<br/> Lyft upp kycklingen och lägg den i en ugnssäker form.<br/> Häll grädden och de soltorkade tomaterna i stekpannan och koka upp. Häll grädden med tomaterna över kycklingen och strö på osten. Stek kycklingen i ugnen ca 15 minuter eller tills innertemperaturen på den är 72°C.<br/>"
+  },
+  {
     "id": "matgeek_burgare",
     "name": "Hamburgare (Matgeek)",
     "source": "Youtube",
