@@ -160,8 +160,8 @@
       "Ris",
       "Kött"
     ],
-    "ingredients": [["1 st","fläskfile"], ["2,5 dl","grädde"],["3 dl","creme fraiche"],["0,5 dl","kinesisk soya"],["1 tsk","sambal olek"]],
-    "directions": "Skär köttet i breda skivor, lägg dem i en smord form. Salta och peppra. Koka upp allt till såsen och häll över köttet. Sätt in i ugnen, severa med ris och sallad.<br/><br/>175 grader. 1,5 timme"
+    "ingredients": ["Ris",["1 st","fläskfile"], ["2,5 dl","grädde"],["3 dl","creme fraiche"],["0,5 dl","kinesisk soya"],["1 tsk","sambal olek"]],
+    "directions": "Skär köttet i tjocka skivor (ca 2 cm), lägg dem i en smord form. Salta och peppra. <br/><br/>Koka upp allt till såsen och häll över köttet. <br/><br/>Sätt in i ugnen, 175 grader i 1,5 timme. <br/><br/>Severa med ris och sallad."
   },
   {
     "id": "flaskpannkaka",
