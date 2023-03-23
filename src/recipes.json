@@ -372,6 +372,17 @@
     "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/>&nbsp;<br/>Servera med klyftpotatis<br/>"
   },
   {
+    "id": "currykyckling",
+    "name": "Orientalisk currykyckling",
+    "portions": "4",
+    "categories": [
+      "Ris",
+      "Kyckling"
+    ],
+    "ingredients": ["Ris",["4 st ","kycklingfileer"], "Smör", "Salt och peppar", ["2 st ","röda paprikor"], ["4 dl ","creme fraiche (curry)"], ["2 msk ","jordnötter"]],
+    "directions": "Strimla kycklingen och stek i stekpanna. Krydda med salt och peppar.<br/><br/>Grovhacka paprikan och låt den fräsa med kycklingen. Rör ner creme fraiche och låt allt koka 1-2 min. Strö över jordnötter och servera med ris.<br/>"
+  },
+  {
     "id": "paneradfisk",
     "name": "Panerad fisk",
     "source": "https://www.koket.se/panerad-fisk-med-kall-dillsas",
