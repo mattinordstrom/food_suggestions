@@ -308,6 +308,18 @@
     "directions": ""
   },
   {
+    "id": "kottfarspaj",
+    "name": "Köttfärspaj i långpanna",
+    "portions": "8-10",
+    "source": "https://www.johannatoftby.se/2022/11/01/ljuvlig-kottfarspaj-i-langpanna",
+    "categories": [
+      "Paj",
+      "Kött"
+    ],
+    "ingredients": [],
+    "directions": ""
+  },
+  {
     "id": "lasagne",
     "name": "Lasagne",
     "portions": "4-6",
