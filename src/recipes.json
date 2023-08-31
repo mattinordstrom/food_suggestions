@@ -331,6 +331,16 @@
     "directions": "Ostsås: <br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
+    "id": "lasagne_6man",
+    "name": "Lasagne (6 mån)",
+    "source": "https://www.semper.se/barnmat/recept/6-manader/recept-lasagne",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "laxbiffar",
     "name": "Laxbiffar med nudelsallad",
     "portions": "4",
@@ -373,6 +383,16 @@
     "directions": ""
   },
   {
+    "id": "morot_4man",
+    "name": "Morot- och potatispure (4 mån)",
+    "source": "https://www.semper.se/barnmat/recept/4-manader/recept-morot-och-potatispure",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
     "id": "oreganokyckling",
     "name": "Oreganokyckling",
     "source": "ICA buffe",
@@ -393,6 +413,16 @@
     ],
     "ingredients": ["Ris",["4 st ","kycklingfileer"], "Smör", "Salt och peppar", ["2 st ","röda paprikor"], ["4 dl ","creme fraiche (curry)"], ["2 msk ","jordnötter"]],
     "directions": "Strimla kycklingen och stek i stekpanna. Krydda med salt och peppar.<br/><br/>Grovhacka paprikan och låt den fräsa med kycklingen. Rör ner creme fraiche och låt allt koka 1-2 min. Strö över jordnötter och servera med ris.<br/>"
+  },
+  {
+    "id": "palsternacka_4man",
+    "name": "Palsternacka- och potatispure (4 mån)",
+    "source": "https://www.semper.se/barnmat/recept/4-manader/recept-palsternacka-och-potatispure",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
+    "directions": ""
   },
   {
     "id": "paneradfisk",
@@ -462,6 +492,16 @@
       "Vegetariskt"
     ],
     "ingredients": [["500 g","Mjölig potatis "],["1 st","Purjolök "],["1 msk","Smör-&rapsolja "],["6 dl","Grönsaksbuljong "],["2 dl","Syrad grädde 30% "],"Salt och peppar",["1 dl ","Hackad färsk persilja "]],
+    "directions": ""
+  },
+  {
+    "id": "potatis_torsk_6man",
+    "name": "Potatis med torsk och morot (6 mån)",
+    "source": "https://www.semper.se/barnmat/recept/6-manader/recept-potatis-med-torsk-och-morot",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
     "directions": ""
   },
   {
@@ -597,6 +637,26 @@
     ],
     "ingredients": [["2.5 dl ","jasminris"], ["10 st ","filodegsark"], [" ", " "], ["1 msk ","olja"], ["250 g ","nötfärs"], ["250 g ","vitkål"], ["1 st","gul lök, finhackad"], ["1 msk ","smör"], ["1 msk ","ljus sirap"], ["1 st","vitlöksklyfta, riven"], ["2 tsk ","sambal oelek"], ["0.5 tsk ","svartpeppar"], "neutral olja till stekning", ["1 tsk ","salt"], [" ", " "], "sweet chilisås"],
     "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
+  },
+  {
+    "id": "apple_paron_5man",
+    "name": "Äpple- och päronpure (5 mån)",
+    "source": "https://www.semper.se/barnmat/recept/4-manader/recept-apple-och-paronpure",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
+    "id": "apple_step",
+    "name": "Äpple (step-metoden)",
+    "source": "https://www.semper.se/barnmat/step/recept-till-stepmetoden/apple",
+    "categories": [
+      "Ivar"
+    ],
+    "ingredients": "",
+    "directions": ""
   },
   {
     "id": "ortbakad_lax",

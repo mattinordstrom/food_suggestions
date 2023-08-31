@@ -11,6 +11,7 @@ const catMap = {
   'Paj': 'pie',
   'Pizza': 'pizza',
   'Burgare': 'burger',
+  'Ivar': 'ivar',
 };
 
 const catMapReverse = {
@@ -26,6 +27,7 @@ const catMapReverse = {
   'pie': 'Paj',
   'pizza': 'Pizza',
   'burger': 'Burgare',
+  'ivar': 'Ivar',
 };
 
 function getHrLongHtml() {
