@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Förslag på maträtter - ADMIN</title>
+		<link href="adminstyle.css" rel="stylesheet" type="text/css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+		<script src="main.js"></script>
+		<script src="../src/helperfunctions.js"></script>
+	</head>
+
+	<body>
+		<h1>&nbsp;Förslag på maträtter <i class="fa fa-utensils"></i> - <span style="color: red;">ADMIN</span></h1>
+		<br />
+		<div class="jsoninfo">
+		</div>
+		<hr /><br />
+		<div class="content">
+			<div class="cat_checkboxes">
+			</div>
+			<br/><br/>
+			<div id="ingredient_form">
+				<input type="text" id="id" placeholder="id *" required>
+				<input type="text" id="name" placeholder="name *" required>
+				<input type="text" id="source" placeholder="source">
+				<input type="text" id="portions" placeholder="portions">
+				<hr/>
+				<div id="ingredients">
+					<br/><br/>
+					<button onclick="addEmptyIngredient()" style="font-size: 12px; padding: 6px; min-width: 90px;" id="plus">+ ingredient</button>
+				</div>
+				<hr/>
+				<textarea id="directions" placeholder="directions" rows="20" cols="50"></textarea>
+				<hr/>
+			</div>
+			<br /><br />
+			<div id="jsontext"></div>
+			<br />
+			<button onclick="addToJSON()" style="font-size: 16px; padding: 10px;">Add recipe to json</button>
+			<br /><br />
+			<button onclick="location.reload(true)" style="font-size: 16px; padding: 10px;">Create new (Reload Tab)</button>
+
+		</div>
+		<br/><br/>
+	</body>
+</html>
