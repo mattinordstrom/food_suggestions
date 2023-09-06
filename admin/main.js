@@ -1,6 +1,5 @@
 let recipes = [];
 let newRecipe = {};
-let allRecipes = {};
 
 function init() {
   $('.jsoninfo').html('recipes.json length: '+recipes.length);
@@ -26,8 +25,8 @@ function init() {
 }
 
 function addEmptyIngredient() {
-  //TODO index
-  $('#ingredients').prepend('<input type="text" id="amount1" placeholder="amount"><input type="text" id="ingredient1" placeholder="ingredient"><br/>');
+  const count = $('#ingredients').find('.ingredient').length;
+  $('#ingredients').append('<div class="ingredient"><input type="text" id="amount'+count+'" placeholder="amount">&nbsp;<input type="text" id="ingredient'+count+'" placeholder="ingredient"></div><br/>');
 }
 
 function validateInputs() {
@@ -66,32 +65,39 @@ function addToJSON() {
     }
   });
 
-  //TODO add ingredients from $('#ingredient_form div[id="ingredients"]')
-  newRecipe.ingredients = "";
+  newRecipe.ingredients = [];
+  $('#ingredient_form div[id="ingredients"] div[class="ingredient"]').each(function(a,b,c) {
+    const amount = $(this)[0].children[0].value;
+    const ingredient = $(this)[0].children[1].value;
 
-  //TODO replace \n with <br/>
-  newRecipe.directions = $('#ingredient_form textarea[id="directions"]')[0].value;
+    if(ingredient) {
+      newRecipe.ingredients.push([amount, ingredient]);
+    }
+  });
+
+  let directions = $('#ingredient_form textarea[id="directions"]')[0].value;
+  directions = directions.replace(/\n/g, '<br/>');
+  newRecipe.directions = directions;
 
   if(!validateInputs()) {
-    //TODO Reset globals? (newRecipe)
+    newRecipe = {};
     return;
   }
 
-  const jsonString = JSON.stringify(newRecipe, null, 2);
-  const htmlString = jsonString.replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
+  const jsonStr = customStringify([newRecipe]);
+  const escapedString = escapeHtml(jsonStr);
+  const htmlString = escapedString.replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
   $('#jsontext').html(htmlString);
-  
-  //TODO Write to json
-  //TODO sort json on name
-  //TODO Reset globals? (newRecipe)
+
+  recipes.push(newRecipe);
+  recipes.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+
   writeJsonToFile();
+  newRecipe = {};
 }
 
 function writeJsonToFile() {
-  //TODO!!!
-
-  const obj = { key1: "value1", key2: "value2" };
-  const jsonStr = JSON.stringify(obj, null, 2);
+  const jsonStr = customStringify(recipes);
   const blob = new Blob([jsonStr], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
@@ -116,6 +122,36 @@ function getRecipesAndInit() {
   });
 }
 
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function customStringify(jsonObject) {
+  return (
+    "[\n" +
+    jsonObject
+      .map((obj) => {
+        const entries = Object.entries(obj)
+          .map(
+            ([key, value]) =>
+              `    "${key}": ${
+                Array.isArray(value) || typeof value === "object"
+                  ? JSON.stringify(value)
+                  : `"${value}"`
+              }`
+          )
+          .join(",\n");
+        return `  {\n${entries}\n  }`;
+      })
+      .join(",\n") +
+    "\n]"
+  );
+}
 
 //INIT
 getRecipesAndInit();
