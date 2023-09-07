@@ -4,39 +4,30 @@
     "name": "Ajvarbiffar med sötpotatis/morötter",
     "source": "",
     "portions": "4",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
-    "ingredients":  [["2 st stora","Sötpotatis"],["2-3 st stora","Morötter"], [" ", " "],["600 g", "Köttfärs"], ["3 msk", "Ajvar relish"], ["2 st", "Äggula"], ["1 tsk", "salt"], ["2 krm", "svartpeppar"], ["2msk", "finhackad basilika"], ["2msk", "smör (till stekning)"], [" ", " "], "Ajvarsås:", ["3dl", "creme fraiche"], ["6msk", "ajvar"]],
+    "categories": ["Potatis","Kött"],
+    "ingredients": [["2 st stora","Sötpotatis"],["2-3 st stora","Morötter"],[" "," "],["600 g","Köttfärs"],["3 msk","Ajvar relish"],["2 st","Äggula"],["1 tsk","salt"],["2 krm","svartpeppar"],["2msk","finhackad basilika"],["2msk","smör (till stekning)"],[" "," "],"Ajvarsås:",["3dl","creme fraiche"],["6msk","ajvar"]],
     "directions": "Sätt ugnen på 225 grader.<br/><br/>Dela sötpotatis och morötter och lägg på en plåt med bakplåtspapper. Strö på salt och olja. Rör runt och sätt in i ugnen ca 25 min.<br/><br/>Blanda färs, ajvar, äggula, salt o peppar och basilika. Forma 4-6 st biffar. Stek biffarna i smör (3-4 min per sida)."
   },
   {
     "id": "ajvarkyckling",
     "name": "Ajvarkyckling",
     "source": "https://www.jennysmatblogg.nu/2013/09/30/ajvarkyckling-som-ni-bara-maste-testa/",
-    "categories": [
-      "Ris",
-      "Kyckling"
-    ],
-    "ingredients": [["4 st", "Stora kycklingfileer"], "smör", ["4 dl", "creme fraiche"], ["1 1/2 dl", "ajvar ( mild )"], ["1 tsk", "flytande honung"], ["1 st", "vitlöksklyfta"], "salt och peppar", ["2 dl", "riven god ost"]],
+    "categories": ["Ris","Kyckling"],
+    "ingredients": [["4 st","Stora kycklingfileer"],"smör",["4 dl","creme fraiche"],["1 1/2 dl","ajvar ( mild )"],["1 tsk","flytande honung"],["1 st","vitlöksklyfta"],"salt och peppar",["2 dl","riven god ost"]],
     "directions": "Ställ ugnen på 200 grader.<br/>Fräs kycklingen i smör så att den får en vacker färg. Lägg sedan i en ugnssäkerform.<br/>Blanda ihop alla ingredienser till såsen, och fördela över fileerna.<br/>Ställ in i mitten på ugnen, och ta ut efter 30 minuter och strö över osten.<br/>Gratinera ytterligare i 15- 20 minuter- tills osten fått vacker färg och kycklingen är helt färdig."
   },
   {
     "id": "baconlada",
     "name": "Baconlåda",
     "portions": "4",
-    "categories": [
-      "Matvete",
-      "Kött"
-    ],
-    "ingredients": [["2 pkt", "bacon"], ["2 burkar", "champinjoner (skivade)"], "Skivad ost", ["2 dl", "grädde"], "Chilisås"],
+    "categories": ["Matvete","Kött"],
+    "ingredients": [["2 pkt","bacon"],["2 burkar","champinjoner (skivade)"],"Skivad ost",["2 dl","grädde"],"Chilisås"],
     "directions": "Bryn bacon och svampen.<br/>Lägg i en form med osten över.<br/>Vispa grädde hårt och tillsätt chilisås. Bred överst i formen.<br/>&nbsp;<br/>175-200° i ugnen (10-15 min)<br/>&nbsp;<br/>Servera med ris eller matvete.<br/>"
   },
   {
     "id": "bananpannkakor",
     "name": "Bananpannkakor",
-    "ingredients": [["2,5 dl", "mjöl"], ["2,5 dl", "mjölk"], ["2 tsk", "bakpulver"], ["1 tsk", "vaniljsocker"], "Lite smält smör", ["1 st", "ägg"], "Lite salt", ["2 st", "mosade bananer"]],
+    "ingredients": [["2,5 dl","mjöl"],["2,5 dl","mjölk"],["2 tsk","bakpulver"],["1 tsk","vaniljsocker"],"Lite smält smör",["1 st","ägg"],"Lite salt",["2 st","mosade bananer"]],
     "directions": ""
   },
   {
@@ -44,9 +35,7 @@
     "name": "Broccolipaj med purjo och bacon",
     "portions": "4",
     "source": "https://www.arla.se/recept/broccolipaj-med-purjolok/",
-    "categories": [
-      "Paj"
-    ],
+    "categories": ["Paj"],
     "ingredients": [["125 g","Smör"],["3 dl","Vetemjöl"],["1 msk","Linfrön"],["2 msk","Kallt vatten"],[" "," "],"Fyllning:",["1 pkt","Bacon (valfritt)"],["250 g","Broccoli"],["1st","Purjolök"],["1st","Vitlöksklyfta"],["1 msk","Smör"],["150 g","Ost"],[" "," "],"Äggstanning:",["3st","Ägg"],["3 dl","Matlagningsgrädde"],["1 tsk","Salt"],["1 krm","Svartpeppar"]],
     "directions": "Lägg till 1 pkt stekt bacon för extra smak!<br/>&nbsp;<br/>Sätt ugnen på 200°.<br/>Hacka samman smör, mjöl och linfrön för hand eller i matberedare till en grynig massa. Tillsätt vatten och arbeta snabbt ihop till en smidig deg.<br/>Tryck ut degen i en pajform, ca 24 cm i diameter, gärna med löstagbar kant. Nagga botten med en gaffel och låt stå i frys 10 min. Förgrädda pajskalet i mitten av ugnen ca 10 min.<br/>Skär broccolin i bitar och koka den i lättsaltat vatten ca 5 min, låt rinna av. Ansa och strimla purjolöken, skala och hacka vitlöken.<br/>Fräs löken i smör i en stekpanna tills purjolöken är mjuk men inte tagit färg.<br/>Riv osten. Vispa ihop ägg, grädde, salt och peppar. Fördela lök, broccoli och riven ost i pajskalet och häll på äggstanningen.<br/>Grädda pajen i mitten av ugnen ca 35 min."
   },
@@ -55,145 +44,105 @@
     "name": "Carbonara",
     "portions": "4",
     "source": "https://www.jennysmatblogg.nu/2014/03/24/pasta-carbonara-2/",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
-    "ingredients": [["500 gram", "pasta"], ["2 pkt", "bacon"], ["2 st", "vitlöksklyftor"], ["2 st", "äggulor"], ["2-3 msk ", "grädde"], ["1 dl ", "finriven parmesan"], ["2 msk ", "fin olivolja"], "salt och peppar"],
+    "categories": ["Pasta","Kött"],
+    "ingredients": [["500 gram","pasta"],["2 pkt","bacon"],["2 st","vitlöksklyftor"],["2 st","äggulor"],["2-3 msk ","grädde"],["1 dl ","finriven parmesan"],["2 msk ","fin olivolja"],"salt och peppar"],
     "directions": "Koka pastan all dente enligt anvisningar på förpackning.<br/>Stek baconet knaperstekt, finhacka vitlöken och vänd ner i slutet- den ska bara bli mjuk och glansig.<br/>Vispa ihop äggulorna i en skål tillsammans med grädden. Häll av vattnet och vänd ner pastan, olivolja  i stekpannan tillsammans med äggsmeten. Vänd om och låt allt steka ihop Smaksätt med parmesan och salt & peppar. Servera genast med några droppar olivolja per portion.<br/>"
   },
   {
     "id": "chiliconcarne",
     "name": "Chili con carne",
-    "categories": [
-      "Ris",
-      "Kött"
-    ],
-    "ingredients": ["Ris", ["500 g", "Köttfärs"], ["1 st", "Gul lök"], "Tomatpure", "Lite ketchup",["1 burk", "Vita bönor i tomatsås"], ["1 burk", "Krossade tomater"], ["1 st", "Paprika"], "Chilipulver", "Salt o peppar", "(Spansk peppar)"],
+    "categories": ["Ris","Kött"],
+    "ingredients": ["Ris",["500 g","Köttfärs"],["1 st","Gul lök"],"Tomatpure","Lite ketchup",["1 burk","Vita bönor i tomatsås"],["1 burk","Krossade tomater"],["1 st","Paprika"],"Chilipulver","Salt o peppar","(Spansk peppar)"],
     "directions": ""
   },
   {
     "id": "falafel",
     "name": "Falafel",
     "source": "Linas matkasse recept",
-    "categories": [
-      "Vegetariskt"
-    ],
-    "ingredients": [["1 pkt", "kikärtor"], ["1/2 st", "silverlök"], ["1 st", "vitlöksklyfta"], ["3 msk ", "mjöl"], ["1/2 tsk ", "salt"], ["1 1/2 tsk ", "spiskummin"], ["1 tsk ", "koriander"]],
+    "categories": ["Vegetariskt"],
+    "ingredients": [["1 pkt","kikärtor"],["1/2 st","silverlök"],["1 st","vitlöksklyfta"],["3 msk ","mjöl"],["1/2 tsk ","salt"],["1 1/2 tsk ","spiskummin"],["1 tsk ","koriander"]],
     "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/>&nbsp;<br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
-  },
-  {
-    "id": "falukorvsgratang",
-    "name": "Falukorvsgratäng med bacon",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
-    "ingredients": [["400g ", "falukorv"], ["2 paket ", "bacon"], ["1 st", "gul lök"], ["1 st", "röd paprika"], ["200g ", "champinjoner"], ["1 msk ", "rapsolja"], ["3 dl ", "vispgrädde"], ["2 msk ", "hackad färsk oregano"], ["150g ", "västerbottenost"], "salt och peppar"],
-    "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
     "id": "falukorv_ugn",
     "name": "Falukorv i ugn",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
+    "categories": ["Potatis","Kött"],
     "ingredients": [["1st ","falukorv"],["1 st","gul lök"],"Olivolja","Ost","Senap","Ketchup"],
     "directions": "Lägg korven i en ugnsform och skär snitt i den.<br/>Peta ner ostskivor i snitten.<br/>Häll på senap och ketchup<br/>Sprid lökringar runt korven och häll på olja på löken.<br/>&nbsp;<br/>Ugnen på 200°<br/>Serveras med potatismos"
   },
   {
     "id": "falukorv_makaroner",
     "name": "Falukorv och makaroner",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
+    "categories": ["Pasta","Kött"],
     "ingredients": ["Falukorv i skivor","Ideal-makaroner","Ketchup","Sallad"],
     "directions": ""
+  },
+  {
+    "id": "falukorvsgratang",
+    "name": "Falukorvsgratäng med bacon",
+    "categories": ["Pasta","Kött"],
+    "ingredients": [["400g ","falukorv"],["2 paket ","bacon"],["1 st","gul lök"],["1 st","röd paprika"],["200g ","champinjoner"],["1 msk ","rapsolja"],["3 dl ","vispgrädde"],["2 msk ","hackad färsk oregano"],["150g ","västerbottenost"],"salt och peppar"],
+    "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
   },
   {
     "id": "fisk_i_ugn",
     "name": "Fisk i ugn",
     "source": "",
-    "categories": [
-      "Potatis",
-      "Fisk"
-    ],
-    "ingredients": [["1st ","purjolök"], ["400g ","torsk/sejfilé"], ["2,5dl ","matlagningsgrädde"], ["1dl ","chilisås"], "salt och peppar"],
+    "categories": ["Potatis","Fisk"],
+    "ingredients": [["1st ","purjolök"],["400g ","torsk/sejfilé"],["2,5dl ","matlagningsgrädde"],["1dl ","chilisås"],"salt och peppar"],
     "directions": "Sätt ugnen på 225grader.<br/>Skölj och hacka purjolöken. Lägg fisken i en smord ugnsform, salta och peppra.<br/>Fördela purjolöken på och runt fisken. Vispa ihop grädde och cilisås och häll på såsen.<br/>Gratinera i ca 20-30min.<br/>&nbsp;<br/>Servera potatismos och gröna ärtor till.<br/>"
   },
   {
     "id": "fiskpinnar_korvbrod",
     "name": "Fiskpinnar i korvbröd",
     "source": "https://www.coop.se/recept/fiskpinnar-i-brod-med-asiatisk-topping/",
-    "categories": [
-      "Fisk"
-    ],
-    "ingredients": [["200 g ","smörgåsgurka"], ["1 st ","rödlök"], ["1 kruka ","färsk koriander"], ["400 g (12 stycken) ","fiskpinnar"], ["1 msk ","smör till stekning"], ["0,5 st ","gurka"], ["200 g (8 stycken) ","korvbröd"], ["1 dl ","srirachamajonnäs"], ["1 dl ","rostad lök "]],
+    "categories": ["Fisk"],
+    "ingredients": [["200 g ","smörgåsgurka"],["1 st ","rödlök"],["1 kruka ","färsk koriander"],["400 g (12 stycken) ","fiskpinnar"],["1 msk ","smör till stekning"],["0,5 st ","gurka"],["200 g (8 stycken) ","korvbröd"],["1 dl ","srirachamajonnäs"],["1 dl ","rostad lök "]],
     "directions": ""
   },
   {
     "id": "fiskpinnar_mos",
     "name": "Fiskpinnar med potatismos",
-    "categories": [
-      "Potatis",
-      "Fisk"
-    ],
+    "categories": ["Potatis","Fisk"],
     "ingredients": ["Potatismos","Fiskpinnar","Ärtor","Remoladsås"],
+    "directions": ""
+  },
+  {
+    "id": "flygande_jacob",
+    "name": "Flygande Jacob (utan banan)",
+    "source": "https://www.johannatoftby.se/2022/06/18/flygande-jacob-utan-banan/",
+    "categories": ["Ris","Kött","Kyckling"],
+    "ingredients": [["4 st ","kycklingfiléer"],["140 gram ","tärnad bacon"],["1 dl ","chilisås"],["3 dl ","grädde 40%"],["1 tsk ","italiensk salladskrydda"],["1 tsk ","curry"],["1 tsk ","chilikrydda"],["En nypa ","chiliflakes"],["1/2 tsk ","salt"],["1/2 tsk ","svartpeppar"],["1 dl ","salta jordnötter"],"olja till stekning",[" "," "],["4 port.","Basmatris"]],
     "directions": ""
   },
   {
     "id": "flaskfile_potatis",
     "name": "Fläskfile med potatis",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
+    "categories": ["Potatis","Kött"],
     "ingredients": ["Marinerad fläskfile (grillad eller stekt)","Potatis i ugn","Bea-sås"],
     "directions": "Skär filen i ca 2cm tjocka puckar och marinera."
   },
   {
     "id": "flaskfile_sambal",
     "name": "Fläskfile med sambal olek",
-    "categories": [
-      "Ris",
-      "Kött"
-    ],
-    "ingredients": ["Ris",["1 st","fläskfile"], ["2,5 dl","grädde"],["3 dl","creme fraiche"],["0,5 dl","kinesisk soya"],["1 tsk","sambal olek"]],
+    "categories": ["Ris","Kött"],
+    "ingredients": ["Ris",["1 st","fläskfile"],["2,5 dl","grädde"],["3 dl","creme fraiche"],["0,5 dl","kinesisk soya"],["1 tsk","sambal olek"]],
     "directions": "Skär köttet i tjocka skivor (ca 2 cm), lägg dem i en smord form. Salta och peppra. <br/><br/>Koka upp allt till såsen och häll över köttet. <br/><br/>Sätt in i ugnen, 175 grader i 1,5 timme. <br/><br/>Severa med ris och sallad."
   },
   {
     "id": "flaskpannkaka",
     "name": "Fläskpannkaka",
     "portions": "4",
-    "categories": [
-      "Kött"
-    ],
-    "ingredients": [["2 1/2 dl ","vetemjöl"], ["1/2 tsk ","salt"], ["6 dl ","mjölk"], ["3 msk ","margarin"], ["3 st ","ägg"], [" ", " "], ["200-300g ","bacon"], ["1 st","gul lök"]],
+    "categories": ["Kött"],
+    "ingredients": [["2 1/2 dl ","vetemjöl"],["1/2 tsk ","salt"],["6 dl ","mjölk"],["3 msk ","margarin"],["3 st ","ägg"],[" "," "],["200-300g ","bacon"],["1 st","gul lök"]],
     "directions": "Blanda mjöl och salt. Häll i mjölken och det smälta margarinet och vispa till en smet. Vispa sist i äggen.<br/> Lägg stekt bacon och lök i en form och häll på smeten. <br/>225° i 20 minuter.<br/>"
-  },
-  {
-    "id": "flygande_jacob",
-    "name": "Flygande Jacob (utan banan)",
-    "source": "https://www.johannatoftby.se/2022/06/18/flygande-jacob-utan-banan/",
-    "categories": [
-      "Ris",
-      "Kött",
-      "Kyckling"
-    ],
-    "ingredients": [["4 st ","kycklingfiléer"], ["140 gram ","tärnad bacon"], ["1 dl ","chilisås"], ["3 dl ","grädde 40%"], ["1 tsk ","italiensk salladskrydda"], ["1 tsk ","curry"], ["1 tsk ","chilikrydda"], ["En nypa ","chiliflakes"], ["1/2 tsk ","salt"], ["1/2 tsk ","svartpeppar"], ["1 dl ","salta jordnötter"], "olja till stekning", [" ", " "], ["4 port.","Basmatris"]],
-    "directions": ""
   },
   {
     "id": "gordons_pasta",
     "name": "Gordons pasta",
     "portions": "4",
-    "categories": [
-      "Pasta",
-      "Kyckling"
-    ],
-    "ingredients": [["2 msk ","olivolja"], ["2 st ","vitlöksklyftor"], ["4 st ","kycklingfileer"], "Salt, rosmarin och peppar", ["75g ","smör"], ["300g ","pasta"], ["1-2 st ","chilis"], ["250g ","gröna ärtskidor"], ["150g ","fetaost"], ["50g ","pistagenötter"]],
+    "categories": ["Pasta","Kyckling"],
+    "ingredients": [["2 msk ","olivolja"],["2 st ","vitlöksklyftor"],["4 st ","kycklingfileer"],"Salt, rosmarin och peppar",["75g ","smör"],["300g ","pasta"],["1-2 st ","chilis"],["250g ","gröna ärtskidor"],["150g ","fetaost"],["50g ","pistagenötter"]],
     "directions": "Stek vitlök och kycklingbitar i en panna med salt och peppar.<br/>Koka pastan.<br/>Smält 75g smör och tillsätt chili och rosmarin.<br/>Värm på låg värme i 2 minuter.<br/>Vrid upp värmen och tillsätt ärtskidorna och fräs i 3-4 minuter<br/>Blanda ihop allt och toppa med fetaost och nötter.<br/>"
   },
   {
@@ -201,110 +150,83 @@
     "name": "Gratinerad kyckling med soltorkad tomat",
     "portions": "4",
     "source": "https://www.ica.se/recept/gratinerad-kyckling-med-soltorkad-tomat-724952/",
-    "categories": [
-      "Ris",
-      "Kyckling"
-    ],
+    "categories": ["Ris","Kyckling"],
     "ingredients": [["200 g ","strimlad soltorkad tomat "],["4 st ","kycklingfileer"],["4 port ","ris "],"Salt och peppar",["1 msk ","smör eller margarin "],["2,5 dl ","matlagningsgrädde "],["1 dl ","riven ost "]],
     "directions": "Tina kycklingen (om fryst används).<br/>Sätt på ugnen på 225°C.<br/> Låt tomaterna rinna av.<br/> Koka riset enligt anvisningen på förpackningen.<br/> Krydda kycklingen med salt och peppar och bryn den i matfettet i en stekpanna.<br/> Lyft upp kycklingen och lägg den i en ugnssäker form.<br/> Häll grädden och de soltorkade tomaterna i stekpannan och koka upp. Häll grädden med tomaterna över kycklingen och strö på osten. Stek kycklingen i ugnen ca 15 minuter eller tills innertemperaturen på den är 72°C.<br/>"
-  },
-  {
-    "id": "matgeek_burgare",
-    "name": "Hamburgare (Matgeek)",
-    "source": "Youtube",
-    "categories": [
-      "Kött",
-      "Burgare"
-    ],
-    "ingredients": ["Högrevsburgare","Bacon","Syltad gul lök","Vitlöksmajonäs"],
-    "directions": "Stek löken på svag värme i mycket smör.<br/>"
   },
   {
     "id": "halloumi_burgare",
     "name": "Hamburgare (halloumi)",
     "source": "",
-    "categories": [
-      "Vegetariskt",
-      "Burgare"
-    ],
+    "categories": ["Vegetariskt","Burgare"],
     "ingredients": ["Halloumi","Hamburgerbröd","Potatis i ugn"],
+    "directions": ""
+  },
+  {
+    "id": "matgeek_burgare",
+    "name": "Hamburgare (Matgeek)",
+    "source": "Youtube",
+    "categories": ["Kött","Burgare"],
+    "ingredients": ["Högrevsburgare","Bacon","Syltad gul lök","Vitlöksmajonäs"],
+    "directions": "Stek löken på svag värme i mycket smör.<br/>"
+  },
+  {
+    "id": "korma",
+    "name": "Indisk korma med paneer",
+    "categories": ["Ris","Vegetariskt"],
+    "ingredients": [["2 x 225 g","Paneer-ost"],["2 x 350 g","Indisk sås (korma)"],"Ris"],
     "directions": ""
   },
   {
     "id": "ingefarashot",
     "name": "Ingefärashot",
     "source": "",
-    "ingredients": [["200g ","ingefära"], ["1l ","vatten"], ["2 st ","citroner"], ["0,5dl ","honung"], ["1 st ","spansk peppar"]],
+    "ingredients": [["200g ","ingefära"],["1l ","vatten"],["2 st ","citroner"],["0,5dl ","honung"],["1 st ","spansk peppar"]],
     "directions": "1. Riv ingefäran grovt med skalet på och lägg den i vattnet. Värm upp (men aldrig över 60 grader) i 20 minuter <br/>(Värm upp och sänk till ettan på plattan.) <br/>&nbsp;<br/>2. Sila av ingefäran och blanda i honungen medan det fortfarande är ljummet<br/>&nbsp;<br/>3. Låt svalna och pressa sedan i citronerna. Sila och häll i en flaska."
-  },
-  {
-    "id": "korma",
-    "name": "Indisk korma med paneer",
-    "categories": [
-      "Ris",
-      "Vegetariskt"
-    ],
-    "ingredients": [["2 x 225 g", "Paneer-ost"], ["2 x 350 g", "Indisk sås (korma)"],"Ris"],
-    "directions": ""
   },
   {
     "id": "korvstroganoff",
     "name": "Korv stroganoff",
     "portions": "4-6",
-    "categories": [
-      "Ris",
-      "Kött"
-    ],
-    "ingredients": ["Ris",["1 st ","falukorv"], ["1 st ","gul lök"], ["3dl ","matgrädde"], ["2msk ","tomatpure"], "ketchup", "svartpeppar"],
+    "categories": ["Ris","Kött"],
+    "ingredients": ["Ris",["1 st ","falukorv"],["1 st ","gul lök"],["3dl ","matgrädde"],["2msk ","tomatpure"],"ketchup","svartpeppar"],
     "directions": ""
   },
   {
     "id": "kringlor",
     "name": "Kringlor (bondkringlor)",
-    "ingredients": ["Ca 60 stycken", [" ", " "], ["250 g ","margarin"], ["1 st ","ägg"], ["1 1/2 dl ","strösocker"], ["4 1/2 dl ","mjölk"], ["8 tsk ","hjorthornssalt"], ["ca 1 1/2 l ","rågsikt"]],
+    "ingredients": ["Ca 60 stycken",[" "," "],["250 g ","margarin"],["1 st ","ägg"],["1 1/2 dl ","strösocker"],["4 1/2 dl ","mjölk"],["8 tsk ","hjorthornssalt"],["ca 1 1/2 l ","rågsikt"]],
     "directions": "Smält margarinet och låt det svalna. Vispa ägg och socker och tillsätt margarinet, mjölk samt mjölet blandat med hjorthornssalt.<br/>Forma degen till kringlor och lägg på en smord plåt. Grädda i mitten av ugnen i 200°, ca 12 minuter."
-  },
-  {
-    "id": "kycklingnudlar",
-    "name": "Kycklingnudlar (med teriyakisås)",
-    "source": "https://www.coop.se/recept/kycklingnudlar",
-    "categories": [
-      "Nudlar",
-      "Kyckling"
-    ],
-    "ingredients": [["250 g ","broccoli"], ["200 g ","äggnudlar"], ["1 msk ","rapsolja"], ["450 g ","kycklinginnerfilé"], ["2 dl ","teriyakisås"], ["1 dl ","salta jordnötter"], "salt och peppar"],
-    "directions": ""
   },
   {
     "id": "kyckling_balsamico",
     "name": "Kyckling i balsamicosås",
     "source": "https://www.viktvaktarna.se/se/recept/kyckling-i-balsamicosas-med-sotpotatis/592ec5d8546a255c2ec231dd",
-    "categories": [
-      "Potatis",
-      "Kyckling"
-    ],
+    "categories": ["Potatis","Kyckling"],
     "ingredients": [["500 g","Sötpotatis okokt "],["500 g","Morot "],["2 tsk","Rapsolja "],["1 st","Gul lök "],["2 klyftor","Vitlök "],["600 g","Kycklingbröstfile "],["2 tsk","Margarin flytande "],["2 msk","Balsamvinäger "],["2 msk","Kalvfond "],["2,5 dl","Matlagningsbas 4% "],["1 tsk","Basilika "],["250 g","Cocktailtomater"]],
+    "directions": ""
+  },
+  {
+    "id": "kycklingnudlar",
+    "name": "Kycklingnudlar (med teriyakisås)",
+    "source": "https://www.coop.se/recept/kycklingnudlar",
+    "categories": ["Nudlar","Kyckling"],
+    "ingredients": [["250 g ","broccoli"],["200 g ","äggnudlar"],["1 msk ","rapsolja"],["450 g ","kycklinginnerfilé"],["2 dl ","teriyakisås"],["1 dl ","salta jordnötter"],"salt och peppar"],
     "directions": ""
   },
   {
     "id": "kalpudding",
     "name": "Kålpudding",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
-    "ingredients": [["1 kg ","vitkål"], "Olja", ["2 msk ","sirap"], ["1 tsk ","salt"], ["2 krm ","svartpeppar"], [" ", " "], ["1 st","gul lök"], ["500g ","kötttfärs"], ["1 st ","ägg "], ["2 msk ","japansk soja"], ["1 dl ","vispgrädde"], ["1 msk ","konc. kalvfond"], ["1 msk ","sirap"], ["1/2 tsk ","salt"], ["2 krm ","svartpeppar"]],
+    "categories": ["Potatis","Kött"],
+    "ingredients": [["1 kg ","vitkål"],"Olja",["2 msk ","sirap"],["1 tsk ","salt"],["2 krm ","svartpeppar"],[" "," "],["1 st","gul lök"],["500g ","kötttfärs"],["1 st ","ägg "],["2 msk ","japansk soja"],["1 dl ","vispgrädde"],["1 msk ","konc. kalvfond"],["1 msk ","sirap"],["1/2 tsk ","salt"],["2 krm ","svartpeppar"]],
     "directions": "Bryn kålet på hög värme i olja ca 5 minuter.<br/>&nbsp;<br/>Lägg hälften av kålen i botten av en form.<br/>Lägg i köttet och forma till en limpa.<br/>Lägg på resten av kålen.<br/>&nbsp;<br/>Ugnen på 200° i 40 minuter.<br/>Servera med potatis och lingon.<br/>"
   },
   {
     "id": "kottbullar",
     "name": "Köttbullar (hemmagjorda) med potatismos",
     "source": "",
-    "categories": [
-      "Potatis",
-      "Kött"
-    ],
-    "ingredients": ["Mjölig potatis (till mos)",["0,5dl ","ströbröd"], ["1dl ","vatten"], ["1/2tsk ","salt"], ["1krm ","peppar"], ["400g ","färs"], ["1 st ","ägg"], ["1msk ","råriven gul lök"]],
+    "categories": ["Potatis","Kött"],
+    "ingredients": ["Mjölig potatis (till mos)",["0,5dl ","ströbröd"],["1dl ","vatten"],["1/2tsk ","salt"],["1krm ","peppar"],["400g ","färs"],["1 st ","ägg"],["1msk ","råriven gul lök"]],
     "directions": ""
   },
   {
@@ -312,10 +234,7 @@
     "name": "Köttfärspaj i långpanna",
     "portions": "8-10",
     "source": "https://www.johannatoftby.se/2022/11/01/ljuvlig-kottfarspaj-i-langpanna",
-    "categories": [
-      "Paj",
-      "Kött"
-    ],
+    "categories": ["Paj","Kött"],
     "ingredients": [],
     "directions": ""
   },
@@ -323,20 +242,15 @@
     "id": "lasagne",
     "name": "Lasagne",
     "portions": "4-6",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
-    "ingredients": ["Lasagneplattor", ["500g ","Köttfärs"], ["1 st ","gul lök"], ["1 burk ","krossade tomater"], ["2 msk ","tomatpure"], "Ketchup", "Basilika", ["1 st ","Köttbuljongtärning"], "Salt och peppar", [" ", " "], ["40-50g ","smält margarin"], ["2-3 msk ","mjöl"], ["6-7 dl ","mjölk"], ["100g ","riven ost"]],
+    "categories": ["Pasta","Kött"],
+    "ingredients": ["Lasagneplattor",["500g ","Köttfärs"],["1 st ","gul lök"],["1 burk ","krossade tomater"],["2 msk ","tomatpure"],"Ketchup","Basilika",["1 st ","Köttbuljongtärning"],"Salt och peppar",[" "," "],["40-50g ","smält margarin"],["2-3 msk ","mjöl"],["6-7 dl ","mjölk"],["100g ","riven ost"]],
     "directions": "Ostsås: <br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost.<br/>&nbsp;<br/> Häll 2/5 av såsen i botten av en ugnsform.<br/>Lägg på lasagneplattor (3 st).<br/>Lägg på hälften av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Lägg på resten av köttfärssåsen.<br/>Lägg på lasagneplattor.<br/>Häll på resten av såsen.<br/>Avsluta med ett lager riven ost.<br/>Ugnen på 200°, 30 min.<br/>"
   },
   {
     "id": "lasagne_6man",
     "name": "Lasagne (6 mån)",
     "source": "https://www.semper.se/barnmat/recept/6-manader/recept-lasagne",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
     "ingredients": "",
     "directions": ""
   },
@@ -345,50 +259,43 @@
     "name": "Laxbiffar med nudelsallad",
     "portions": "4",
     "source": "https://www.coop.se/recept/laxbiffar-med-nudelsallad",
-    "categories": [
-      "Nudlar",
-      "Fisk"
-    ],
-    "ingredients": [["500 g ","laxfilé"], ["0.5 kruka ","Hackad dill"], ["1 st ","ägg"], ["1 st ","citron"], ["1 msk ","olivolja"], ["1 tsk ","salt"], [" ", " "], ["200 g ","risnudlar"], ["250 g ","zucchini, grovriven"], ["2 st ","morötter, grovriven"], ["0.5 kruka ","Hackad dill"], ["2 msk ","sweet chilisås"], ["10 cm ","purjolök, finstrimlad"], ["1 st ","citron"]],
+    "categories": ["Nudlar","Fisk"],
+    "ingredients": [["500 g ","laxfilé"],["0.5 kruka ","Hackad dill"],["1 st ","ägg"],["1 st ","citron"],["1 msk ","olivolja"],["1 tsk ","salt"],[" "," "],["200 g ","risnudlar"],["250 g ","zucchini, grovriven"],["2 st ","morötter, grovriven"],["0.5 kruka ","Hackad dill"],["2 msk ","sweet chilisås"],["10 cm ","purjolök, finstrimlad"],["1 st ","citron"]],
     "directions": ""
   },
   {
     "id": "laxtacos",
     "name": "Laxtacos",
-    "categories": [
-      "Fisk"
-    ],
-    "ingredients": ["Laxfile", "Ägg", "Ströbröd", "Sesamfrön", "Olja"],
+    "categories": ["Fisk"],
+    "ingredients": ["Laxfile","Ägg","Ströbröd","Sesamfrön","Olja"],
     "directions": ""
-  },
-  {
-    "id": "matti_special",
-    "name": "Matti special",
-    "source": "",
-    "ingredients": ["Toastbröd", "Tacosås", "Ost", "Skinka", "Johnnys sötstark senap"],
-    "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
     "id": "macka_kottbullar",
     "name": "Macka: köttbullar o rödbetssallad",
     "source": "",
-    "ingredients": ["Bröd", "Köttbullar", "Rödbetssallad", "Isbergssallad"],
+    "ingredients": ["Bröd","Köttbullar","Rödbetssallad","Isbergssallad"],
     "directions": ""
   },
   {
     "id": "macka_rakor",
     "name": "Macka: majo o räckor",
     "source": "",
-    "ingredients": ["Bröd", "Majonäs", "Ägg", "Räckor"],
+    "ingredients": ["Bröd","Majonäs","Ägg","Räckor"],
     "directions": ""
+  },
+  {
+    "id": "matti_special",
+    "name": "Matti special",
+    "source": "",
+    "ingredients": ["Toastbröd","Tacosås","Ost","Skinka","Johnnys sötstark senap"],
+    "directions": "Värm i ugnen på 200 grader tills osten smält. Passar bra med oregano på."
   },
   {
     "id": "morot_4man",
     "name": "Morot- och potatispure (4 mån)",
     "source": "https://www.semper.se/barnmat/recept/4-manader/recept-morot-och-potatispure",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
     "ingredients": "",
     "directions": ""
   },
@@ -396,31 +303,23 @@
     "id": "oreganokyckling",
     "name": "Oreganokyckling",
     "source": "ICA buffe",
-    "categories": [
-      "Potatis",
-      "Kyckling"
-    ],
-    "ingredients": [["500g ","kycklingfile"], ["2 st ","vitlöksklyftor"], ["1 msk ","smör"], ["1/2 tsk ","salt"], ["1 krm ","svartpeppar"], ["2 1/2 dl ","matlagningsgrädde"], ["1 st ","hönsbuljongtärning"], ["2 tsk ","oregano (färsk eller torkad)"], ["1 1/2 msk ","balsamvinäger"]],
+    "categories": ["Potatis","Kyckling"],
+    "ingredients": [["500g ","kycklingfile"],["2 st ","vitlöksklyftor"],["1 msk ","smör"],["1/2 tsk ","salt"],["1 krm ","svartpeppar"],["2 1/2 dl ","matlagningsgrädde"],["1 st ","hönsbuljongtärning"],["2 tsk ","oregano (färsk eller torkad)"],["1 1/2 msk ","balsamvinäger"]],
     "directions": "Stek kycklingbitar i smör, salta och peppra.<br/>Blanda grädde, buljong, oregano och vinäger i en gryta.<br/>Lägg i kycklingen och vitlöken.<br/>Låt att koka under lock i 5 minuter.<br/>&nbsp;<br/>Servera med klyftpotatis<br/>"
   },
   {
     "id": "currykyckling",
     "name": "Orientalisk currykyckling",
     "portions": "4",
-    "categories": [
-      "Ris",
-      "Kyckling"
-    ],
-    "ingredients": ["Ris",["4 st ","kycklingfileer"], "Smör", "Salt och peppar", ["2 st ","röda paprikor"], ["4 dl ","creme fraiche (curry)"], ["2 msk ","jordnötter"]],
+    "categories": ["Ris","Kyckling"],
+    "ingredients": ["Ris",["4 st ","kycklingfileer"],"Smör","Salt och peppar",["2 st ","röda paprikor"],["4 dl ","creme fraiche (curry)"],["2 msk ","jordnötter"]],
     "directions": "Strimla kycklingen och stek i stekpanna. Krydda med salt och peppar.<br/><br/>Grovhacka paprikan och låt den fräsa med kycklingen. Rör ner creme fraiche och låt allt koka 1-2 min. Strö över jordnötter och servera med ris.<br/>"
   },
   {
     "id": "palsternacka_4man",
     "name": "Palsternacka- och potatispure (4 mån)",
     "source": "https://www.semper.se/barnmat/recept/4-manader/recept-palsternacka-och-potatispure",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
     "ingredients": "",
     "directions": ""
   },
@@ -428,11 +327,8 @@
     "id": "paneradfisk",
     "name": "Panerad fisk",
     "source": "https://www.koket.se/panerad-fisk-med-kall-dillsas",
-    "categories": [
-      "Potatis",
-      "Fisk"
-    ],
-    "ingredients": [["4 st ","torskfiléer (alt rödspätta)"], ["1 st ","ägg"], ["ca 0,75 dl ","vetemjöl"], ["ca 2 dl ","pankoströbröd"], ["1 msk ","citronsaft"], ["1 tsk ","örtsalt"], ["1 tsk ","svartpeppar"], "matolja, till stekning", [" ", " "], ["3 dl ","gräddfil"], ["1 dl ","filmjölk"], ["0,5 dl ","majonnäs"], ["1 dl ","bostongurka"], ["1 kruka ","färsk dill, finskuren"], ["1 msk ","citronsaft"], ["1 tsk ","salt"], ["1 tsk ","strösocker"], ["0,5 krm ","svartpeppar"]],
+    "categories": ["Potatis","Fisk"],
+    "ingredients": [["4 st ","torskfiléer (alt rödspätta)"],["1 st ","ägg"],["ca 0,75 dl ","vetemjöl"],["ca 2 dl ","pankoströbröd"],["1 msk ","citronsaft"],["1 tsk ","örtsalt"],["1 tsk ","svartpeppar"],"matolja, till stekning",[" "," "],["3 dl ","gräddfil"],["1 dl ","filmjölk"],["0,5 dl ","majonnäs"],["1 dl ","bostongurka"],["1 kruka ","färsk dill, finskuren"],["1 msk ","citronsaft"],["1 tsk ","salt"],["1 tsk ","strösocker"],["0,5 krm ","svartpeppar"]],
     "directions": ""
   },
   {
@@ -440,11 +336,8 @@
     "name": "Pastagratäng",
     "portions": "4-6",
     "source": "https://www.jennysmatblogg.nu/2011/03/01/pastagratang-med-kramig-ostsas/",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
-    "ingredients": ["Färdigkokad pasta", ["5-8 dl ","färdig köttfärsås"], "Söta körsbärstomater", "Vårlök", "mozzarella", [" ", " "], ["4 dl ","vispgrädde"], ["100 gram ","mjukost med baconsmak"], ["1-2 dl ","riven (lättsmält) ost"], "salt och peppar "],
+    "categories": ["Pasta","Kött"],
+    "ingredients": ["Färdigkokad pasta",["5-8 dl ","färdig köttfärsås"],"Söta körsbärstomater","Vårlök","mozzarella",[" "," "],["4 dl ","vispgrädde"],["100 gram ","mjukost med baconsmak"],["1-2 dl ","riven (lättsmält) ost"],"salt och peppar "],
     "directions": ""
   },
   {
@@ -452,103 +345,90 @@
     "name": "Picklad rödlök",
     "source": "https://www.ica.se/recept/picklad-rodlok-721101/ ",
     "categories": [],
-    "ingredients": [["1 st ","rödlök"], ["1/2 dl ","socker"], ["1/4 dl ","ättika (12%)"], ["1/2 dl ","vatten "]],
-    "directions": ""
-  },
-  {
-    "id": "pizza_torben",
-    "name": "Pizza (Torbens)",
-    "categories": [
-      "Pizza"
-    ],
-    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", ["1 pkt ","krossade tomater"], "Basilika", "Oregano", "Ketchup", "Lökringar", "Salami", "Riven ost", "Mozzarella", "Paprika"],
+    "ingredients": [["1 st ","rödlök"],["1/2 dl ","socker"],["1/4 dl ","ättika (12%)"],["1/2 dl ","vatten "]],
     "directions": ""
   },
   {
     "id": "pizza_kottfars",
     "name": "Pizza (köttfärs)",
-    "categories": [
-      "Pizza"
-    ],
-    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", "Köttfärssås", "Riven ost", "Tomater"],
+    "categories": ["Pizza"],
+    "ingredients": ["Degen:",["1/2 paket ","jäst"],["2 dl ","fingervarmt vatten"],["1 msk ","olja"],["5-6 dl ","mjöl"],["1/2 tsk ","salt"],[" "," "],"Fyllning:","Köttfärssås","Riven ost","Tomater"],
+    "directions": ""
+  },
+  {
+    "id": "pizza_torben",
+    "name": "Pizza (Torbens)",
+    "categories": ["Pizza"],
+    "ingredients": ["Degen:",["1/2 paket ","jäst"],["2 dl ","fingervarmt vatten"],["1 msk ","olja"],["5-6 dl ","mjöl"],["1/2 tsk ","salt"],[" "," "],"Fyllning:",["1 pkt ","krossade tomater"],"Basilika","Oregano","Ketchup","Lökringar","Salami","Riven ost","Mozzarella","Paprika"],
     "directions": ""
   },
   {
     "id": "pizza_veg",
     "name": "Pizza (veg)",
-    "categories": [
-      "Pizza",
-      "Vegetariskt"
-    ],
-    "ingredients": ["Degen:", ["1/2 paket ","jäst"], ["2 dl ","fingervarmt vatten"], ["1 msk ","olja"], ["5-6 dl ","mjöl"], ["1/2 tsk ","salt"], [" ", " "], "Fyllning:", "Tomatsås", "Riven ost", "Rödlök", "Färska tomater", "Soltorkade tomater", "paprika", "Mozzarella"],
-    "directions": ""
-  },
-  {
-    "id": "potatis_soppa",
-    "name": "Potatis o purjosoppa (veg.)",
-    "source": "https://www.arla.se/recept/potatis--och-purjolokssoppa/",
-    "categories": [
-      "Potatis",
-      "Vegetariskt"
-    ],
-    "ingredients": [["500 g","Mjölig potatis "],["1 st","Purjolök "],["1 msk","Smör-&rapsolja "],["6 dl","Grönsaksbuljong "],["2 dl","Syrad grädde 30% "],"Salt och peppar",["1 dl ","Hackad färsk persilja "]],
+    "categories": ["Pizza","Vegetariskt"],
+    "ingredients": ["Degen:",["1/2 paket ","jäst"],["2 dl ","fingervarmt vatten"],["1 msk ","olja"],["5-6 dl ","mjöl"],["1/2 tsk ","salt"],[" "," "],"Fyllning:","Tomatsås","Riven ost","Rödlök","Färska tomater","Soltorkade tomater","paprika","Mozzarella"],
     "directions": ""
   },
   {
     "id": "potatis_torsk_6man",
     "name": "Potatis med torsk och morot (6 mån)",
     "source": "https://www.semper.se/barnmat/recept/6-manader/recept-potatis-med-torsk-och-morot",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
     "ingredients": "",
+    "directions": ""
+  },
+  {
+    "id": "potatis_soppa",
+    "name": "Potatis o purjosoppa (veg.)",
+    "source": "https://www.arla.se/recept/potatis--och-purjolokssoppa/",
+    "categories": ["Potatis","Vegetariskt"],
+    "ingredients": [["500 g","Mjölig potatis "],["1 st","Purjolök "],["1 msk","Smör-&rapsolja "],["6 dl","Grönsaksbuljong "],["2 dl","Syrad grädde 30% "],"Salt och peppar",["1 dl ","Hackad färsk persilja "]],
     "directions": ""
   },
   {
     "id": "pulled_pork",
     "name": "Pulled pork",
-    "categories": [
-      "Kött"
-    ],
-    "ingredients": [["1 pkt ","Pulled pork"], "Pitabröd", "Creme fraiche", "Grönsaker", "Picklad rödlök"],
+    "categories": ["Kött"],
+    "ingredients": [["1 pkt ","Pulled pork"],"Pitabröd","Creme fraiche","Grönsaker","Picklad rödlök"],
     "directions": ""
+  },
+  {
+    "id": "ris_tonfisk",
+    "name": "Ris och tonfisk",
+    "source": "",
+    "portions": "",
+    "categories": ["Fisk","Ris"],
+    "ingredients": [["","Ris (ljummet)"],["","Tonfisk på burk"],["","Frysta grönsaker (ärtor, majs, paprika)"],["","Rhode island sås"]],
+    "directions": "Servera med ostmacka"
   },
   {
     "id": "risotto",
     "name": "Risotto (med svamp)",
     "source": "https://www.ica.se/recept/risotto-med-skogschampinjoner-716952/",
-    "categories": [
-      "Ris",
-      "Vegetariskt"
-    ],
-    "ingredients": [["3 st","schalottenlökar"], ["1 st","vitlöksklyfta"], ["9 dl ","svampbuljong (vatten och buljongtärning eller fond)"], ["2 msk ","olivolja"], ["3 dl ","carnaroli- eller arborioris"], ["2 dl ","vitt vin eller matlagningsvin"], ["250 g ","kastanjechampinjoner"], ["3 msk ","smör"], ["2 dl ","riven parmesan"], "salt och nymalen svartpeppar", "rucola till servering"],
+    "categories": ["Ris","Vegetariskt"],
+    "ingredients": [["3 st","schalottenlökar"],["1 st","vitlöksklyfta"],["9 dl ","svampbuljong (vatten och buljongtärning eller fond)"],["2 msk ","olivolja"],["3 dl ","carnaroli- eller arborioris"],["2 dl ","vitt vin eller matlagningsvin"],["250 g ","kastanjechampinjoner"],["3 msk ","smör"],["2 dl ","riven parmesan"],"salt och nymalen svartpeppar","rucola till servering"],
     "directions": ""
   },
   {
     "id": "scones",
     "name": "Scones",
     "source": "https://www.ica.se/recept/scones-690203/",
-    "ingredients": [["4 dl ","vetemjöl"], ["2 tsk ","bakpulver"], ["2 krm ","salt"], ["50 g ","smör"], ["2 dl ","mjölk"]],
+    "ingredients": [["4 dl ","vetemjöl"],["2 tsk ","bakpulver"],["2 krm ","salt"],["50 g ","smör"],["2 dl ","mjölk"]],
     "directions": ""
   },
   {
     "id": "kottfarssas",
     "name": "Spagetti o köttfärssås",
     "source": "",
-    "categories": [
-      "Pasta",
-      "Kött"
-    ],
-    "ingredients": [["500g ","köttfärs"], ["1 st","gul lök"], ["2msk ","tomatpure"], "Ketchup", "Lite vatten för att lättare blanda runt", "Torkad basilika", "Salt o peppar"],
+    "categories": ["Pasta","Kött"],
+    "ingredients": [["500g ","köttfärs"],["1 st","gul lök"],["2msk ","tomatpure"],"Ketchup","Lite vatten för att lättare blanda runt","Torkad basilika","Salt o peppar"],
     "directions": ""
   },
   {
     "id": "sotpotatis_7man",
     "name": "Sötpotatis, Broccoli och ärtpure (6-7 mån)",
     "source": "https://www.nestlebaby.se/sotpotatis-broccoli-och-artpure-6-7-manader",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
     "ingredients": "",
     "directions": ""
   },
@@ -556,10 +436,8 @@
     "id": "tacogratang",
     "name": "Tacogratäng",
     "source": "https://www.ica.se/recept/tacogratang-722731/",
-    "categories": [
-      "Kött"
-    ],
-    "ingredients": [["500 g ","köttfärs"], ["1 msk ","smör"], ["1 påse ","taco kryddmix"], ["1 burk ","salsasås (gärna medelstark)"], ["2 dl ","crème fraiche"], ["3 dl ","riven cheddarost"], ["250 g ","cocktailtomater"], ["1/2 dl ","inlagd jalapeño"], ["1 dl ","nachochips"]],
+    "categories": ["Kött"],
+    "ingredients": [["500 g ","köttfärs"],["1 msk ","smör"],["1 påse ","taco kryddmix"],["1 burk ","salsasås (gärna medelstark)"],["2 dl ","crème fraiche"],["3 dl ","riven cheddarost"],["250 g ","cocktailtomater"],["1/2 dl ","inlagd jalapeño"],["1 dl ","nachochips"]],
     "directions": ""
   },
   {
@@ -567,115 +445,84 @@
     "name": "Tacopaj",
     "portions": "4",
     "source": "https://www.hemtrevligt.se/icakuriren/artiklar/recept/19990326/tacopaj/",
-    "categories": [
-      "Paj",
-      "Kött"
-    ],
-    "ingredients": [["2 dl ","grahamsmjöl (eller vetemjöl)"], ["2 dl ","vetemjöl"], ["0.5 tsk ","salt"], ["50 g ","margarin"], ["1.5 dl ","mjölk"], [" ", " "], ["400 g ","köttfärs"], ["1 pkt ","taco kryddmix"], ["2.5 st ","tomater"], ["1.5 st ","röda paprikor"], ["2 dl ","crème fraîche"], ["4 msk ","majonnäs"], ["2 dl ","riven ost"], ["1 st ","gul lök"]],
+    "categories": ["Paj","Kött"],
+    "ingredients": [["2 dl ","grahamsmjöl (eller vetemjöl)"],["2 dl ","vetemjöl"],["0.5 tsk ","salt"],["50 g ","margarin"],["1.5 dl ","mjölk"],[" "," "],["400 g ","köttfärs"],["1 pkt ","taco kryddmix"],["2.5 st ","tomater"],["1.5 st ","röda paprikor"],["2 dl ","crème fraîche"],["4 msk ","majonnäs"],["2 dl ","riven ost"],["1 st ","gul lök"]],
     "directions": "Servera med tacosås<br/>"
   },
   {
     "id": "tunnbrod_korv",
     "name": "Tunnbrödsrulle med korv o mos",
-    "categories": [
-      "Potatis",
-      "Vegetariskt"
-    ],
-    "ingredients": ["Tunnbröd", "Potatismos", "Korv (kött eller vegetarisk)", "Rostad lök", "Räksallad", "Bostongurka", "Senap / ketchup"],
+    "categories": ["Potatis","Vegetariskt"],
+    "ingredients": ["Tunnbröd","Potatismos","Korv (kött eller vegetarisk)","Rostad lök","Räksallad","Bostongurka","Senap / ketchup"],
     "directions": ""
   },
   {
     "id": "lax_dillsas",
     "name": "Ugnsbakad lax med dillsås",
     "source": "https://www.ica.se/recept/ugnsbakad-lax-med-dillsas-722491/",
-    "categories": [
-      "Potatis",
-      "Fisk"
-    ],
-    "ingredients": [["900 g ","potatis"], ["4 st ","laxfiléer "], "salt", "peppar", [" ", " "], ["3 dl ","matlagningsgrädde"], ["1 st ","fiskbuljongtärning"], "färsk dill", ["1 st","citron"]],
+    "categories": ["Potatis","Fisk"],
+    "ingredients": [["900 g ","potatis"],["4 st ","laxfiléer "],"salt","peppar",[" "," "],["3 dl ","matlagningsgrädde"],["1 st ","fiskbuljongtärning"],"färsk dill",["1 st","citron"]],
     "directions": ""
   },
   {
     "id": "varm_pastasallad",
     "name": "Varm pastasallad",
-    "categories": [
-      "Pasta",
-      "Kyckling",
-      "Kött"
-    ],
-    "ingredients": [["500g ","pasta"], ["2 st","stora kycklingfileer"], ["150g ","marinerade vitlöksklyftor"], ["1 st","röd paprika"], ["1 st","rödlök"], ["2 st","vitlöksklyftor"], ["1 paket ","bacon"], ["150g ","soltorkade tomater"], ["2 tsk ","senap"], ["1 st","äggula"], ["3 msk ","vinäger"], ["2 dl ","olivolja"], ["1 tsk ","salt"], ["2 tsk ","svartpeppar"], ["1 tsk ","chilipeppar"], ["20-30g ","permesanost"]],
+    "categories": ["Pasta","Kyckling","Kött"],
+    "ingredients": [["500g ","pasta"],["2 st","stora kycklingfileer"],["150g ","marinerade vitlöksklyftor"],["1 st","röd paprika"],["1 st","rödlök"],["2 st","vitlöksklyftor"],["1 paket ","bacon"],["150g ","soltorkade tomater"],["2 tsk ","senap"],["1 st","äggula"],["3 msk ","vinäger"],["2 dl ","olivolja"],["1 tsk ","salt"],["2 tsk ","svartpeppar"],["1 tsk ","chilipeppar"],["20-30g ","permesanost"]],
     "directions": ""
   },
   {
     "id": "veg_burgare",
     "name": "Vegetarisk hamburgare",
     "source": "",
-    "categories": [
-      "Vegetariskt",
-      "Burgare"
-    ],
-    "ingredients": [["1dl ","quinoa"], ["1 tsk ","olivolja"], ["1/2 st","rödlök"], ["3 st","vitlöksklyftor"], ["1/2tsk ","salt"], ["1 burk ","svarta bönor"], ["2msk ","tomatpure"], ["1 st","ägg"], ["1 burk ","majs"], ["100g ","soltorkade tomater"], ["1dl ","havregryn"], ["0,5dl ","mjöl"]],
+    "categories": ["Vegetariskt","Burgare"],
+    "ingredients": [["1dl ","quinoa"],["1 tsk ","olivolja"],["1/2 st","rödlök"],["3 st","vitlöksklyftor"],["1/2tsk ","salt"],["1 burk ","svarta bönor"],["2msk ","tomatpure"],["1 st","ägg"],["1 burk ","majs"],["100g ","soltorkade tomater"],["1dl ","havregryn"],["0,5dl ","mjöl"]],
     "directions": ""
   },
   {
     "id": "veg_lasagne",
     "name": "Vegetarisk lasagne",
-    "categories": [
-      "Vegetariskt"
-    ],
-    "ingredients": ["Lasagneplattor", ["Ca 700g ","fryst spenat"], ["1 st","lök "], ["1 burk ","Soltorkade tomater"], ["1 liten burk ","Pesto"], [" ", " "], ["40-50g ","smält margarin"], ["2-3 msk ","mjöl"], ["6-7 dl ","mjölk"], ["100g ","riven ost"], [" ", " "],"Riven ost att toppa med"],
+    "categories": ["Vegetariskt"],
+    "ingredients": ["Lasagneplattor",["Ca 700g ","fryst spenat"],["1 st","lök "],["1 burk ","Soltorkade tomater"],["1 liten burk ","Pesto"],[" "," "],["40-50g ","smält margarin"],["2-3 msk ","mjöl"],["6-7 dl ","mjölk"],["100g ","riven ost"],[" "," "],"Riven ost att toppa med"],
     "directions": "Ostsås: <br/>&nbsp;<br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
     "id": "vegonuggets",
     "name": "Vegonuggets med teriyakinudlar",
     "source": "https://www.ica.se/recept/vegonuggets-med-teriyakinudlar-och-wokade-gronsaker-727732/",
-    "categories": [
-      "Nudlar",
-      "Vegetariskt"
-    ],
-    "ingredients": [["2 st","paprikor"], ["1 st","röd peppar (chili)"], ["1 st","rödlök"], ["200 g ","sallads- eller sockerärtor"], ["3 msk ","rapsolja"], ["300 g ","nudlar (gärna breda risnudlar)"], ["200 ml ","teriyakisås"], ["2 förp (à 380 g) ","vegonuggets"]],
+    "categories": ["Nudlar","Vegetariskt"],
+    "ingredients": [["2 st","paprikor"],["1 st","röd peppar (chili)"],["1 st","rödlök"],["200 g ","sallads- eller sockerärtor"],["3 msk ","rapsolja"],["300 g ","nudlar (gärna breda risnudlar)"],["200 ml ","teriyakisås"],["2 förp (à 380 g) ","vegonuggets"]],
     "directions": "Följ receptet med använd Hälsans köks nuggets (har redan sesamfrön på sig)"
   },
   {
     "id": "varrullar",
     "name": "Vårrullar med ris",
     "source": "https://www.coop.se/recept/kal-och-farsfyllda-varrullar",
-    "categories": [
-      "Ris",
-      "Kött"
-    ],
-    "ingredients": [["2.5 dl ","jasminris"], ["10 st ","filodegsark"], [" ", " "], ["1 msk ","olja"], ["250 g ","nötfärs"], ["250 g ","vitkål"], ["1 st","gul lök, finhackad"], ["1 msk ","smör"], ["1 msk ","ljus sirap"], ["1 st","vitlöksklyfta, riven"], ["2 tsk ","sambal oelek"], ["0.5 tsk ","svartpeppar"], "neutral olja till stekning", ["1 tsk ","salt"], [" ", " "], "sweet chilisås"],
+    "categories": ["Ris","Kött"],
+    "ingredients": [["2.5 dl ","jasminris"],["10 st ","filodegsark"],[" "," "],["1 msk ","olja"],["250 g ","nötfärs"],["250 g ","vitkål"],["1 st","gul lök, finhackad"],["1 msk ","smör"],["1 msk ","ljus sirap"],["1 st","vitlöksklyfta, riven"],["2 tsk ","sambal oelek"],["0.5 tsk ","svartpeppar"],"neutral olja till stekning",["1 tsk ","salt"],[" "," "],"sweet chilisås"],
     "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
-  },
-  {
-    "id": "apple_paron_5man",
-    "name": "Äpple- och päronpure (5 mån)",
-    "source": "https://www.semper.se/barnmat/recept/4-manader/recept-apple-och-paronpure",
-    "categories": [
-      "Ivar"
-    ],
-    "ingredients": "",
-    "directions": ""
   },
   {
     "id": "apple_step",
     "name": "Äpple (step-metoden)",
     "source": "https://www.semper.se/barnmat/step/recept-till-stepmetoden/apple",
-    "categories": [
-      "Ivar"
-    ],
+    "categories": ["Ivar"],
+    "ingredients": "",
+    "directions": ""
+  },
+  {
+    "id": "apple_paron_5man",
+    "name": "Äpple- och päronpure (5 mån)",
+    "source": "https://www.semper.se/barnmat/recept/4-manader/recept-apple-och-paronpure",
+    "categories": ["Ivar"],
     "ingredients": "",
     "directions": ""
   },
   {
     "id": "ortbakad_lax",
     "name": "Örtbakad lax",
-    "categories": [
-      "Potatis",
-      "Fisk"
-    ],
-    "ingredients": ["Mjölig potatis (till mos)",["4 st ","laxfileer"], ["2 dl ","creme fraiche"], ["200g ","philadelphiaost"], ["1 msk ","finhackad dill"], ["1 msk ","gräslök"], "salt och citronpeppar"],
+    "categories": ["Potatis","Fisk"],
+    "ingredients": ["Mjölig potatis (till mos)",["4 st ","laxfileer"],["2 dl ","creme fraiche"],["200g ","philadelphiaost"],["1 msk ","finhackad dill"],["1 msk ","gräslök"],"salt och citronpeppar"],
     "directions": "Ugnen på 200° 25-30 min. Servera med potatismos.<br/>"
   }
 ]
