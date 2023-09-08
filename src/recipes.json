@@ -49,6 +49,15 @@
     "directions": "Koka pastan all dente enligt anvisningar på förpackning.<br/>Stek baconet knaperstekt, finhacka vitlöken och vänd ner i slutet- den ska bara bli mjuk och glansig.<br/>Vispa ihop äggulorna i en skål tillsammans med grädden. Häll av vattnet och vänd ner pastan, olivolja  i stekpannan tillsammans med äggsmeten. Vänd om och låt allt steka ihop Smaksätt med parmesan och salt & peppar. Servera genast med några droppar olivolja per portion.<br/>"
   },
   {
+    "id": "champinjonpasta",
+    "name": "Champinjonpasta",
+    "source": "",
+    "portions": "",
+    "categories": ["Vegetariskt","Pasta"],
+    "ingredients": [["250 g","champinjoner"],["2 st","vitlöksklyftor"],["2 dl","vispgrädde eller creme fraiche"],["400 g","pasta"],["1 dl","riven lagrad ost"],["2 msk","olja"],["0,5 msk","dijonsenap"],["","salt och peppar"]],
+    "directions": "1. Ansa och skär svampen i mindre bitar. Skala och hacka vitlöken. Stek svampen i oljan tills den får lite färg. Tillsätt vitlöken och stek ytterligare några minuter.<br/><br/>2. Tillsätt grädde och senap och låt koka ihop, smaka av med salt och peppar.<br/><br/>3. Koka pastan enligt anvisning på förpackningen. Häll av och spara 2 dl av kokvattnet. Tillsätt pastan och vattnet i champinjonsåsen och låt koka ihop till en krämig pasta. Toppa med riven ost och gärna extra peppar."
+  },
+  {
     "id": "chiliconcarne",
     "name": "Chili con carne",
     "categories": ["Ris","Kött"],
@@ -205,6 +214,15 @@
     "categories": ["Potatis","Kyckling"],
     "ingredients": [["500 g","Sötpotatis okokt "],["500 g","Morot "],["2 tsk","Rapsolja "],["1 st","Gul lök "],["2 klyftor","Vitlök "],["600 g","Kycklingbröstfile "],["2 tsk","Margarin flytande "],["2 msk","Balsamvinäger "],["2 msk","Kalvfond "],["2,5 dl","Matlagningsbas 4% "],["1 tsk","Basilika "],["250 g","Cocktailtomater"]],
     "directions": ""
+  },
+  {
+    "id": "kycklinggratang",
+    "name": "Kycklinggratäng",
+    "source": "",
+    "portions": "",
+    "categories": ["Kyckling","Matvete"],
+    "ingredients": [["600 g","kycklingfile"],["65 g","färsk bladspenat"],["2 dl","smaksatt creme fraiche (tomat/basilika)"],["1,5 dl","riven ost"],["3 dl","bulgur eller matvete"],["1 tsk","torkade örter (rosmarin, timjan eller basilika)"],["1 msk","olja"],["","salt och svartpeppar"]],
+    "directions": "1. Sätt ugnen på 225 grader. Skär kycklingen i mindre bitar. Stek kycklingen i oljan tills den får färg. Tillsätt spenat, örter, en halv tsk salt och 2 krm peppar och stek ytterligare några minuter. Lägg kycklingfräset i en ugnsform. Blanda creme fraichen med en halv dl vatten och häll över.<br/><br/>2. Toppa med riven ost och ställ in i mitten av ugnen ca 15 minuter eller tills gratängen är gyllene.<br/><br/>3. Koka bulgur enligt anvisning på förpackningen och servera till."
   },
   {
     "id": "kycklingnudlar",
