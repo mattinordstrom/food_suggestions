@@ -53,7 +53,7 @@
     "name": "Champinjonpasta",
     "source": "",
     "portions": "",
-    "categories": ["Vegetariskt","Pasta"],
+    "categories": ["Pasta","Vegetariskt"],
     "ingredients": [["250 g","champinjoner"],["2 st","vitlöksklyftor"],["2 dl","vispgrädde eller creme fraiche"],["400 g","pasta"],["1 dl","riven lagrad ost"],["2 msk","olja"],["0,5 msk","dijonsenap"],["","salt och peppar"]],
     "directions": "1. Ansa och skär svampen i mindre bitar. Skala och hacka vitlöken. Stek svampen i oljan tills den får lite färg. Tillsätt vitlöken och stek ytterligare några minuter.<br/><br/>2. Tillsätt grädde och senap och låt koka ihop, smaka av med salt och peppar.<br/><br/>3. Koka pastan enligt anvisning på förpackningen. Häll av och spara 2 dl av kokvattnet. Tillsätt pastan och vattnet i champinjonsåsen och låt koka ihop till en krämig pasta. Toppa med riven ost och gärna extra peppar."
   },
@@ -120,7 +120,7 @@
     "id": "flygande_jacob",
     "name": "Flygande Jacob (utan banan)",
     "source": "https://www.johannatoftby.se/2022/06/18/flygande-jacob-utan-banan/",
-    "categories": ["Ris","Kött","Kyckling"],
+    "categories": ["Ris","Kyckling","Kött"],
     "ingredients": [["4 st ","kycklingfiléer"],["140 gram ","tärnad bacon"],["1 dl ","chilisås"],["3 dl ","grädde 40%"],["1 tsk ","italiensk salladskrydda"],["1 tsk ","curry"],["1 tsk ","chilikrydda"],["En nypa ","chiliflakes"],["1/2 tsk ","salt"],["1/2 tsk ","svartpeppar"],["1 dl ","salta jordnötter"],"olja till stekning",[" "," "],["4 port.","Basmatris"]],
     "directions": ""
   },
@@ -167,7 +167,7 @@
     "id": "halloumi_burgare",
     "name": "Hamburgare (halloumi)",
     "source": "",
-    "categories": ["Vegetariskt","Burgare"],
+    "categories": ["Burgare","Vegetariskt"],
     "ingredients": ["Halloumi","Hamburgerbröd","Potatis i ugn"],
     "directions": ""
   },
@@ -175,7 +175,7 @@
     "id": "matgeek_burgare",
     "name": "Hamburgare (Matgeek)",
     "source": "Youtube",
-    "categories": ["Kött","Burgare"],
+    "categories": ["Burgare","Kött"],
     "ingredients": ["Högrevsburgare","Bacon","Syltad gul lök","Vitlöksmajonäs"],
     "directions": "Stek löken på svag värme i mycket smör.<br/>"
   },
@@ -220,7 +220,7 @@
     "name": "Kycklinggratäng",
     "source": "",
     "portions": "",
-    "categories": ["Kyckling","Matvete"],
+    "categories": ["Matvete","Kyckling"],
     "ingredients": [["600 g","kycklingfile"],["65 g","färsk bladspenat"],["2 dl","smaksatt creme fraiche (tomat/basilika)"],["1,5 dl","riven ost"],["3 dl","bulgur eller matvete"],["1 tsk","torkade örter (rosmarin, timjan eller basilika)"],["1 msk","olja"],["","salt och svartpeppar"]],
     "directions": "1. Sätt ugnen på 225 grader. Skär kycklingen i mindre bitar. Stek kycklingen i oljan tills den får färg. Tillsätt spenat, örter, en halv tsk salt och 2 krm peppar och stek ytterligare några minuter. Lägg kycklingfräset i en ugnsform. Blanda creme fraichen med en halv dl vatten och häll över.<br/><br/>2. Toppa med riven ost och ställ in i mitten av ugnen ca 15 minuter eller tills gratängen är gyllene.<br/><br/>3. Koka bulgur enligt anvisning på förpackningen och servera till."
   },
@@ -415,7 +415,7 @@
     "name": "Ris och tonfisk",
     "source": "",
     "portions": "",
-    "categories": ["Fisk","Ris"],
+    "categories": ["Ris","Fisk"],
     "ingredients": [["","Ris (ljummet)"],["","Tonfisk på burk"],["","Frysta grönsaker (ärtor, majs, paprika)"],["","Rhode island sås"]],
     "directions": "Servera med ostmacka"
   },
@@ -493,7 +493,7 @@
     "id": "veg_burgare",
     "name": "Vegetarisk hamburgare",
     "source": "",
-    "categories": ["Vegetariskt","Burgare"],
+    "categories": ["Burgare","Vegetariskt"],
     "ingredients": [["1dl ","quinoa"],["1 tsk ","olivolja"],["1/2 st","rödlök"],["3 st","vitlöksklyftor"],["1/2tsk ","salt"],["1 burk ","svarta bönor"],["2msk ","tomatpure"],["1 st","ägg"],["1 burk ","majs"],["100g ","soltorkade tomater"],["1dl ","havregryn"],["0,5dl ","mjöl"]],
     "directions": ""
   },
