@@ -505,6 +505,15 @@
     "directions": "Ostsås: <br/>&nbsp;<br/>Smält 40g smör i en kastrull. När smöret smält ta bort kastrullen från plattan och tillsätt 2 rågade matskedar mjöl. Vispa ihop till en smet. Häll i 7dl mjölk och koka upp under vispning. När mjölken kokar sänk till låg värme och tillsätt 2dl riven ost."
   },
   {
+    "id": "veg_wok_nudlar",
+    "name": "Vegetarisk wok med nudlar",
+    "source": "https://baraenkakatill.se/vegetarisk-wok-nudlar/",
+    "portions": "",
+    "categories": ["Nudlar","Vegetariskt"],
+    "ingredients": [["4 port","risnudlar"],["2 st","morötter"],["1 st","liten röd paprika"],["4 st","salladslökar"],["250 g","champinjoner"],["1-2 msk","sesamolja"],["2 msk","mirin"],["3 msk","kinesisk, vanlig soja"],["1,5 msk","sesamolja"],["1 tsk","socker"]],
+    "directions": "Rör samman ingredienserna till sojablandningen i en kopp, ställ åt sidan.<br/><br/>Koka nudlarna enligt anvisningarna på paketet.<br/><br/>Strimla morötter, paprika och salladslökar, och spara en handfull salladslök till garnering. Halvera champinjonerna och skär dem i skivor.<br/><br/>Hetta upp sesamolja i en wokpanna och woka de strimlade grönsakerna och svampen i ca 5 minuter tills de mjuknat något.<br/><br/>Rör ner mirin och nudlarna. Häll i sojablandningen lite i taget tills du när nöjd med färgen på woken. Blanda runt allt noga, lägg upp i skålar och toppa varje portion med lite strimlad salladslök.<br/>"
+  },
+  {
     "id": "vegonuggets",
     "name": "Vegonuggets med teriyakinudlar",
     "source": "https://www.ica.se/recept/vegonuggets-med-teriyakinudlar-och-wokade-gronsaker-727732/",
