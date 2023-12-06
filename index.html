@@ -11,12 +11,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 		<script src="src/main.js"></script> 
+		<script src="src/modules.js"></script> 
 		<script src="src/listview.js"></script> 
 		<script src="src/detailview.js"></script> 
 		<script src="src/helperfunctions.js"></script>
 	</head>
 
-	<body>
+	<body onload="getRecipesAndInit()">
 		<h1>&nbsp;Förslag på maträtter <i class="fa fa-utensils"></i></h1>
 		<div class="header">
 			<div class="filter_menu">

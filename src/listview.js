@@ -1,49 +1,57 @@
-function render(filter) {
+const render = (filter) => {
   if (history.pushState) {
-    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=cat_'+filter;
-    window.history.pushState({path:newurl},'',newurl);
+    const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=cat_' + filter;
+    window.history.pushState({ path: newurl }, '', newurl);
   }
 
   $( ".cat_menu").removeClass('cat_active');
-  $( "#"+filter).addClass('cat_active');
+  $( "#" + filter).addClass('cat_active');
 
   let newContent = '';
   if(filter === 'candidates') {
     showCandidatesContent();
+
     return;
   } else if(filter === 'selected') {
     showSelectedContent();
+
     return;
   } else {
-    for(let i=0; i<recipes.length; i++) {
+    RecipesModule.get().forEach((recipe) => {
       if(filter && filter === 'uncategorized') {
-        if(recipes[i].categories && recipes[i].categories.length > 0){
-          continue;
+        if(recipe.categories && recipe.categories.length > 0){
+          return;
         }
       }
 
       if(filter && filter !== 'all' && filter !== 'uncategorized') {
-        if(!recipes[i].categories || !recipes[i].categories.includes(catMapReverse[filter])){
-          continue;
+        if(!recipe.categories || !recipe.categories.includes(catMapReverse[filter])){
+          return;
         }
       }
 
       let catsOnRowEl = '';
-      if(recipes[i].categories) {
-        for(let j=0; j<recipes[i].categories.length; j++){
-          catsOnRowEl += '<div class="row_cat ' + catMap[recipes[i].categories[j]] + '_cat"></div>';
-        };
+      if(recipe.categories) {
+        recipe.categories.forEach((cat) => { 
+          catsOnRowEl += `<div class="row_cat ${catMap[cat]}_cat"></div>`;
+        });
       }
 
-      const checkbox = '<input type="checkbox"'+
-      (selectedRecipes.includes(recipes[i].id) ? " checked" : "")+
-      ' onclick="selectRecipe(\''+recipes[i].id+'\')" />';
+      const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipe.id) ? " checked" : "")} onclick="selectRecipe('${recipe.id}')" />`;
 
-      newContent += '<div class="row">'+checkbox+'<div class="row_cats_cont"><div class="row_cats">' + 
-        catsOnRowEl + '</div></div><div class="recipe_link" onclick="showRecipe(\'' + 
-        recipes[i].id + '\')">' + recipes[i].name + 
-        '</div></div>';
-    };
+      newContent += `
+        <div class="row">
+          ${checkbox}
+          <div class="row_cats_cont">
+            <div class="row_cats"> 
+              ${catsOnRowEl}
+            </div>
+          </div>
+          <div class="recipe_link" onclick="showRecipe('${recipe.id}')">
+            ${recipe.name}
+          </div>
+        </div>`;
+    });
   }
 
   $( ".singleview" ).hide();

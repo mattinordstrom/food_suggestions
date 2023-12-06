@@ -30,10 +30,7 @@ const catMapReverse = {
   'ivar': 'Ivar',
 };
 
-function getHrLongHtml() {
-  return '<span style="color:#ccc">-----------------------------------------------------------------</span>';
-}
+const getHrLongHtml = () => '<span style="color:#ccc">-----------------------------------------------------------------</span>';
 
-function getHrShortHtml() {
-  return '<span style="color:#ccc">----------</span>';
-}
+const getHrShortHtml = () => '<span style="color:#ccc">----------</span>';
+

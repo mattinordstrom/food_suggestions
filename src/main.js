@@ -1,13 +1,12 @@
-let recipes = [];
-let candidates = [];
-let selectedRecipes = [];
+const init = () => {
+  const storedSelected = localStorage.getItem('foodSuggestionsSelected');
+  if(storedSelected) {
+    SelectedRecipesModule.set(JSON.parse(storedSelected));
+  }
 
-function init() {
-  const recipesCookie = document.cookie.split('; ').find((row) => row.startsWith('recipes='))?.split('=')[1]; 
-  selectedRecipes = recipesCookie ? recipesCookie.split(",") : [];
-  $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
+  $( "#selected div" ).html('Valda (' + SelectedRecipesModule.get().length + ')');
 
-  var page = window.location.search.split("?page=")[1];
+  const page = window.location.search.split("?page=")[1];
   
   if(!page) {
     render('all');
@@ -20,48 +19,51 @@ function init() {
   }
 }
 
-function getRecipesAndInit() {
-  $.ajax({
-    url: "./src/recipes.json",
-    dataType: "json"
-  }).done(function(result){
-    recipes = result;
+const getRecipesAndInit = async () => {
+  try {
+    const response = await fetch('./src/recipes.json');
+    const result = await response.json();
+    
+    RecipesModule.set(result);
+    
+    try {
+      const response = await fetch('./src/candidates.json');
+      const result = await response.json();
+      
+      CandidatesModule.set(result);
   
-    $.ajax({
-      url: "./src/candidates.json",
-      dataType: "json"
-    }).done(function(result){
-      candidates = result;
+    } catch (error) {
+        console.error('Fetch error candidates:', error);
+    }
+  } catch (error) {
+      console.error('Fetch error recipes:', error);
+  }
 
-      $(document).ready(function(){
-        init();
-      })
-    });
-  });
+  init();
 }
 
-function selectRecipe(recipeId, inSelectedView) {
+const selectRecipe = (recipeId, inSelectedView) => {
+  const selectedRecipes = SelectedRecipesModule.getArrayCopy();
+
   if(selectedRecipes.includes(recipeId)) {
     selectedRecipes.splice(selectedRecipes.indexOf(recipeId), 1);
-    setRecipesCookie(selectedRecipes.toString());
+
+    SelectedRecipesModule.set(selectedRecipes);
+    storeSelected();
+
     if(inSelectedView) {
       render('selected');
     }
   } else {
     selectedRecipes.push(recipeId);
 
-    setRecipesCookie(selectedRecipes.toString());
+    SelectedRecipesModule.set(selectedRecipes);
+    storeSelected();
   }
-  $( "#selected div" ).html('Valda ('+selectedRecipes.length+')');
+
+  $( "#selected div" ).html('Valda (' + SelectedRecipesModule.get().length + ')');
 }
 
-function setRecipesCookie(cvalue) {
-  const exdays = 14;
-  const d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires="+ d.toUTCString();
-  document.cookie = "recipes=" + cvalue + ";" + expires + ";path=/";
+const storeSelected = () => {
+  localStorage.setItem('foodSuggestionsSelected', JSON.stringify(SelectedRecipesModule.get()));
 }
-
-//INIT
-getRecipesAndInit();
