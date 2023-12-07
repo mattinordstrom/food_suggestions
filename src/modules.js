@@ -2,10 +2,10 @@ const RecipesModule = (() => {
   let recipes = [];
 
   const setRecipes = (data) => {
-    recipes = data;
+    recipes = [...data];
   }
 
-  const getRecipes = () => recipes;
+  const getRecipes = () => [...recipes];
 
   return {
       set: setRecipes,
@@ -17,10 +17,10 @@ const CandidatesModule = (() => {
   let candidates = [];
 
   const setCandidates = (data) => {
-    candidates = data;
+    candidates = [...data];
   }
 
-  const getCandidates = () => candidates;
+  const getCandidates = () => [...candidates];
 
   return {
       set: setCandidates,
@@ -32,7 +32,7 @@ const SelectedRecipesModule = (() => {
   let selectedRecipes = [];
 
   const setSelectedRecipes = (data) => {
-    selectedRecipes = data;
+    selectedRecipes = [...data];
   }
 
   const getSelectedRecipesCopy = () => [...selectedRecipes];

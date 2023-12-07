@@ -1,19 +1,21 @@
 let recipes = [];
 let newRecipe = {};
 
-function init() {
-  $('.jsoninfo').html('recipes.json length: '+recipes.length);
+const init = () => {
+  $('.jsoninfo').html('recipes.json length: ' + recipes.length);
 
-  let i = 0;
-  for (const key in catMap) {
-    i++;
+  Object.keys(catMap).forEach((key, i) => {
+    const idx = i+1;
 
-    $('.cat_checkboxes').append('<input type="checkbox" id="checkbox'+i+'"></input><label for="checkbox'+i+'">'+key+'</label>&nbsp;&nbsp;');
+    $('.cat_checkboxes').append(`
+      <input type="checkbox" id="checkbox${idx}"></input>
+      <label for="checkbox${idx}">${key}</label>&nbsp;&nbsp;
+    `);
 
-    if (i % 5 === 0) {
+    if (idx % 5 === 0) {
       $('.cat_checkboxes').append('<br />');
     }
-  }
+  });
 
   addEmptyIngredient();
   addEmptyIngredient();
@@ -24,12 +26,18 @@ function init() {
   //console.log("Test admin. " + recipes.length);
 }
 
-function addEmptyIngredient() {
+const addEmptyIngredient = () => {
   const count = $('#ingredients').find('.ingredient').length;
-  $('#ingredients').append('<div class="ingredient"><input type="text" id="amount'+count+'" placeholder="amount">&nbsp;<input type="text" id="ingredient'+count+'" placeholder="ingredient"></div><br/>');
+
+  $('#ingredients').append(`
+    <div class="ingredient">
+      <input type="text" id="amount${count}" placeholder="amount">&nbsp;
+      <input type="text" id="ingredient${count}" placeholder="ingredient">
+    </div><br/>
+  `);
 }
 
-function validateInputs() {
+const validateInputs = () => {
   if(!newRecipe.id) {
     alert("Missing id!");
     return false;
@@ -40,24 +48,24 @@ function validateInputs() {
     return false;
   }
 
-  for(let i=0; i<recipes.length; i++) {
-    if(newRecipe.id === recipes[i].id){
+  recipes.forEach((recipe) => {
+    if(newRecipe.id === recipe.id){
       alert("ID already in use!");
       return false;
     }
-  }
+  });
 
   return true;
 }
 
-function addToJSON() {
+const addToJSON = () => {
   newRecipe.id = $('#ingredient_form input[id="id"]')[0].value;
   newRecipe.name = $('#ingredient_form input[id="name"]')[0].value;
   newRecipe.source = $('#ingredient_form input[id="source"]')[0].value;
   newRecipe.portions = $('#ingredient_form input[id="portions"]')[0].value;
 
   newRecipe.categories = [];
-  $('.cat_checkboxes input[type="checkbox"]').each(function() {
+  $('.cat_checkboxes input[type="checkbox"]').each(() => {
     const labelText = $(this).next('label').text();
   
     if ($(this).is(':checked')) {
@@ -66,7 +74,7 @@ function addToJSON() {
   });
 
   newRecipe.ingredients = [];
-  $('#ingredient_form div[id="ingredients"] div[class="ingredient"]').each(function(a,b,c) {
+  $('#ingredient_form div[id="ingredients"] div[class="ingredient"]').each(() => {
     const amount = $(this)[0].children[0].value;
     const ingredient = $(this)[0].children[1].value;
 
@@ -96,7 +104,7 @@ function addToJSON() {
   newRecipe = {};
 }
 
-function writeJsonToFile() {
+const writeJsonToFile = () => {
   const jsonStr = customStringify(recipes);
   const blob = new Blob([jsonStr], { type: "application/json" });
   const url = URL.createObjectURL(blob);
@@ -109,20 +117,7 @@ function writeJsonToFile() {
   document.body.removeChild(a);
 }
 
-function getRecipesAndInit() {
-  $.ajax({
-    url: "../src/recipes.json",
-    dataType: "json"
-  }).done(function(result){
-    recipes = result;
-
-    $(document).ready(function(){
-      init();
-    })
-  });
-}
-
-function escapeHtml(unsafe) {
+const escapeHtml = (unsafe) => {
   return unsafe
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -131,7 +126,8 @@ function escapeHtml(unsafe) {
     .replace(/'/g, "&#039;");
 }
 
-function customStringify(jsonObject) {
+const customStringify = (jsonObject) => {
+  //TODO make this more readable
   return (
     "[\n" +
     jsonObject
@@ -153,5 +149,15 @@ function customStringify(jsonObject) {
   );
 }
 
-//INIT
-getRecipesAndInit();
+const getRecipesAndInit = async () => {
+  try {
+    const response = await fetch('../src/recipes.json');
+    const result = await response.json();
+
+    recipes = result;
+  } catch (error) {
+    console.error('Fetch error recipes:', error);
+  }
+
+  init();
+}
