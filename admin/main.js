@@ -1,8 +1,5 @@
-let recipes = [];
-let newRecipe = {};
-
 const init = () => {
-  $('.jsoninfo').html('recipes.json length: ' + recipes.length);
+  $('.jsoninfo').html('recipes.json length: ' + RecipesModule.get().length);
 
   Object.keys(catMap).forEach((key, i) => {
     const idx = i+1;
@@ -23,7 +20,7 @@ const init = () => {
   addEmptyIngredient();
   addEmptyIngredient();
 
-  //console.log("Test admin. " + recipes.length);
+  //console.log("Test admin. " + RecipesModule.get().length);
 }
 
 const addEmptyIngredient = () => {
@@ -37,7 +34,7 @@ const addEmptyIngredient = () => {
   `);
 }
 
-const validateInputs = () => {
+const validateInputs = (newRecipe) => {
   if(!newRecipe.id) {
     alert("Missing id!");
     return false;
@@ -48,7 +45,7 @@ const validateInputs = () => {
     return false;
   }
 
-  recipes.forEach((recipe) => {
+  RecipesModule.get().forEach((recipe) => {
     if(newRecipe.id === recipe.id){
       alert("ID already in use!");
       return false;
@@ -59,24 +56,26 @@ const validateInputs = () => {
 }
 
 const addToJSON = () => {
+  const newRecipe = {};
+
   newRecipe.id = $('#ingredient_form input[id="id"]')[0].value;
   newRecipe.name = $('#ingredient_form input[id="name"]')[0].value;
   newRecipe.source = $('#ingredient_form input[id="source"]')[0].value;
   newRecipe.portions = $('#ingredient_form input[id="portions"]')[0].value;
 
   newRecipe.categories = [];
-  $('.cat_checkboxes input[type="checkbox"]').each(() => {
-    const labelText = $(this).next('label').text();
+  $('.cat_checkboxes input[type="checkbox"]').each((idx, el) => {
+    const labelText = $(el).next('label').text();
   
-    if ($(this).is(':checked')) {
+    if ($(el).is(':checked')) {
       newRecipe.categories.push(labelText);
     }
   });
 
   newRecipe.ingredients = [];
-  $('#ingredient_form div[id="ingredients"] div[class="ingredient"]').each(() => {
-    const amount = $(this)[0].children[0].value;
-    const ingredient = $(this)[0].children[1].value;
+  $('#ingredient_form div[id="ingredients"] div[class="ingredient"]').each((idx, el) => {
+    const amount = $(el)[0].children[0].value;
+    const ingredient = $(el)[0].children[1].value;
 
     if(ingredient) {
       newRecipe.ingredients.push([amount, ingredient]);
@@ -87,8 +86,7 @@ const addToJSON = () => {
   directions = directions.replace(/\n/g, '<br/>');
   newRecipe.directions = directions;
 
-  if(!validateInputs()) {
-    newRecipe = {};
+  if(!validateInputs(newRecipe)) {
     return;
   }
 
@@ -97,15 +95,17 @@ const addToJSON = () => {
   const htmlString = escapedString.replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
   $('#jsontext').html(htmlString);
 
-  recipes.push(newRecipe);
-  recipes.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+  const newRecipes = RecipesModule.get();
+  newRecipes.push(newRecipe);
+  newRecipes.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+
+  RecipesModule.set(newRecipes);
 
   writeJsonToFile();
-  newRecipe = {};
 }
 
 const writeJsonToFile = () => {
-  const jsonStr = customStringify(recipes);
+  const jsonStr = customStringify(RecipesModule.get());
   const blob = new Blob([jsonStr], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
@@ -154,7 +154,7 @@ const getRecipesAndInit = async () => {
     const response = await fetch('../src/recipes.json');
     const result = await response.json();
 
-    recipes = result;
+    RecipesModule.set(result);
   } catch (error) {
     console.error('Fetch error recipes:', error);
   }
