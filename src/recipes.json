@@ -388,6 +388,15 @@
     "directions": ""
   },
   {
+    "id": "plattar",
+    "name": "Plättar / Pannkakor",
+    "source": "",
+    "portions": "",
+    "categories": [],
+    "ingredients": [["3 dl","vetemjöl"],["0,5 tsk","(salt)"],["6 dl","mjölk"],["2 st","ägg"],["3 msk","margarin"]],
+    "directions": "Blanda mjöl och salt.<br/>Tillsätt hälften av mjölken och vispa till en jämn smet.<br/>Tillsätt resten av mjölken.<br/>Blanda i äggen.<br/>Smält margarinet och tillsätt det till smeten (då behöver man mindre margarin vid stekningen)"
+  },
+  {
     "id": "potatis_torsk_6man",
     "name": "Potatis med torsk och morot (6 mån)",
     "source": "https://www.semper.se/barnmat/recept/6-manader/recept-potatis-med-torsk-och-morot",
