@@ -444,6 +444,15 @@
     "directions": ""
   },
   {
+    "id": "smoothie",
+    "name": "Smoothie",
+    "source": "",
+    "portions": "",
+    "categories": ["Ivar"],
+    "ingredients": [["1 kg","äpple"],["500 g","päron"],["2 st","bananer"],["1 st","apelsin"],["500 g","mango"],["1 st","kiwi"]],
+    "directions": ""
+  },
+  {
     "id": "kottfarssas",
     "name": "Spagetti o köttfärssås",
     "source": "",
