@@ -69,7 +69,7 @@
     "name": "Falafel",
     "source": "Linas matkasse recept",
     "categories": ["Vegetariskt"],
-    "ingredients": [["1 pkt","kikärtor"],["1/2 st","silverlök"],["1 st","vitlöksklyfta"],["3 msk ","mjöl"],["1/2 tsk ","salt"],["1 1/2 tsk ","spiskummin"],["1 tsk ","koriander"]],
+    "ingredients": [["1 pkt","kikärtor"],["1/2 st","silverlök"],["1 st","vitlöksklyfta"],["3 msk ","mjöl"],["1/2 tsk ","salt"],["1 1/2 tsk ","spiskummin"],["1 tsk ","koriander"], "Ströbröd"],
     "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/>&nbsp;<br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
   },
   {
