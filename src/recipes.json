@@ -69,7 +69,7 @@
     "name": "Falafel",
     "source": "Linas matkasse recept",
     "categories": ["Vegetariskt"],
-    "ingredients": [["1 pkt","kikärtor"],["1/2 st","silverlök"],["1 st","vitlöksklyfta"],["3 msk ","mjöl"],["1/2 tsk ","salt"],["1 1/2 tsk ","spiskummin"],["1 tsk ","koriander"], "Ströbröd"],
+    "ingredients": [["1 pkt","kikärtor"],["1/2 st","silverlök"],["1 st","vitlöksklyfta"],["3 msk ","mjöl"],["1/2 tsk ","salt"],["1 1/2 tsk ","spiskummin"],["1 tsk ","koriander"],"Ströbröd"],
     "directions": "Skopa smeten på en tesked och rulla till en boll.<br/>Rulla i ströbröd, lägg sedan bollarna i en varm panna med olja.<br/>&nbsp;<br/>Tips! Det är lättare att rulla om man har lite blöta händer. <br/>"
   },
   {
@@ -92,6 +92,15 @@
     "categories": ["Pasta","Kött"],
     "ingredients": [["400g ","falukorv"],["2 paket ","bacon"],["1 st","gul lök"],["1 st","röd paprika"],["200g ","champinjoner"],["1 msk ","rapsolja"],["3 dl ","vispgrädde"],["2 msk ","hackad färsk oregano"],["150g ","västerbottenost"],"salt och peppar"],
     "directions": "Stek korv och bacon.<br/>Stek lök, paprika och svamp.<br/>Blanda allt i en ugnsform.<br/>Häll över grädden och krydda.<br/>Strö över oregano och riven ost.<br/>Ugnen på 200°, ca 15 min. Servera med spagetti.<br/>"
+  },
+  {
+    "id": "fetaostbiffar",
+    "name": "Fetaostbiffar",
+    "source": "https://www.coop.se/recept/vegofarsbiffar-med-fetaost-och-klyftpotatis/",
+    "portions": "",
+    "categories": ["Potatis","Vegetariskt"],
+    "ingredients": [["400 g","formbar vegofärs"],["150 g","fetaost"],["0,5 st","rödlök"],["1 st","vitlöksklyfta"],["1 tsk","oregano"],["1 krm","chiliflakes"],["1 krm","svartpeppar"],["0,5 tsk","salt"]],
+    "directions": "OBS originalreceptet är ganska starkt (behövs inte så mycket chiliflakes och peppar)<br/><br/>Stek biffarna i rapsolja.<br/><br/>(Kan ha färdig potatisgratäng till)"
   },
   {
     "id": "fisk_i_ugn",
