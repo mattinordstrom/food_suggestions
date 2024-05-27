@@ -6,7 +6,7 @@
     "portions": "4",
     "categories": ["Potatis","Kött"],
     "ingredients": [["2 st stora","Sötpotatis"],["2-3 st stora","Morötter"],[" "," "],["600 g","Köttfärs"],["3 msk","Ajvar relish"],["2 st","Äggula"],["1 tsk","salt"],["2 krm","svartpeppar"],["2msk","finhackad basilika"],["2msk","smör (till stekning)"],[" "," "],"Ajvarsås:",["3dl","creme fraiche"],["6msk","ajvar"]],
-    "directions": "Sätt ugnen på 225 grader.<br/><br/>Dela sötpotatis och morötter och lägg på en plåt med bakplåtspapper. Strö på salt och olja. Rör runt och sätt in i ugnen ca 25 min.<br/><br/>Blanda färs, ajvar, äggula, salt o peppar och basilika. Forma 4-6 st biffar. Stek biffarna i smör (3-4 min per sida). <br/><br/>Tips! Skopa med en plastskred på biffarna i pannan under stekning"
+    "directions": "Sätt ugnen på 225 grader.<br/><br/>Dela sötpotatis och morötter och lägg på en plåt med bakplåtspapper. Strö på salt och olja. Rör runt och sätt in i ugnen ca 25 min.<br/><br/>Blanda färs, ajvar, äggula, salt o peppar och basilika. Forma 4-6 st biffar. Stek biffarna i smör (3-4 min per sida). <br/><br/>Tips! Skopa med en plastsked på biffarna i pannan under stekning"
   },
   {
     "id": "ajvarkyckling",
@@ -434,7 +434,7 @@
     "source": "",
     "portions": "2",
     "categories": ["Ris","Fisk"],
-    "ingredients": [["2 port","Ris (ljummet)"],["","Tonfisk på burk"],["300 g","Frysta grönsaker (ärtor, majs, paprika)"],["","Rhode island sås"]],
+    "ingredients": [["2 port","Ris (ljummet)"],["1 st","Tonfisk i vatten (burk)"],["300 g","Frysta grönsaker (ärtor, majs, paprika)"],["","Rhode island sås"]],
     "directions": "Servera med ostmacka"
   },
   {
