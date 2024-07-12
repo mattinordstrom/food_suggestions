@@ -31,6 +31,15 @@
     "directions": ""
   },
   {
+    "id": "bao",
+    "name": "Bao buns",
+    "source": "https://javligtgott.se/recept/veganska-bao-buns/",
+    "portions": "",
+    "categories": ["Vegetariskt"],
+    "ingredients": [],
+    "directions": ""
+  },
+  {
     "id": "broccolipaj",
     "name": "Broccolipaj med purjo och bacon",
     "portions": "4",
