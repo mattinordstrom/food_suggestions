@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Förslag på maträtter v2</title>
+		<link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="../fontawesome/css/brands.css">
+		<link rel="stylesheet" href="../fontawesome/css/solid.css">
+		<link href="../style.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+		<script src="../src/main.js"></script> 
+		<script src="../src/modules.js"></script> 
+		<script src="../src/listview.js"></script> 
+		<script src="../src/detailview.js"></script> 
+		<script src="../src/helperfunctions.js"></script>
+	</head>
+
+	<body onload="getRecipesAndInit(2)">
+		<h1>&nbsp;Förslag på maträtter v2 <i class="fa fa-utensils"></i></h1>
+		<div class="header">
+			<div class="filter_menu">
+				<div style="display:flex">
+					<div id="all" class="cat_menu cat_active" onclick="render('all')">
+						<div style="width:100%;">Alla</div>
+					</div>
+					<div id="uncategorized" class="cat_menu" onclick="render('uncategorized')">
+						<div style="width:100%;">Okategoriserat</div>
+					</div>
+					<div id="ivar" class="cat_menu" onclick="render('ivar')">
+						<div class="ivar_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Ivar</div>
+					</div>
+					<!--<div id="candidates" class="cat_menu" onclick="render('candidates')">
+						<div style="width:100%;">Kandidater</div>
+					</div>-->
+					<div id="selected" class="cat_menu" onclick="render('selected')">
+						<div style="width:100%;">Valda (0)</div>
+					</div>
+				</div>
+				<hr />
+				<div style="display:flex">
+					<div id="meat" class="cat_menu" onclick="render('meat')">
+						<div class="meat_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Kött</div>
+					</div>
+					<div id="fish" class="cat_menu" onclick="render('fish')">
+						<div class="fish_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Fisk</div>
+					</div>
+					<div id="chicken" class="cat_menu" onclick="render('chicken')">
+						<div class="chicken_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Kyckling</div>
+					</div>
+					<div id="veg" class="cat_menu" onclick="render('veg')">
+						<div class="veg_cat" style="width:10%; height:100%"></div>
+						<div style="width:90%;">Vegetariskt</div>
+					</div>
+				</div>
+				<hr />
+				<div style="display:flex">
+					<div id="potato" class="cat_menu" onclick="render('potato')">
+						<div class="potato_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Potatis</div>
+					</div>
+					<div id="pasta" class="cat_menu" onclick="render('pasta')">
+						<div class="pasta_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Pasta</div>
+					</div>
+					<div id="rice" class="cat_menu" onclick="render('rice')">
+						<div class="rice_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Ris</div>
+					</div>
+					<div id="noodles" class="cat_menu" onclick="render('noodles')">
+						<div class="noodles_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Nudlar</div>
+					</div>
+				</div>
+				<div style="display:flex">
+					<div id="wheat" class="cat_menu" onclick="render('wheat')">
+						<div class="wheat_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Matvete</div>
+					</div>
+					<div id="pie" class="cat_menu" onclick="render('pie')">
+						<div class="pie_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Paj</div>
+					</div>
+					<div id="pizza" class="cat_menu" onclick="render('pizza')">
+						<div class="pizza_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Pizza</div>
+					</div>
+					<div id="burger" class="cat_menu" onclick="render('burger')">
+						<div class="burger_cat" style="width:10%; height:100%"></div>
+						<div style="width:80%;">Burgare</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="singleview"></div>
+		<div class="listview"></div>
+		<br/><br/>
+	</body>
+</html>

@@ -19,9 +19,14 @@ const init = () => {
   }
 }
 
-const getRecipesAndInit = async () => {
+const getRecipesAndInit = async (version) => {
+  let jsonFilePath = './src/recipes.json';
+  if(version && version === 2) {
+    jsonFilePath = '../src/recipes2.json';
+  }
+
   try {
-    const response = await fetch('./src/recipes.json');
+    const response = await fetch(jsonFilePath);
     const result = await response.json();
     
     RecipesModule.set(result);
