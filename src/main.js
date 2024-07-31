@@ -1,5 +1,5 @@
 const init = () => {
-  const storedSelected = localStorage.getItem('foodSuggestionsSelected');
+  const storedSelected = localStorage.getItem(isV2() ? 'foodSuggestionsSelected2' : 'foodSuggestionsSelected');
   if(storedSelected) {
     SelectedRecipesModule.set(JSON.parse(storedSelected));
   }
@@ -19,11 +19,8 @@ const init = () => {
   }
 }
 
-const getRecipesAndInit = async (version) => {
-  let jsonFilePath = './src/recipes.json';
-  if(version && version === 2) {
-    jsonFilePath = '../src/recipes2.json';
-  }
+const getRecipesAndInit = async () => {
+  let jsonFilePath = isV2() ? '../src/recipes2.json' : './src/recipes.json';
 
   try {
     const response = await fetch(jsonFilePath);
@@ -70,5 +67,9 @@ const selectRecipe = (recipeId, inSelectedView) => {
 }
 
 const storeSelected = () => {
-  localStorage.setItem('foodSuggestionsSelected', JSON.stringify(SelectedRecipesModule.get()));
+  localStorage.setItem(isV2() ? 'foodSuggestionsSelected2' : 'foodSuggestionsSelected', JSON.stringify(SelectedRecipesModule.get()));
+}
+
+const isV2 = () => {
+  return window.location.href.includes('/v2');
 }

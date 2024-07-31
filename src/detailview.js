@@ -72,7 +72,7 @@ const showCandidatesContent = () => {
 }
 
 const resetStored = () => {
-  localStorage.setItem('foodSuggestionsSelected', '');
+  localStorage.setItem(isV2() ? 'foodSuggestionsSelected2' : 'foodSuggestionsSelected', '');
 
   SelectedRecipesModule.set([])
   $( "#selected div" ).html('Valda ('+SelectedRecipesModule.get().length+')');
