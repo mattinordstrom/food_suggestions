@@ -11,10 +11,18 @@
 		<script src="../src/helperfunctions.js"></script>
 	</head>
 
-	<body onload="getRecipesAndInit()">
+	<body onload="getRecipes(); init();">
 		<h1>&nbsp;Förslag på maträtter <i class="fa fa-utensils"></i> - <span style="color: red;">ADMIN</span></h1>
 		<br />
-		<div class="jsoninfo">
+		<div>
+			<label for="cars">Choose json:</label>
+			<select name="jsonfiles" id="jsonfiles" onchange="getRecipes()">
+				<option selected value="recipes">recipes.json</option>
+				<option value="recipes2">recipes2.json</option>
+			</select>
+
+			<br /><br />
+			<div class="jsoninfo"></div>
 		</div>
 		<hr /><br />
 		<div class="content">

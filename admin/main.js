@@ -1,6 +1,4 @@
 const init = () => {
-  $('.jsoninfo').html('recipes.json length: ' + RecipesModule.get().length);
-
   Object.keys(catMap).forEach((key, i) => {
     const idx = i+1;
 
@@ -19,8 +17,6 @@ const init = () => {
   addEmptyIngredient();
   addEmptyIngredient();
   addEmptyIngredient();
-
-  //console.log("Test admin. " + RecipesModule.get().length);
 }
 
 const addEmptyIngredient = () => {
@@ -111,7 +107,7 @@ const writeJsonToFile = () => {
 
   const a = document.createElement("a");
   a.href = url;
-  a.download = "recipes.json";
+  a.download = RecipesModule.getCurrentFile(); + ".json";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -149,9 +145,13 @@ const customStringify = (jsonObject) => {
   );
 }
 
-const getRecipesAndInit = async () => {
+const getRecipes = async () => {
+  const el = document.getElementById("jsonfiles");
+  const selectedJsonFile = el.value;
+  RecipesModule.setCurrentFile(selectedJsonFile);
+
   try {
-    const response = await fetch('../src/recipes.json');
+    const response = await fetch('../src/'+selectedJsonFile+'.json');
     const result = await response.json();
 
     RecipesModule.set(result);
@@ -159,5 +159,5 @@ const getRecipesAndInit = async () => {
     console.error('Fetch error recipes:', error);
   }
 
-  init();
+  $('.jsoninfo').html('recipes json length: ' + RecipesModule.get().length);
 }
