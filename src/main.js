@@ -30,7 +30,12 @@ const init = () => {
 }
 
 const getRecipesAndInit = async (version) => {
-  let jsonFilePath = '../src/recipes' + (version > 1 ? version : '') + '.json';
+  let jsonFilePath = './src/recipes.json';
+  
+  if(version > 1) {
+    jsonFilePath = '../src/recipes' + version + '.json';
+  }
+
   RecipesModule.setVersion(version);
 
   try {
