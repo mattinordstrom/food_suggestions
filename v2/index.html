@@ -17,8 +17,8 @@
 		<script src="../src/helperfunctions.js"></script>
 	</head>
 
-	<body onload="getRecipesAndInit()">
-		<h1>&nbsp;Förslag på maträtter v2 <i class="fa fa-utensils"></i></h1>
+	<body onload="getRecipesAndInit(2)">
+		<h1>&nbsp;Förslag på maträtter <span style="color: red;">v2</span> <i class="fa fa-utensils"></i></h1>
 		<div class="header">
 			<div class="filter_menu">
 				<div style="display:flex">
@@ -32,9 +32,6 @@
 						<div class="ivar_cat" style="width:10%; height:100%"></div>
 						<div style="width:80%;">Ivar</div>
 					</div>
-					<!--<div id="candidates" class="cat_menu" onclick="render('candidates')">
-						<div style="width:100%;">Kandidater</div>
-					</div>-->
 					<div id="selected" class="cat_menu" onclick="render('selected')">
 						<div style="width:100%;">Valda (0)</div>
 					</div>

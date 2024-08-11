@@ -1,15 +1,24 @@
 const RecipesModule = (() => {
   let recipes = [];
-
+  let currentVersion = 1;
+  
   const setRecipes = (data) => {
     recipes = [...data];
   }
 
   const getRecipes = () => [...recipes];
 
+  const setVersion = (version) => {
+    currentVersion = version;
+  }
+
+  const getVersion = () => currentVersion;
+
   return {
       set: setRecipes,
-      get: getRecipes
+      get: getRecipes,
+      setVersion,
+      getVersion
   };
 })();
 

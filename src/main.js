@@ -1,5 +1,5 @@
 const init = () => {
-  const storedSelected = localStorage.getItem(isV2() ? 'foodSuggestionsSelected2' : 'foodSuggestionsSelected');
+  const storedSelected = localStorage.getItem('foodSuggestionsSelected'+RecipesModule.getVersion());
   if(storedSelected) {
     SelectedRecipesModule.set(JSON.parse(storedSelected));
   }
@@ -19,15 +19,16 @@ const init = () => {
   }
 }
 
-const getRecipesAndInit = async () => {
-  let jsonFilePath = isV2() ? '../src/recipes2.json' : './src/recipes.json';
+const getRecipesAndInit = async (version) => {
+  let jsonFilePath = '../src/recipes' + (version > 1 ? version : '') + '.json';
+  RecipesModule.setVersion(version);
 
   try {
     const response = await fetch(jsonFilePath);
     const result = await response.json();
     
     RecipesModule.set(result);
-    
+    /*
     try {
       const response = await fetch('./src/candidates.json');
       const result = await response.json();
@@ -36,7 +37,8 @@ const getRecipesAndInit = async () => {
   
     } catch (error) {
         console.error('Fetch error candidates:', error);
-    }
+    }*/
+    CandidatesModule.set([]);
   } catch (error) {
       console.error('Fetch error recipes:', error);
   }
@@ -67,9 +69,5 @@ const selectRecipe = (recipeId, inSelectedView) => {
 }
 
 const storeSelected = () => {
-  localStorage.setItem(isV2() ? 'foodSuggestionsSelected2' : 'foodSuggestionsSelected', JSON.stringify(SelectedRecipesModule.get()));
-}
-
-const isV2 = () => {
-  return window.location.href.includes('/v2');
+  localStorage.setItem('foodSuggestionsSelected'+RecipesModule.getVersion(), JSON.stringify(SelectedRecipesModule.get()));
 }
