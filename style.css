@@ -23,6 +23,8 @@ h1 {
 
 table {
     background-color: #e8e5d9;
+    border-radius: 6px;
+    padding: 4px;
 }
 
 td:first-child { 
@@ -63,11 +65,11 @@ input[type=checkbox] {
 .row {
     display: flex;
     font-weight: bold;
-    line-height: 32px;
+    line-height: 35px;
 }
 
 .row_cats_cont {
-    height:32px;
+    margin-right: 6px;
 }
 
 .row_cats {
@@ -95,6 +97,7 @@ input[type=checkbox] {
     border: 2px solid #f1ece0;
     outline: 1px solid #333;
     outline-offset: -1px;
+    border-radius: 3px;
     font-size: 10px;
     color: #333;
     font-weight: bolder;
