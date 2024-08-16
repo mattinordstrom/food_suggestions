@@ -1,6 +1,9 @@
-const render = (filter) => {
-  if (history.pushState) {
+const render = (filter, fromPopstateEvt) => {
+  if (history.pushState && !fromPopstateEvt) {
     const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=cat_' + filter;
+    
+    //console.log('newurl render: ' + newurl);
+
     window.history.pushState({ path: newurl }, '', newurl);
   }
 

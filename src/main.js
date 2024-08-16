@@ -1,6 +1,8 @@
 let wakeLock = null;
 
 const init = () => {
+  //console.log('init!');
+
   const storedSelected = localStorage.getItem('foodSuggestionsSelected'+RecipesModule.getVersion());
   if(storedSelected) {
     SelectedRecipesModule.set(JSON.parse(storedSelected));
@@ -19,6 +21,10 @@ const init = () => {
   } else {
     render('all');
   }
+
+  window.addEventListener('popstate', function(event) {
+    updateContentBasedOnState();
+  });
 
   // Automatically release the wake lock when the page is hidden (e.g., user switches to another tab)
   document.addEventListener('visibilitychange', () => {

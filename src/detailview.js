@@ -1,6 +1,9 @@
-const showRecipe = (recipeId) => {
-  if (history.pushState) {
+const showRecipe = (recipeId, fromPopstateEvt) => {
+  if (history.pushState && !fromPopstateEvt) {
     const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=rec_' + recipeId;
+    
+    //console.log('newurl showrecipe: ' + newurl);
+
     window.history.pushState({ path: newurl }, '', newurl);
   }
 

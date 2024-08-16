@@ -34,3 +34,17 @@ const getHrLongHtml = () => '<span style="color:#ccc">--------------------------
 
 const getHrShortHtml = () => '<span style="color:#ccc">----------</span>';
 
+const updateContentBasedOnState = () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const pageId = urlParams.get('page');
+  
+  if (pageId && pageId.startsWith('rec')) {
+    //console.log(`Load recipe with ID: ${pageId}`);
+
+    showRecipe(pageId.substring(4), true);
+  } else if (pageId && pageId.startsWith('cat')) {
+    //console.log(`Load list page with ID: ${pageId}`);
+
+    render(pageId.substring(4), true);
+  }
+}
