@@ -93,6 +93,11 @@ input[type=checkbox] {
     margin-top: 2px;
 }
 
+.filter_menu {
+    margin-left: 7px;
+    margin-right: 7px
+}
+
 .cat_menu {
     border: 2px solid #f1ece0;
     outline: 1px solid #333;
@@ -101,11 +106,13 @@ input[type=checkbox] {
     font-size: 10px;
     color: #333;
     font-weight: bolder;
-    min-width: 72px;
     text-align: center;
-    margin: 4px;
     padding: 2px;
+    max-width: 105px;
+    min-width: 72px;
+    flex: 1 1 72px;
     display: flex;
+    margin-bottom: 5px;
 }
 
 .recipe_link {
