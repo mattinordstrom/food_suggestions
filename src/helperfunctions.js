@@ -11,7 +11,6 @@ const catMap = {
   'Kyckling': 'chicken',
   'Kött': 'meat',
   'Fisk': 'fish',
-  'Ivar': 'ivar',
 };
 
 const catMapReverse = {
@@ -27,7 +26,6 @@ const catMapReverse = {
   'chicken': 'Kyckling',
   'meat': 'Kött',
   'fish': 'Fisk',
-  'ivar': 'Ivar',
 };
 
 const getHrLongHtml = () => '<span style="color:#ccc">-----------------------------------------------------------------</span>';

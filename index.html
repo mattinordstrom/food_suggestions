@@ -28,9 +28,8 @@
 					<div id="uncategorized" class="cat_menu" onclick="render('uncategorized')">
 						<div style="width:100%;">Okategoriserat</div>
 					</div>
-					<div id="ivar" class="cat_menu" onclick="render('ivar')">
-						<div class="ivar_cat" style="width:10%; height:100%"></div>
-						<div style="width:80%;">Ivar</div>
+					<div id="dummy" class="cat_menu" style="visibility: hidden;">
+						<div style="width:100%;"></div>
 					</div>
 					<!--<div id="candidates" class="cat_menu" onclick="render('candidates')">
 						<div style="width:100%;">Kandidater</div>
@@ -105,7 +104,7 @@
 			<hr />
 			<div style="display: flex; margin-left: 4px">
 				<span style="font-size: small; margin-right: 2px"><b>Håll skärmen tänd:</b></span> 
-				<input type="checkbox" id="toggleScreenOn" onclick="toggleScreenOn()" />
+				<input style="margin-top: 1px" type="checkbox" id="toggleScreenOn" onclick="toggleScreenOn()" />
 			</div>
 		  </footer>
 	</body>

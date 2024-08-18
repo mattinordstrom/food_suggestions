@@ -36,7 +36,7 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     portionsInfo = `<div style="font-size:12px"><strong>Antal portioner: </strong>${recipeObj.portions}</div>`;
   }
 
-  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe('${recipeId}')" style="margin-top:6px" />`;
+  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe('${recipeId}')" style="margin-top:9px" />`;
 
   $( ".listview" ).hide();
 
@@ -88,7 +88,7 @@ const showSelectedContent = () => {
   if(SelectedRecipesModule.get().length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px"><i><a href="javascript:resetStored();">Klicka här</a> för att återställa alla val.</i></div><br/>' + getHrLongHtml();
+    content += '<div style="font-size:12px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div><br/>' + getHrLongHtml();
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
