@@ -36,7 +36,7 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     portionsInfo = `<div style="font-size:12px"><strong>Antal portioner: </strong>${recipeObj.portions}</div>`;
   }
 
-  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe('${recipeId}')" style="margin-top:9px" />`;
+  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe('${recipeId}')" style="margin-top:8px" />`;
 
   $( ".listview" ).hide();
 

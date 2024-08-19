@@ -39,6 +39,7 @@ td:last-child {
 
 input[type=checkbox] {
     margin-right: 15px;
+    margin-top: 1px;
 }
 
 .singleview {
@@ -69,7 +70,7 @@ input[type=checkbox] {
 }
 
 .row_cats_cont {
-    margin-right: 6px;
+    margin-right: 5px;
 }
 
 .row_cats {
@@ -80,14 +81,14 @@ input[type=checkbox] {
     margin-right: 4px;
     margin-top: 8px;
     justify-content: flex-end;
-    width: 44px;
+    width: 37px;
     overflow: hidden;
     height: 16px;
     text-align: end;
 }
 
 .row_cat {
-    width: 10px;
+    width: 8px;
     height: 12px;
     margin-right: 3px;
     margin-top: 2px;
