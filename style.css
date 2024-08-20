@@ -81,7 +81,7 @@ input[type=checkbox] {
     margin-right: 4px;
     margin-top: 8px;
     justify-content: flex-end;
-    width: 37px;
+    width: 36px;
     overflow: hidden;
     height: 16px;
     text-align: end;
@@ -114,6 +114,11 @@ input[type=checkbox] {
     flex: 1 1 72px;
     display: flex;
     margin-bottom: 5px;
+}
+
+.cat_menu_color_btn {
+    width:12%;
+    height:100%;
 }
 
 .recipe_link {
