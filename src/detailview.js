@@ -51,7 +51,6 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     <div style="margin-left: 100px;"><h4>Ingredienser</h4></div>
     ${getIngredientsHTML('', '20px', recipeObj)}
     <br/><br />
-    ${getHrLongHtml()}
     <div style="margin-left: 100px;"><h4>Gör så här</h4></div>
     ${recipeObj.directions}
     <br /><br />
@@ -88,7 +87,7 @@ const showSelectedContent = () => {
   if(SelectedRecipesModule.get().length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div><br/>' + getHrLongHtml();
+    content += '<div style="font-size:12px; margin-top:16px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div><br/>';
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
@@ -114,7 +113,7 @@ const showSelectedContent = () => {
       `;
     });
     
-    content += getHrLongHtml();
+    content += `${getHrLongHtml()}<br /><br />`;
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
@@ -123,9 +122,8 @@ const showSelectedContent = () => {
         <div style="font-size:12px">
           <b>${recipeObj.name}</b>
         </div>
-        <br />
         ${getIngredientsHTML('normal', '', recipeObj)}
-        ${getHrShortHtml()}
+        <br/>
       `;
     });
   }
