@@ -122,7 +122,7 @@ const showSelectedContent = () => {
         <div style="font-size:12px">
           <b>${recipeObj.name}</b>
         </div>
-        ${getIngredientsHTML('normal', '', recipeObj)}
+        ${getIngredientsHTML('20px', '', recipeObj)}
         <br/>
       `;
     });
@@ -132,6 +132,10 @@ const showSelectedContent = () => {
   $( ".singleview" ).html(content).show();
 }
 
+const clickIngr = (el,ingredient) => {
+  console.log(ingredient)
+}
+
 const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
   let ingredients = '';
 
@@ -139,7 +143,7 @@ const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
     ingredients += "<table>";
 
     recipeObj.ingredients.forEach((ingredient) => {
-      ingredients += `<tr style="line-height:${lineHeight};">`;
+      ingredients += `<tr onclick="clickIngr(this, '${ingredient}')" style="line-height:${lineHeight};">`;
 
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
