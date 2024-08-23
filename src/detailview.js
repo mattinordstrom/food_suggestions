@@ -1,8 +1,6 @@
 const showRecipe = (recipeId, fromPopstateEvt) => {
   if (history.pushState && !fromPopstateEvt) {
     const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=rec_' + recipeId;
-    
-    //console.log('newurl showrecipe: ' + newurl);
 
     window.history.pushState({ path: newurl }, '', newurl);
   }
@@ -55,22 +53,6 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     ${recipeObj.directions}
     <br /><br />
     `).show();
-}
-
-const showCandidatesContent = () => {
-  let content = '&nbsp;<br/>';
-
-  CandidatesModule.get().forEach((candidate) => {
-    content += `
-      <div>&nbsp;<a target="_blank" href="${candidate.source}">${candidate.source}</a>&nbsp;
-      ${(candidate.name ? ('(' + candidate.name + ')') : '')}
-      </div>
-      <br/>${getHrLongHtml()}<br/>
-    `;
-  });
-
-  $( ".listview" ).hide();
-  $( ".singleview" ).html(content).show();
 }
 
 const resetStored = () => {
@@ -132,10 +114,6 @@ const showSelectedContent = () => {
   $( ".singleview" ).html(content).show();
 }
 
-const clickIngr = (el,ingredient) => {
-  console.log(ingredient)
-}
-
 const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
   let ingredients = '';
 
@@ -143,7 +121,7 @@ const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
     ingredients += "<table>";
 
     recipeObj.ingredients.forEach((ingredient) => {
-      ingredients += `<tr onclick="clickIngr(this, '${ingredient}')" style="line-height:${lineHeight};">`;
+      ingredients += `<tr style="line-height:${lineHeight};">`;
 
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);

@@ -1,8 +1,6 @@
 const render = (filter, fromPopstateEvt) => {
   if (history.pushState && !fromPopstateEvt) {
     const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?page=cat_' + filter;
-    
-    //console.log('newurl render: ' + newurl);
 
     window.history.pushState({ path: newurl }, '', newurl);
   }
@@ -11,11 +9,7 @@ const render = (filter, fromPopstateEvt) => {
   $( "#" + filter).addClass('cat_active');
 
   let newContent = '';
-  if(filter === 'candidates') {
-    showCandidatesContent();
-
-    return;
-  } else if(filter === 'selected') {
+  if(filter === 'selected') {
     showSelectedContent();
 
     return;

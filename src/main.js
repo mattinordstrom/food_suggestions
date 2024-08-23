@@ -1,8 +1,6 @@
 let wakeLock = null;
 
 const init = () => {
-  //console.log('init!');
-
   const storedSelected = localStorage.getItem('foodSuggestionsSelected'+RecipesModule.getVersion());
   if(storedSelected) {
     SelectedRecipesModule.set(JSON.parse(storedSelected));
@@ -22,11 +20,10 @@ const init = () => {
     render('all');
   }
 
-  window.addEventListener('popstate', function(event) {
+  window.addEventListener('popstate', (event) => {
     updateContentBasedOnState();
   });
 
-  // Automatically release the wake lock when the page is hidden (e.g., user switches to another tab)
   document.addEventListener('visibilitychange', () => {
     if (wakeLock !== null && document.visibilityState === 'hidden') {
       console.log('visibilitychange: Wake Lock will be released');
@@ -49,17 +46,6 @@ const getRecipesAndInit = async (version) => {
     const result = await response.json();
     
     RecipesModule.set(result);
-    /*
-    try {
-      const response = await fetch('./src/candidates.json');
-      const result = await response.json();
-      
-      CandidatesModule.set(result);
-  
-    } catch (error) {
-        console.error('Fetch error candidates:', error);
-    }*/
-    CandidatesModule.set([]);
   } catch (error) {
       console.error('Fetch error recipes:', error);
   }
@@ -110,7 +96,7 @@ const toggleScreenOn = () => {
 const requestWakeLock = async () => {
   try {
       wakeLock = await navigator.wakeLock.request('screen');
-      console.log('Screen will stay on');
+      //console.log('Screen will stay on');
   } catch (err) {
       console.error(`${err.name}, ${err.message}`);
   }
@@ -120,7 +106,7 @@ const releaseWakeLock = async () => {
   if (wakeLock !== null) {
     await wakeLock.release();
     wakeLock = null;
-    console.log('Wake Lock has been released');
+    //console.log('Wake Lock has been released');
 
     document.getElementById("toggleScreenOn").checked = false;
   }
