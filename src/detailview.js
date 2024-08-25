@@ -114,14 +114,29 @@ const showSelectedContent = () => {
   $( ".singleview" ).html(content).show();
 }
 
+const clickedIngr = (el) => {
+  let table2 = el.parentElement.parentElement.nextElementSibling;
+
+  const correspondingTr = table2.rows[el.rowIndex];
+  
+  const isChecked = (correspondingTr.style.visibility === 'visible');
+
+  correspondingTr.style.visibility = isChecked ? 'hidden' : 'visible';
+  el.style.setProperty("text-decoration", isChecked ? 'none' : 'line-through');
+
+ // console.log("test");
+}
+
 const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
+  //TODO dont use tables
+
   let ingredients = '';
 
   if(Array.isArray(recipeObj.ingredients)){
-    ingredients += "<table>";
+    ingredients += "<table style='float: left'>";
 
     recipeObj.ingredients.forEach((ingredient) => {
-      ingredients += `<tr style="line-height:${lineHeight};">`;
+      ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:22px;">`;
 
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
@@ -136,6 +151,13 @@ const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
 
     ingredients += "</table>";
   }
+
+  let lHeight = lineHeight ? '22px' : '24px'; //TODO
+  ingredients += '<table style="background-color:#efede1">';
+  recipeObj.ingredients.forEach((ingredient) => {
+    ingredients += '<tr style="color: green; visibility:hidden; height:'+lHeight+'"><td><i class="fa fa-check"></i></td></tr>';
+  });
+  ingredients += '</table><div style="clear: both;"></div>';
 
   return ingredients;
 }
