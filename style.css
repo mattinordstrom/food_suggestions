@@ -28,12 +28,14 @@ table {
 }
 
 td:first-child { 
+    padding: 0px;
     padding-right: 15px;
     min-width: 180px;
 }
 
 td:last-child { 
    min-width: 40px;
+   padding: 0px;
 }
 
 

@@ -47,7 +47,7 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     ${portionsInfo}
     ${getHrLongHtml()}
     <div style="margin-left: 100px;"><h4>Ingredienser</h4></div>
-    ${getIngredientsHTML('', '20px', recipeObj)}
+    ${getIngredientsHTML(recipeObj)}
     <br/><br />
     <div style="margin-left: 100px;"><h4>Gör så här</h4></div>
     ${recipeObj.directions}
@@ -104,7 +104,7 @@ const showSelectedContent = () => {
         <div style="font-size:12px">
           <b>${recipeObj.name}</b>
         </div>
-        ${getIngredientsHTML('20px', '', recipeObj)}
+        ${getIngredientsHTML(recipeObj)}
         <br/>
       `;
     });
@@ -127,8 +127,9 @@ const clickedIngr = (el) => {
  // console.log("test");
 }
 
-const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
-  //TODO dont use tables
+const getIngredientsHTML = (recipeObj) => {
+  const lineHeight = '26px';
+  const tdHeight = lineHeight;
 
   let ingredients = '';
 
@@ -136,14 +137,14 @@ const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
     ingredients += "<table style='float: left'>";
 
     recipeObj.ingredients.forEach((ingredient) => {
-      ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:22px;">`;
+      ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:${lineHeight}">`;
 
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
-        ingredients += `<td style="height:${tdHeight}">${formattedIngr}</td><td><i>${ingredient[0]}</i></td>`;
+        ingredients += `<td>${formattedIngr}</td><td><i>${ingredient[0]}</i></td>`;
       } else {
         const formattedIngr = ingredient.charAt(0).toUpperCase() + ingredient.slice(1);
-        ingredients += `<td style="height:${tdHeight}">${formattedIngr}</td><td></td>`;
+        ingredients += `<td>${formattedIngr}</td><td></td>`;
       }
 
       ingredients += "</tr>";
@@ -152,10 +153,9 @@ const getIngredientsHTML = (lineHeight, tdHeight, recipeObj) => {
     ingredients += "</table>";
   }
 
-  let lHeight = lineHeight ? '22px' : '24px'; //TODO
-  ingredients += '<table style="background-color:#efede1">';
+  ingredients += '<table style="background-color:transparent">';
   recipeObj.ingredients.forEach((ingredient) => {
-    ingredients += '<tr style="color: green; visibility:hidden; height:'+lHeight+'"><td><i class="fa fa-check"></i></td></tr>';
+    ingredients += `<tr style="color: green; visibility:hidden; height:${lineHeight}"><td><i class="fa fa-check"></i></td></tr>`;
   });
   ingredients += '</table><div style="clear: both;"></div>';
 
