@@ -27,7 +27,7 @@ table {
     padding: 4px;
 }
 
-td:first-child { 
+td:nth-child(2) { 
     padding: 0px;
     padding-right: 15px;
     min-width: 180px;

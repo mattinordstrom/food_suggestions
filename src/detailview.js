@@ -115,36 +115,39 @@ const showSelectedContent = () => {
 }
 
 const clickedIngr = (el) => {
-  let table2 = el.parentElement.parentElement.nextElementSibling;
+  let firstTd = el.parentElement.children[el.rowIndex].firstChild;
 
-  const correspondingTr = table2.rows[el.rowIndex];
+  //let table2 = el.parentElement.parentElement.nextElementSibling;
+
+  //const correspondingTr = table2.rows[el.rowIndex];
   
-  const isChecked = (correspondingTr.style.visibility === 'visible');
+  const isChecked = (firstTd.style.visibility === 'visible');
 
-  correspondingTr.style.visibility = isChecked ? 'hidden' : 'visible';
+  firstTd.style.visibility = isChecked ? 'hidden' : 'visible';
   el.style.setProperty("text-decoration", isChecked ? 'none' : 'line-through');
 
- // console.log("test");
 }
 
 const getIngredientsHTML = (recipeObj) => {
   const lineHeight = '26px';
-  const tdHeight = lineHeight;
+  //const tdHeight = lineHeight;
 
   let ingredients = '';
 
   if(Array.isArray(recipeObj.ingredients)){
-    ingredients += "<table style='float: left; max-width:85%'>";
+    ingredients += "<table style='max-width:85%'>";
 
     recipeObj.ingredients.forEach((ingredient) => {
       ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:${lineHeight}">`;
 
+      const checkmarkHtml = `<td style="visibility:hidden; color: green; min-width: 18px; vertical-align: top; padding-top: 6px;"><i class="fa fa-check"></i></td>`;
+
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
-        ingredients += `<td>${formattedIngr}</td><td><i>${ingredient[0]}</i></td>`;
+        ingredients += `${checkmarkHtml}<td style="border-bottom:1px dotted #ccc;" class="ingr">${formattedIngr}</td><td style="border-bottom:1px dotted #ccc;"><i>${ingredient[0]}</i></td>`;
       } else {
         const formattedIngr = ingredient.charAt(0).toUpperCase() + ingredient.slice(1);
-        ingredients += `<td>${formattedIngr}</td><td></td>`;
+        ingredients += `${checkmarkHtml}<td style="border-bottom:1px dotted #ccc;" class="ingr">${formattedIngr}</td><td style="border-bottom:1px dotted #ccc;"></td>`;
       }
 
       ingredients += "</tr>";
@@ -152,12 +155,12 @@ const getIngredientsHTML = (recipeObj) => {
 
     ingredients += "</table>";
   }
-
+/*
   ingredients += '<table style="background-color:transparent">';
   recipeObj.ingredients.forEach((ingredient) => {
     ingredients += `<tr style="color: green; visibility:hidden; height:${lineHeight}"><td style="min-width: 1px;"><i class="fa fa-check"></i></td></tr>`;
   });
   ingredients += '</table><div style="clear: both;"></div>';
-
+*/
   return ingredients;
 }
