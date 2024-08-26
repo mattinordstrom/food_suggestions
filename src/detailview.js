@@ -134,7 +134,7 @@ const getIngredientsHTML = (recipeObj) => {
   let ingredients = '';
 
   if(Array.isArray(recipeObj.ingredients)){
-    ingredients += "<table style='float: left'>";
+    ingredients += "<table style='float: left; max-width:85%'>";
 
     recipeObj.ingredients.forEach((ingredient) => {
       ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:${lineHeight}">`;
