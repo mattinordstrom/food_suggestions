@@ -155,7 +155,7 @@ const getIngredientsHTML = (recipeObj) => {
 
   ingredients += '<table style="background-color:transparent">';
   recipeObj.ingredients.forEach((ingredient) => {
-    ingredients += `<tr style="color: green; visibility:hidden; height:${lineHeight}"><td><i class="fa fa-check"></i></td></tr>`;
+    ingredients += `<tr style="color: green; visibility:hidden; height:${lineHeight}"><td style="min-width: 1px;"><i class="fa fa-check"></i></td></tr>`;
   });
   ingredients += '</table><div style="clear: both;"></div>';
 
