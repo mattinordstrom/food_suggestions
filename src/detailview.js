@@ -135,19 +135,20 @@ const getIngredientsHTML = (recipeObj) => {
   let ingredients = '';
 
   if(Array.isArray(recipeObj.ingredients)){
-    ingredients += "<table style='max-width:85%'>";
+    ingredients += "<table style='max-width:90%'>";
 
     recipeObj.ingredients.forEach((ingredient) => {
       ingredients += `<tr onclick="clickedIngr(this)" style="cursor:pointer; line-height:${lineHeight}">`;
 
       const checkmarkHtml = `<td style="visibility:hidden; color: green; min-width: 18px; vertical-align: top; padding-top: 6px;"><i class="fa fa-check"></i></td>`;
-
+      const ingrTdHtml = `${checkmarkHtml}<td style="vertical-align: top; border-bottom:1px dotted #d7d7d7;" class="ingr">`;
+      
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
-        ingredients += `${checkmarkHtml}<td style="border-bottom:1px dotted #ccc;" class="ingr">${formattedIngr}</td><td style="border-bottom:1px dotted #ccc;"><i>${ingredient[0]}</i></td>`;
+        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #ccc;"><i>${ingredient[0]}</i></td>`;
       } else {
         const formattedIngr = ingredient.charAt(0).toUpperCase() + ingredient.slice(1);
-        ingredients += `${checkmarkHtml}<td style="border-bottom:1px dotted #ccc;" class="ingr">${formattedIngr}</td><td style="border-bottom:1px dotted #ccc;"></td>`;
+        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #ccc;"></td>`;
       }
 
       ingredients += "</tr>";

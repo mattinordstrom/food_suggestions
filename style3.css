@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: minmax(180px, auto) 1fr;
+    margin-bottom: 10px;
+}
+
+.row .first-div {
+    background-color: #e0e0e0; /* Light gray background for visibility */
+    padding: 10px;
+}
+
+.row .second-div {
+    background-color: #c0c0c0; /* Slightly darker gray background */
+    padding: 10px;
+}
