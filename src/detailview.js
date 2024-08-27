@@ -53,6 +53,8 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     ${recipeObj.directions}
     <br /><br />
     `).show();
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 const resetStored = () => {
@@ -69,7 +71,7 @@ const showSelectedContent = () => {
   if(SelectedRecipesModule.get().length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px; margin-top:16px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div><br/>';
+    content += '<div style="font-size:12px; margin-top:16px; margin-bottom:14px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div>';
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
@@ -142,7 +144,7 @@ const getIngredientsHTML = (recipeObj) => {
 
       const checkmarkHtml = `<td style="visibility:hidden; color: green; min-width: 18px; vertical-align: top; padding-top: 6px;"><i class="fa fa-check"></i></td>`;
       const ingrTdHtml = `${checkmarkHtml}<td style="vertical-align: top; border-bottom:1px dotted #d7d7d7;" class="ingr">`;
-      
+
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
         ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #ccc;"><i>${ingredient[0]}</i></td>`;
