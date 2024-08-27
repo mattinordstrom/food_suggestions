@@ -299,6 +299,15 @@
     "directions": ""
   },
   {
+    "id": "maccheese",
+    "name": "Mac and cheese",
+    "source": "https://www.knatteplock.se/blogs/enkla-recept-for-barn-familj/mac-and-cheese-med-gronsaker-och-bonor",
+    "portions": "",
+    "categories": ["Pasta"],
+    "ingredients": [["4 port","pasta"],["200 g","blomkål"],["2 stora","morötter"],["4 dl","vatten"],["1 st","grönsaksbuljong (tärning)"],["0,5 paket","vita bönor"],["2,5 dl","riven ost"],["1 dl","grädde eller mjölk"],["1 tsk","paprikapulver"],["1 krm","svartpeppar"]],
+    "directions": "Skär blomkål och morot i mindre bitar. Koka dem i vatten med buljong till de är mjuka.<br/><br/>Mixa sedan grönsakerna med vattnet samt grädde, bönor och ost. Smaka av med kryddor.<br/><br/>Koka pastan och blanda ihop den med såsen. Servera!"
+  },
+  {
     "id": "macka_kottbullar",
     "name": "Macka: köttbullar o rödbetssallad",
     "source": "",
@@ -523,6 +532,15 @@
     "categories": ["Ris","Kött"],
     "ingredients": [["2.5 dl ","jasminris"],["10 st ","filodegsark"],[" "," "],["1 msk ","olja"],["250 g ","nötfärs"],["250 g ","vitkål"],["1 st","gul lök, finhackad"],["1 msk ","smör"],["1 msk ","ljus sirap"],["1 st","vitlöksklyfta, riven"],["2 tsk ","sambal oelek"],["0.5 tsk ","svartpeppar"],"neutral olja till stekning",["1 tsk ","salt"],[" "," "],"sweet chilisås"],
     "directions": "Koka 6 portioner ris.<br/>Servera med sweet chili sås.<br/>&nbsp;<br/>Ta lite mindre Sambal oelek än vad som står i receptet. <br/>Det blir rätt starkt annars!<br/>"
+  },
+  {
+    "id": "appelfritters",
+    "name": "Äppelfritters",
+    "source": "https://www.knatteplock.se/blogs/enkla-recept-for-barn-familj/appelfritters-med-havre",
+    "portions": "",
+    "categories": [],
+    "ingredients": [["1 st","äpple"],["1 st","ägg"],["2 msk","mjölk"],["1 dl","havremjöl"],["1 tsk","bakpulver"],["0,5 tsk","kardemumma"],["","smör till stekning"]],
+    "directions": "Skala och riv äpplet grovt.<br/><br/>Vispa upp ett ägg för hand i en bunke och blanda i resterande ingredienser, inklusive äpplet.<br/><br/>Klicka ut smet i en stekpanna med smör/neutral olja. Vänd på frittern när det bubblar lite på ovansidan."
   },
   {
     "id": "ortbakad_lax",
