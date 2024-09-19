@@ -71,7 +71,7 @@ const showSelectedContent = () => {
   if(SelectedRecipesModule.get().length === 0) {
     content += '<div><br/>Inga maträtter valda.</div>';
   } else {
-    content += '<div style="font-size:12px; margin-top:16px; margin-bottom:14px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div>';
+    content += '<div style="font-size:12px; margin-top:20px; margin-bottom:22px"><i><a href="javascript:resetStored();">Tryck här</a> för att nollställa alla val.</i></div>';
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
