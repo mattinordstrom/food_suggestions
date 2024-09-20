@@ -28,9 +28,9 @@ const catMapReverse = {
   'fish': 'Fisk',
 };
 
-const getHrLongHtml = () => '<span style="color:#ccc">-----------------------------------------------------------------</span>';
+const getHrLongHtml = () => '<span style="color:#e3e3d9">-----------------------------------------------------------------</span>';
 
-const getHrShortHtml = () => '<span style="color:#ccc">----------</span>';
+const getHrShortHtml = () => '<span style="color:#e3e3d9">----------</span>';
 
 const updateContentBasedOnState = () => {
   const urlParams = new URLSearchParams(window.location.search);

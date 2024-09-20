@@ -147,10 +147,10 @@ const getIngredientsHTML = (recipeObj) => {
 
       if(Array.isArray(ingredient)){
         const formattedIngr = ingredient[1].charAt(0).toUpperCase() + ingredient[1].slice(1);
-        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #ccc;"><i>${ingredient[0]}</i></td>`;
+        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #e3e3d9;"><i>${ingredient[0]}</i></td>`;
       } else {
         const formattedIngr = ingredient.charAt(0).toUpperCase() + ingredient.slice(1);
-        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #ccc;"></td>`;
+        ingredients += `${ingrTdHtml}${formattedIngr}</td><td style="vertical-align: top; border-bottom:1px dotted #e3e3d9;"></td>`;
       }
 
       ingredients += "</tr>";
