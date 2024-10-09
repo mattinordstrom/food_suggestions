@@ -370,6 +370,15 @@
     "directions": ""
   },
   {
+    "id": "pinsa",
+    "name": "Pinsa",
+    "source": "https://www.arla.se/recept/pinsa/",
+    "portions": "",
+    "categories": ["Pizza"],
+    "ingredients": [],
+    "directions": ""
+  },
+  {
     "id": "pizza_kottfars",
     "name": "Pizza (köttfärs)",
     "categories": ["Pizza"],
