@@ -481,6 +481,15 @@
     "directions": "Servera med tacosås<br/>"
   },
   {
+    "id": "kyckling_toast",
+    "name": "Toast (kyckling)",
+    "source": "",
+    "portions": "",
+    "categories": [],
+    "ingredients": [["","Rostbröd"],["","Srirachamajo"],["","Grillad Kyckling (pålägg)"],["","Rödlök"],["","Tomat"],["","Ost"]],
+    "directions": "Bred srirachamajonäs på ett roströd. Lägg på kycklingskivor (kan delas i mindre bitar om man vill). Lägg på en tomatskiva och rödlök.<br/>Hyvla ost och lägg på 3 skivor.<br/>Avsluta med lite mer majonäs på det andra brödet och sätt ihop till en dubbelmacka.<br/>Värm i toasten ca 3 min"
+  },
+  {
     "id": "tunnbrod_korv",
     "name": "Tunnbrödsrulle med korv o mos",
     "categories": ["Potatis","Vegetariskt"],
