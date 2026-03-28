@@ -362,6 +362,15 @@
     "directions": ""
   },
   {
+    "id": "pastapomodoro",
+    "name": "Pasta pomodoro med basilika och vitost",
+    "source": "https://www.arla.se/recept/pasta-pomodoro-med-basilika-och-vitost/",
+    "portions": "4",
+    "categories": ["Pasta","Vegetariskt"],
+    "ingredients": [["300 g","pasta linguine, gärna fullkorn"],["1 burk","konserverade hela tomater"],["3 st","vitlöksklyftor"],["3 msk","olivolja"],["½ tsk","chili flakes"],["1 tsk","strösocker"],["1 tsk","salt"],["1 förp","vitost"],["1 kruka","färsk basilika"],["50 g","rostade pinjenötter"],"ev oliver"],
+    "directions": "Låt tomaterna rinna av i ett durkslag med en bunke under. Mosa dem grovt med en trägaffel så all tomatjuice rinner ner i bunken.<br/><br/>Skala vitlöken. Hetta upp olja i en kastrull. Fräs hela vitlöksklyftor på svag värme tills de börjar mjukna, 6-8 min.<br/><br/>Tillsätt mosade tomater, chili flakes och socker till vitlöken. Fräs 5-6 min.<br/><br/>Häll på tomatjuicen och salta. Sjud 8-10 min. Mosa vitlöken med trägaffeln.<br/><br/>Koka pastan al dente.<br/><br/>Häll av pastan och blanda med såsen. Toppa med smulad ost, basilika, pinjenötter och oliver."
+  },
+  {
     "id": "pickladrodlok",
     "name": "Picklad rödlök",
     "source": "https://www.ica.se/recept/picklad-rodlok-721101/ ",
