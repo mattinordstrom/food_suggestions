@@ -28,6 +28,18 @@ const catMapReverse = {
   'fish': 'Fisk',
 };
 
+const escapeHtml = (unsafe) => String(unsafe ?? '')
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&#039;');
+
+// For embedding a JS string literal inside a double-quoted HTML attribute
+// (e.g. onclick="fn(${escapeJsAttr(x)})"). JSON.stringify handles JS escaping;
+// escapeHtml then prevents attribute breakout.
+const escapeJsAttr = (unsafe) => escapeHtml(JSON.stringify(String(unsafe ?? '')));
+
 const getHrLongHtml = () => '<span style="color:#e3e3d9">-----------------------------------------------------------------</span>';
 
 const getHrShortHtml = () => '<span style="color:#e3e3d9">----------</span>';

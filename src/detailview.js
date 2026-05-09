@@ -9,6 +9,12 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
 
   const recipeObj = RecipesModule.get().find(recipe => recipe.id === recipeId);
 
+  if(!recipeObj) {
+    $( ".listview" ).hide();
+    $( ".singleview" ).html('<div><br/>Maträtten kunde inte hittas.</div>').show();
+    return;
+  }
+
   let catsEl = '<div class="row_cats">';
   if(recipeObj.categories) {
     recipeObj.categories.forEach((cat) => {
@@ -19,28 +25,29 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
 
   let recipeSource = '';
   if(recipeObj.source) {
+    const safeSource = escapeHtml(recipeObj.source);
     if(recipeObj.source.substring(0,4) === 'http'){
       recipeSource = `
       <div style="font-size:12px">
-        <strong>Källa: </strong><a target="_blank" href="${recipeObj.source}">${recipeObj.source}</a>
+        <strong>Källa: </strong><a target="_blank" href="${safeSource}">${safeSource}</a>
       </div>`;
     } else {
-      recipeSource = `<div style="font-size:12px"><strong>Källa: </strong>${recipeObj.source}</div>`;
+      recipeSource = `<div style="font-size:12px"><strong>Källa: </strong>${safeSource}</div>`;
     }
   }
 
   let portionsInfo = '';
   if(recipeObj.portions) {
-    portionsInfo = `<div style="font-size:12px"><strong>Antal portioner: </strong>${recipeObj.portions}</div>`;
+    portionsInfo = `<div style="font-size:12px"><strong>Antal portioner: </strong>${escapeHtml(recipeObj.portions)}</div>`;
   }
 
-  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe('${recipeId}')" style="margin-top:8px" />`;
+  const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipeId) ? " checked" : "")} onclick="selectRecipe(${escapeJsAttr(recipeId)})" style="margin-top:8px" />`;
 
   $( ".listview" ).hide();
 
   $( ".singleview" ).html(
     `<div class="recipe_head">
-      ${checkbox}${catsEl}<div class="recipe_title">${recipeObj.name}</div>
+      ${checkbox}${catsEl}<div class="recipe_title">${escapeHtml(recipeObj.name)}</div>
     </div>
     <br/>
     ${recipeSource}
@@ -75,6 +82,8 @@ const showSelectedContent = () => {
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
+      if(!recipeObj) return;
+
       let catsOnRowEl = '';
       if(recipeObj.categories) {
         recipeObj.categories.forEach((category) => {
@@ -82,29 +91,31 @@ const showSelectedContent = () => {
         });
       }
 
-      const checkbox = `<input type="checkbox" checked onclick="selectRecipe('${recipeObj.id}',true)" />`;
+      const idAttr = escapeJsAttr(recipeObj.id);
+      const checkbox = `<input type="checkbox" checked onclick="selectRecipe(${idAttr},true)" />`;
 
       content += `
         <div class="row">
           ${checkbox}
           <div class="row_cats_cont">
-            <div class="row_cats"> 
+            <div class="row_cats">
               ${catsOnRowEl}
             </div>
           </div>
-          <div class="recipe_link" onclick="showRecipe('${recipeObj.id}')">${recipeObj.name}</div>
+          <div class="recipe_link" onclick="showRecipe(${idAttr})">${escapeHtml(recipeObj.name)}</div>
         </div>
       `;
     });
-    
+
     content += `${getHrLongHtml()}<br /><br />`;
 
     SelectedRecipesModule.get().forEach((selectedRecipe) => {
       const recipeObj = RecipesModule.get().find(recipe => recipe.id === selectedRecipe);
+      if(!recipeObj) return;
 
       content += `
         <div style="font-size:12px">
-          <b>${recipeObj.name}</b>
+          <b>${escapeHtml(recipeObj.name)}</b>
         </div>
         ${getIngredientsHTML(recipeObj)}
         <br/>

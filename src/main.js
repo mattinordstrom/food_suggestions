@@ -8,7 +8,7 @@ const init = () => {
 
   $( "#selected div" ).html('Valda (' + SelectedRecipesModule.get().length + ')');
 
-  const page = window.location.search.split("?page=")[1];
+  const page = new URLSearchParams(window.location.search).get('page');
   
   if(!page) {
     render('all');

@@ -34,18 +34,19 @@ const render = (filter, fromPopstateEvt) => {
         });
       }
 
-      const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipe.id) ? " checked" : "")} onclick="selectRecipe('${recipe.id}')" />`;
+      const idAttr = escapeJsAttr(recipe.id);
+      const checkbox = `<input type="checkbox" ${(SelectedRecipesModule.get().includes(recipe.id) ? " checked" : "")} onclick="selectRecipe(${idAttr})" />`;
 
       newContent += `
         <div class="row">
           ${checkbox}
           <div class="row_cats_cont">
-            <div class="row_cats"> 
+            <div class="row_cats">
               ${catsOnRowEl}
             </div>
           </div>
-          <div class="recipe_link" onclick="showRecipe('${recipe.id}')">
-            ${recipe.name}
+          <div class="recipe_link" onclick="showRecipe(${idAttr})">
+            ${escapeHtml(recipe.name)}
           </div>
         </div>`;
     });

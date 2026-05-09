@@ -41,12 +41,10 @@ const validateInputs = (newRecipe) => {
     return false;
   }
 
-  RecipesModule.get().forEach((recipe) => {
-    if(newRecipe.id === recipe.id){
-      alert("ID already in use!");
-      return false;
-    }
-  });
+  if(RecipesModule.get().some(recipe => recipe.id === newRecipe.id)) {
+    alert("ID already in use!");
+    return false;
+  }
 
   return true;
 }
@@ -107,19 +105,10 @@ const writeJsonToFile = () => {
 
   const a = document.createElement("a");
   a.href = url;
-  a.download = RecipesModule.getCurrentFile(); + ".json";
+  a.download = RecipesModule.getCurrentFile() + ".json";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
-}
-
-const escapeHtml = (unsafe) => {
-  return unsafe
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
 }
 
 const customStringify = (jsonObject) => {
@@ -129,14 +118,7 @@ const customStringify = (jsonObject) => {
     jsonObject
       .map((obj) => {
         const entries = Object.entries(obj)
-          .map(
-            ([key, value]) =>
-              `    "${key}": ${
-                Array.isArray(value) || typeof value === "object"
-                  ? JSON.stringify(value)
-                  : `"${value}"`
-              }`
-          )
+          .map(([key, value]) => `    ${JSON.stringify(key)}: ${JSON.stringify(value)}`)
           .join(",\n");
         return `  {\n${entries}\n  }`;
       })
