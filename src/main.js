@@ -3,7 +3,12 @@ let wakeLock = null;
 const init = () => {
   const storedSelected = localStorage.getItem('foodSuggestionsSelected'+RecipesModule.getVersion());
   if(storedSelected) {
-    SelectedRecipesModule.set(JSON.parse(storedSelected));
+    try {
+      SelectedRecipesModule.set(JSON.parse(storedSelected));
+    } catch (err) {
+      console.error('Failed to parse stored selected recipes; resetting.', err);
+      SelectedRecipesModule.set([]);
+    }
   }
 
   $( "#selected div" ).html('Valda (' + SelectedRecipesModule.get().length + ')');

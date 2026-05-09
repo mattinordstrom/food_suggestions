@@ -57,7 +57,7 @@ const showRecipe = (recipeId, fromPopstateEvt) => {
     ${getIngredientsHTML(recipeObj)}
     <br/><br />
     <div style="margin-left: 100px;"><h4>Gör så här</h4></div>
-    ${recipeObj.directions}
+    ${sanitizeDirections(recipeObj.directions)}
     <br /><br />
     `).show();
 

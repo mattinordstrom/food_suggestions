@@ -49,7 +49,7 @@ This is a vanilla JS single-page app using jQuery for DOM manipulation. There is
   "portions": "4",
   "categories": ["Kött", "Potatis"],
   "ingredients": [["amount", "ingredient name"], "plain string for no-amount items"],
-  "directions": "HTML string with <br/> for line breaks"
+  "directions": "Text with <br/> for line breaks; all other HTML is stripped on render (see sanitizeDirections in src/helperfunctions.js)"
 }
 ```
 

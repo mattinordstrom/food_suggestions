@@ -40,6 +40,22 @@ const escapeHtml = (unsafe) => String(unsafe ?? '')
 // escapeHtml then prevents attribute breakout.
 const escapeJsAttr = (unsafe) => escapeHtml(JSON.stringify(String(unsafe ?? '')));
 
+// Allowlist sanitizer for the `directions` field: keeps <br> only, escapes
+// everything else. Stops scripts/handlers/styles from recipe data reaching the DOM.
+const sanitizeDirections = (directions) => {
+  if (!directions) return '';
+  const doc = new DOMParser().parseFromString(String(directions), 'text/html');
+  let html = '';
+  for (const node of doc.body.childNodes) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      html += escapeHtml(node.textContent);
+    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'BR') {
+      html += '<br/>';
+    }
+  }
+  return html;
+};
+
 const getHrLongHtml = () => '<span style="color:#e3e3d9">-----------------------------------------------------------------</span>';
 
 const getHrShortHtml = () => '<span style="color:#e3e3d9">----------</span>';
