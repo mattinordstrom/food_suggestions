@@ -20,7 +20,7 @@
 	<body onload="getRecipesAndInit(1)">
 		<h1>&nbsp;Förslag på maträtter <i class="fa fa-utensils"></i></h1>
 		<div class="header">
-			<div style="display:flex; justify-content: flex-start; gap: 10px">
+			<div class="cat_menu_row">
 				<div id="all" class="cat_menu cat_active" onclick="render('all')">
 					<div style="width:100%;">Alla</div>
 				</div>
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<hr />
-			<div style="display:flex; justify-content: flex-start; gap: 10px">
+			<div class="cat_menu_row">
 				<div id="meat" class="cat_menu" onclick="render('meat')">
 					<div class="meat_cat cat_menu_color_btn"></div>
 					<div style="width:80%;">Kött</div>
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<hr />
-			<div style="display:flex; justify-content: flex-start; gap: 10px; margin-bottom: 3px;">
+			<div class="cat_menu_row" style="margin-bottom: 3px;">
 				<div id="potato" class="cat_menu" onclick="render('potato')">
 					<div class="potato_cat cat_menu_color_btn"></div>
 					<div style="width:80%;">Potatis</div>
@@ -72,7 +72,7 @@
 					<div style="width:80%;">Nudlar</div>
 				</div>
 			</div>
-			<div style="display:flex; justify-content: flex-start; gap: 10px">
+			<div class="cat_menu_row">
 				<div id="wheat" class="cat_menu" onclick="render('wheat')">
 					<div class="wheat_cat cat_menu_color_btn"></div>
 					<div style="width:80%;">Matvete</div>

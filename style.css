@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%
 }
@@ -54,18 +58,14 @@ input[type=checkbox] {
 
 .singleview {
     flex: 1;
-    max-width: 90%;
-	margin-left: 20px;
-	margin-top: 10px;
+    margin: 10px 20px 0;
 }
 
 .listview {
     flex: 1;
-    max-width: 90%;
     display: flex;
     flex-direction: column;
-	margin-left: 20px;
-	margin-top: 10px;
+    margin: 10px 20px 0;
 }
 
 .header {
@@ -108,6 +108,13 @@ input[type=checkbox] {
 }
 
 
+.cat_menu_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
 .cat_menu {
     border: 2px solid #f1ece0;
     outline: 1px solid #333;
@@ -119,8 +126,8 @@ input[type=checkbox] {
     text-align: center;
     padding: 2px;
     max-width: 105px;
-    min-width: 72px;
-    flex: 1 1 72px;
+    min-width: 0;
+    flex: 1 1 64px;
     display: flex;
     margin-bottom: 5px;
 }
