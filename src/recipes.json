@@ -388,6 +388,15 @@
     "directions": ""
   },
   {
+    "id": "pinnbrod",
+    "name": "Pinnbröd",
+    "source": "https://www.ica.se/recept/pinnbrod-727912/",
+    "portions": "4",
+    "categories": [],
+    "ingredients": [["2 dl","vetemjöl"],["1/4 tsk","salt"],["3/4 tsk","bakpulver"],["knappt 1 dl","vatten"]],
+    "directions": "Blanda vetemjöl, salt och bakpulver i en bunke. Tillsätt vattnet och arbeta ihop till en smidig deg.<br/><br/>Dela degen i 4 bitar och rulla ut dem till långa längder. Linda degen runt en pinne.<br/><br/>Grilla brödet över glöden och vänd det ofta tills det är gyllenbrunt och genomgräddat.<br/><br/>Vill man kan man istället forma degen till platta bröd och steka dem i rapsolja i en stekpanna."
+  },
+  {
     "id": "pinsa",
     "name": "Pinsa",
     "source": "https://www.arla.se/recept/pinsa/",

@@ -24,6 +24,8 @@ cp ~/Downloads/recipes.json src/recipes.json
 
 There are two recipe files: `src/recipes.json` (version 1, default) and `src/recipes2.json` (version 2). The admin panel has a dropdown to select which file to edit.
 
+Recipes in the JSON files are sorted alphabetically by `name` (Swedish order, Å/Ä/Ö last). When adding a recipe, insert it at its alphabetical position instead of appending it at the end.
+
 ## Architecture
 
 This is a vanilla JS single-page app using jQuery for DOM manipulation. There is no framework, bundler, or package manager.
